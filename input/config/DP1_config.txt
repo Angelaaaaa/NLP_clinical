@@ -1,0 +1,7 @@
+{
+"dp_name": "age",
+"window_size": 10,
+"select_numerical": false,
+"present_row_limit": 50,
+"ignore_wordlist": ["am","is","are"]
+ }

@@ -1,0 +1,2 @@
+1. should i record the distance of word as well in pandas(for calculating average distance)
+2. when dealing with ignored words, should i skip them or they are not treated as a unit of distance and inluded in window size
