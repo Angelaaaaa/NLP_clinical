@@ -30,6 +30,7 @@ def count_frequency(word,surrouding_words_frequency):
 # add a switch case later for filters
 def process_keywords(wordlist,index,surrouding_words_frequency,config):
     for i in range (-config.self_window_size,config.self_window_size):
+        # fix the out of range problem
         if(i!=0 and wordlist[index+i]!= "" and wordlist[index+i] not in config.self_ignore_wordlist):
             surrouding_words_frequency = count_frequency(wordlist[index+i],surrouding_words_frequency)
     return surrouding_words_frequency
@@ -66,6 +67,7 @@ def analyse_dp(surrouding_words_frequency,config):
             continue
     # return surrouding_words_frequency
     print(surrouding_words_frequency.nlargest(config.self_present_row_limit, 'frequency'))
+#     write an output file to the output folder
 
 
 def analyse_all_dp(configs):
@@ -81,6 +83,7 @@ def read_config():
             datapoint = DataPointConfig(dp_name=data['dp_name'],window_size=data['window_size'],select_numerical=data['select_numerical'],present_row_limit=data['present_row_limit'],ignore_wordlist=data['ignore_wordlist'])
             datapoints.append(datapoint)
     return datapoints
+
 
 
 configs = read_config()
