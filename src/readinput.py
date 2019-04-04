@@ -17,12 +17,13 @@ window = 10
 # surrouding_words_frequency = pd.DataFrame({"word": [""], "frequency": [0]})
 
 
-def count_frequency(word,surrouding_words_frequency):
+def count_frequency(word,surrouding_words_frequency,distance):
     if len(surrouding_words_frequency.loc[(surrouding_words_frequency['word']== word)].values)==0:
-        temp = pd.DataFrame([[word,1]], columns=['word', 'frequency'])
+        temp = pd.DataFrame([[word,1,distance]], columns=['word', 'frequency','total_distance'])
         result = pd.concat([surrouding_words_frequency, temp], ignore_index=True, sort=False)
     else:
         surrouding_words_frequency.loc[surrouding_words_frequency['word']==word, 'frequency'] = surrouding_words_frequency.loc[(surrouding_words_frequency['word'] == word)]["frequency"].values[0]+1
+        surrouding_words_frequency.loc[surrouding_words_frequency['word']==word, 'total_distance'] = surrouding_words_frequency.loc[(surrouding_words_frequency['word'] == word)]["total_distance"].values[0]+distance
 
         result = surrouding_words_frequency
     return result
@@ -32,7 +33,7 @@ def process_keywords(wordlist,index,surrouding_words_frequency,config):
     for i in range (-config.self_window_size,config.self_window_size):
         # fix the out of range problem
         if(i!=0 and wordlist[index+i]!= "" and wordlist[index+i] not in config.self_ignore_wordlist):
-            surrouding_words_frequency = count_frequency(wordlist[index+i],surrouding_words_frequency)
+            surrouding_words_frequency = count_frequency(wordlist[index+i],surrouding_words_frequency,abs(i))
     return surrouding_words_frequency
 
 
@@ -44,7 +45,7 @@ def compare_word_with_dp(word,config):
 
 
 def extract_surrouding_words(fo,surrouding_words_frequency,config):
-    wordlist = str(fo.read()).split(' ')
+    wordlist = str(fo.read().lower()).split(' ')
     index = 0
     for word in wordlist:
         if(compare_word_with_dp(word,config)==1):
@@ -57,7 +58,7 @@ def open_file(fileName,surrouding_words_frequency,config):
     fo = open(directory+fileName, "rb")
     return extract_surrouding_words(fo,surrouding_words_frequency,config)
 
-
+# print here
 def analyse_dp(surrouding_words_frequency,config):
     for filename in os.listdir(directory):
         if filename.endswith(".txt"):
@@ -66,13 +67,14 @@ def analyse_dp(surrouding_words_frequency,config):
         else:
             continue
     # return surrouding_words_frequency
+    surrouding_words_frequency['average_distance'] = surrouding_words_frequency['total_distance'] /surrouding_words_frequency['frequency']
     print(surrouding_words_frequency.nlargest(config.self_present_row_limit, 'frequency'))
 #     write an output file to the output folder
 
 
 def analyse_all_dp(configs):
     for config in configs:
-        analyse_dp(pd.DataFrame({"word": [""], "frequency": [0]}), config)
+        analyse_dp(pd.DataFrame({"word": [""], "frequency": [0],"total_distance": [0]}), config)
 
 def read_config():
     datapoints =[]

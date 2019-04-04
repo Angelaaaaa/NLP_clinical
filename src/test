@@ -1,0 +1,25 @@
+{
+"my_first_search": {
+	"find": {"token":["heart","neck"]},
+	"output": {"heart" : "100"}
+	} ,
+"refine": {
+	"detailed_search_1" : {
+		"window": {
+			"chars_preceeding": 0 ,
+			"chars_following": 300
+		}
+		,
+        "find":
+            {
+                "token":["heart"]
+            },
+        "output": {
+            "heart" : 200,
+            "y" : "A",
+            "z" : "True"
+        }
+
+      }
+    }
+}
