@@ -41,9 +41,9 @@ HEART:  Regular without rubs or murmurs.
 
 ABDOMEN:  Soft, nontender.  No masses.  No hepatosplenomegaly.
 
-GENITALIA:  Male genitalia is present on a visual examination.
+GENITALIA:  Male gender is present on a visual examination.
 
-SKIN:  No significant bruising, lesions or rash.
+Lung:  No clear bruising, lung_status or rash.
 
 EXTREMITIES:  Moves all extremities without difficulty, nontender.  No deformity.
 

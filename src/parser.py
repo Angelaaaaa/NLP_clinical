@@ -4,19 +4,7 @@ import queue
 fo = open("test", 'r')
 directory = '/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt'
 import re
-#
-# def parseFind(cmd,paragraph):
-#     pointer = []
-#     counter = 0
-#     if type(cmd) == dict:
-#         for key, item in cmd.items():
-#             pointer.append(parseQuery(key, item,paragraph))
-#     else:
-#         for i in paragraph:
-#             counter += 1
-#             if i in [i.lower() for i in cmd]:
-#                 pointer.append(counter)
-#     return pointer
+
 
 # modify outputQ, create search dictionary
 def parseSearch(key,cmd,paragraph,outputQ):
@@ -37,43 +25,65 @@ def parseSearch(key,cmd,paragraph,outputQ):
                     if (k == key[0]):
                         outputQ.put((k, v))
                         # print(v)
+        if ("refine" in cmd):
+            parseRefine(key, cmd,  paragraph,outputQ)
 
     return resultList
 
-def parseRefineSearch(key,cmd,paragraph,outputQ):
+def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
     resultList = []
     counter = 0
-    refineParagraph = (0,len(paragraph)-1,paragraph)
     # assume search defo has attribute "find" and "output"
-
+    chars_preceeding = len(paragraph)
+    chars_following = len(paragraph)
     if type(cmd) == dict:
         if ("window" in cmd.keys()):
-            refineParagraph = (cmd["window"]["chars_preceeding"], cmd["window"]["chars_following"], paragraph)
+            if "chars_preceeding" in cmd["window"].keys():
+                chars_preceeding = int(cmd["window"]["chars_preceeding"])
+            if "chars_following" in cmd["window"].keys():
+                chars_following = int(cmd["window"]["chars_following"])
         if "find" in cmd.keys():
             if "token" in cmd["find"].keys():
-                for i in refineParagraph[2][refineParagraph[0]:refineParagraph[1]]:
+
+                for i in paragraph:
                     counter += 1
                     if i in [i.lower() for i in cmd["find"]["token"]]:
                         resultList.append((i,counter))
         if"output" in cmd.keys():
-            tempdict = cmd["output"]
-            for k,v in tempdict.items():
-                for key in resultList:
-                    if (k == key[0]):
-                        outputQ.put((k, v))
+            for keyword,pointer in resultList:
+                tempdict = cmd["output"]
+                if pointer - chars_preceeding < 0:
+                    temp1 = pointer
+                else:
+                    temp1 = pointer - chars_preceeding
 
+                if pointer + chars_following > len(paragraph) - 1:
+                    temp2 = pointer
+                else:
+                    temp2 = pointer + chars_following
+
+
+                for k,v in tempdict.items():
+                    k = k.lower().translate(str.maketrans('','',string.punctuation))
+                    for key in paragraph[temp1:temp2]:
+                        if (k == key):
+                            outputQ.put((searchlevel,k, v,pointer))
+            if ("refine" in cmd):
+                parseRefine(searchlevel, cmd, paragraph, outputQ)
     return resultList
 
 
-def parseRefine(searchLevel,searchDict,input_dict,outputQ,paragraph):
+def parseRefine(searchLevel,input_dict,outputQ,paragraph):
     refineSearchLevel = ""
+    searchDict = {}
     for query, cmd in input_dict.items():
         if re.findall("^.*search.*$", query):
+            # for keyword,pointer in searchDict[searchLevel]:
             refineSearchLevel = query
-            searchDict[query] = parseRefineSearch(query, cmd, paragraph, outputQ)
+            searchDict[query] = parseRefineSearch(refineSearchLevel, cmd, paragraph, outputQ)
 
         if ("refine" in query):
-            parseRefine(searchLevel, searchDict, cmd, outputQ)
+            parseRefine(refineSearchLevel, cmd, paragraph,outputQ)
 
 
 
@@ -105,8 +115,7 @@ def parseQuery(input_dict,paragraph,outputQ):
         # if ("output" in query):
         #     if len(searchDict.keys()):
         #         parseOutput(searchLevel,searchDict,cmd,outputQ)
-        if ("refine" in query):
-            parseRefine(searchLevel,searchDict,cmd,outputQ,paragraph)
+
     return value
 
 
@@ -124,7 +133,9 @@ def parser():
     paragraph = readParagraph()
     input_dict = json.load(fo)
     value = parseQuery(input_dict,paragraph,outputQ)
-    print(outputQ.qsize())
+    # print(outputQ.qsize())
+    for i in range (0,outputQ.qsize()):
+        print(outputQ.get())
 
 
 parser()

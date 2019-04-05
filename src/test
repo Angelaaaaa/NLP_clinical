@@ -1,25 +1,44 @@
 {
-"my_first_search": {
-	"find": {"token":["heart","neck"]},
-	"output": {"heart" : "100"}
-	} ,
-"refine": {
-	"detailed_search_1" : {
-		"window": {
-			"chars_preceeding": 0 ,
-			"chars_following": 300
-		}
+	"my_search_gender": {
+		"find": {"token":["old"]}
 		,
-        "find":
-            {
-                "token":["heart"]
-            },
-        "output": {
-            "heart" : 200,
-            "y" : "A",
-            "z" : "True"
-        }
+		"refine": {
+			"my_search_gender_male": {
+				"window": { "chars_following": 50 } ,
+				"find": { "token":["male"] } ,
+				"output" : { "gender" : "male" }
+			}
+			,
+			"my_search_gender_female": {
+				"window": { "chars_following": 50 } ,
+				"find": { "token":["female"] } ,
+				"output" : { "gender" : "female" }
+			}
+		}
+	}
+	,
+	"my_search_lungs": {
+		"find": {"token":["lung","lungs"]}
+		,
+		"refine": {
+			"my_search_status_clear": {
+				"window": { "chars_following": 50 } ,
+				"find": { "token":["clear"] } ,
+				"output" : { "lung_status" : "clear" }
+			}
+			,
+			"my_search_status_lower": {
+				"window": { "chars_following": 50 } ,
+				"find": { "token":["lower"] } ,
+				"output" : { "lung_status" : "lower" }
+			}
+			,
+			"my_search_status_breath": {
+				"window": { "chars_following": 50 } ,
+				"find": { "token":["breath sounds"] } ,
+				"output" : { "lung_status" : "breath sounds issues" }
+			}
 
-      }
-    }
+		}
+	}
 }
