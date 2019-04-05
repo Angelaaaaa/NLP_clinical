@@ -2,6 +2,8 @@
 	"my_search_gender": {
 		"find": {"token":["old"]}
 		,
+		"output": {"age":"found"}
+		,
 		"refine": {
 			"my_search_gender_male": {
 				"window": { "chars_following": 50 } ,
@@ -25,6 +27,14 @@
 				"window": { "chars_following": 50 } ,
 				"find": { "token":["clear"] } ,
 				"output" : { "lung_status" : "clear" }
+				,
+				"refine": {
+					"one_more_search_1": {
+						"window": { "chars_preceeding": 50,"chars_following": 50 } ,
+                        			"find": { "token":["clear"] } ,
+                                		"output" : { "extra" : "TRUE" }
+					}
+				}
 			}
 			,
 			"my_search_status_lower": {

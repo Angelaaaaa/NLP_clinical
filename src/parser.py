@@ -68,8 +68,9 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                     for key in paragraph[temp1:temp2]:
                         if (k == key):
                             outputQ.put((searchlevel,k, v,pointer))
-            if ("refine" in cmd):
-                parseRefine(searchlevel, cmd, paragraph, outputQ)
+
+        if ("refine" in cmd.keys()):
+            parseRefine(searchlevel, cmd, paragraph, outputQ)
     return resultList
 
 

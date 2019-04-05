@@ -31,7 +31,7 @@ VITAL SIGNS:  Temperature 98.7, pulse 105, respiration is 28, blood pressure 112
 
 GENERAL:  This is a well-developed male who is cooperative, alert, active with oxygen by facemask.
 
-HEENT:  Head is atraumatic and normocephalic.  Pupils are equal, round, and reactive to light.  Extraocular motions are intact and conjugate.  Clear TMs, nose, and oropharynx.
+HEENT:  Head is atraumatic and normocephalic.  Pupils are equal, round, and reactive to light.  Extraocular motions are intact and conjugate.   TMs, nose, and oropharynx.
 
 NECK:  Supple.  Full painless nontender range of motion.
 
@@ -43,7 +43,7 @@ ABDOMEN:  Soft, nontender.  No masses.  No hepatosplenomegaly.
 
 GENITALIA:  Male gender is present on a visual examination.
 
-Lung:  No clear bruising, lung_status or rash.
+Lung:  No clear bruising, lung_status or clear extra.
 
 EXTREMITIES:  Moves all extremities without difficulty, nontender.  No deformity.
 
