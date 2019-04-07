@@ -1,6 +1,6 @@
 {
 	"my_search_gender": {
-		"find": {"token":["old"]}
+		"find": {"token":["djfsalkjssa"]}
 		,
 		"output": {"age":"found"}
 		,
@@ -16,9 +16,14 @@
 				"find": { "token":["female"] } ,
 				"output" : { "gender" : "female" }
 			}
-		}
-	}
-	,
+		 }
+		},
+		"otherwise":{
+            "find": {"token":["heart"]}
+            ,
+            "output": {"regular":"regular"}
+
+		},
 	"my_search_lungs": {
 		"find": {"token":["lung","lungs"]}
 		,

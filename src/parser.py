@@ -29,7 +29,8 @@ def parseSearch(searchLevel,cmd,paragraph,outputQ):
                         # print(v)
         if ("refine" in cmd):
             parseRefine(searchLevel, cmd,  paragraph,outputQ)
-
+    if resultList == []:
+        outputQ.put((searchLevel,'not found','not found',0))
     return resultList
 
 def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
@@ -73,20 +74,22 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
 
         if ("refine" in cmd.keys()):
             parseRefine(searchlevel, cmd, paragraph, outputQ)
+    if resultList == []:
+        outputQ.put((searchlevel,'not found','not found',0))
     return resultList
 
 
-def parseRefine(searchLevel,input_dict,outputQ,paragraph):
+def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
     searchDict = {}
     for query, cmd in input_dict.items():
         if re.findall("^.*search.*$", query):
             # for keyword,pointer in searchDict[searchLevel]:
             refineSearchLevel = query
-            searchDict[query] = parseRefineSearch(refineSearchLevel, cmd, paragraph, outputQ)
+            searchDict[query] = parseRefineSearch(refineSearchLevel, cmd, paragraph,outputQ)
 
         if ("refine" in query):
-            parseRefine(refineSearchLevel, cmd, paragraph,outputQ)
+            parseRefine(refineSearchLevel, cmd,paragraph,outputQ)
 
 
 
@@ -110,18 +113,27 @@ def parseQuery(input_dict,paragraph,outputQ):
     value = None
     searchDict= {}
     searchLevel = ""
+    # print(input_dict)
     # lv1
     for query, cmd in input_dict.items():
         if re.findall("^.*search.*$", query):
             searchLevel = query
-            searchDict[query] = parseSearch(query,cmd, paragraph,outputQ)
-        # if ("output" in query):
+            searchDict[query] = parseSearch(searchLevel,cmd,paragraph,outputQ)
+
+        if ("otherwise" == query):
+            # print(searchDict)
+            if(searchDict[searchLevel] == []):
+                # print(1)
+                searchLevel = searchLevel + "(otherwise)"
+                parseOtherwise(searchLevel,cmd,paragraph,outputQ)
         #     if len(searchDict.keys()):
         #         parseOutput(searchLevel,searchDict,cmd,outputQ)
 
     return value
 
 
+def parseOtherwise(searchLevel,input_dict,paragraph,outputQ):
+    parseSearch(searchLevel,input_dict,paragraph,outputQ)
 
 
 def readParagraph():
