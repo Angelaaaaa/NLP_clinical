@@ -7,7 +7,7 @@ import re
 
 
 # modify outputQ, create search dictionary
-def parseSearch(key,cmd,paragraph,outputQ):
+def parseSearch(searchLevel,cmd,paragraph,outputQ):
     resultList = []
     counter = 0
     # assume search defo has attribute "find" and "output"
@@ -18,15 +18,17 @@ def parseSearch(key,cmd,paragraph,outputQ):
                     counter += 1
                     if i in [i.lower() for i in cmd["find"]["token"]]:
                         resultList.append((i,counter))
-        if"output" in cmd.keys():
+        if"output" in cmd.keys() and resultList!=[]:
             tempdict = cmd["output"]
+            # print(tempdict)
             for k,v in tempdict.items():
-                for key in resultList:
-                    if (k == key[0]):
-                        outputQ.put((k, v))
+                for key in paragraph:
+                    if (k == key):
+                        outputQ.put((searchLevel,k, v,resultList[0][1]) )
+                        break
                         # print(v)
         if ("refine" in cmd):
-            parseRefine(key, cmd,  paragraph,outputQ)
+            parseRefine(searchLevel, cmd,  paragraph,outputQ)
 
     return resultList
 

@@ -18,7 +18,7 @@ ALLERGIES:  Denied.
 
 MEDICATIONS:  Advair, Nasonex, Xopenex, Zicam, Zithromax, prednisone, and albuterol.
 
-PAST SURGICAL HISTORY:  Denied.
+PAST SURGICAL HISTORY:  Denied. age
 
 SOCIAL HISTORY:  Lives at home, here in the ED with the mother and there is no smoking in the home.
 
@@ -47,7 +47,7 @@ Lung:  No clear bruising, lung_status or clear extra.
 
 EXTREMITIES:  Moves all extremities without difficulty, nontender.  No deformity.
 
-NEUROLOGIC:  Symmetric face, cooperative, and age appropriate.
+NEUROLOGIC:  Symmetric face, cooperative, and age appropriate. old
 
 MEDICAL DECISION MAKING:  The differential entertained on this patient includes reactive airways disease, viral syndrome, and foreign body pneumonia.  He is evaluated in the emergency department with continuous high-dose albuterol, Decadron by mouth, pulse oximetry, and close observation.  Chest x-ray reveals bronchial thickening, otherwise no definite infiltrate.  She is further treated in the emergency department with continued breathing treatments.  At 0048 hours, he has continued tight wheezes with saturations 99%, but ED sats are 92% with coughing spells.  Based on the above, the hospitalist was consulted and accepts this patient for admission to the hospital with the working diagnosis of respiratory distress and asthma.
 
