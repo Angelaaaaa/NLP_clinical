@@ -36,6 +36,7 @@ def parseSearch(searchLevel,cmd,paragraph,outputQ):
 def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
     resultList = []
     counter = 0
+    temp_point = 0
     # assume search defo has attribute "find" and "output"
     chars_preceeding = len(paragraph)
     chars_following = len(paragraph)
@@ -64,13 +65,14 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                     temp2 = pointer
                 else:
                     temp2 = pointer + chars_following
-
-
+                point = temp1
                 for k,v in tempdict.items():
                     k = k.lower().translate(str.maketrans('','',string.punctuation))
                     for key in paragraph[temp1:temp2]:
-                        if (k == key):
-                            outputQ.put((searchlevel,k, v,pointer))
+                        pointer+=1
+                        if (k == key) and (searchlevel,k, v, pointer)!= temp_point:
+                            outputQ.put((searchlevel,k, v, pointer))
+                            temp_point = (searchlevel,k, v, pointer)
 
         if ("refine" in cmd.keys()):
             parseRefine(searchlevel, cmd, paragraph, outputQ)
@@ -86,10 +88,10 @@ def parseRefine(searchLevel,input_dict,paragraph,outputQ):
         if re.findall("^.*search.*$", query):
             # for keyword,pointer in searchDict[searchLevel]:
             refineSearchLevel = query
-            searchDict[query] = parseRefineSearch(refineSearchLevel, cmd, paragraph,outputQ)
+            searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
 
         if ("refine" in query):
-            parseRefine(refineSearchLevel, cmd,paragraph,outputQ)
+            parseRefine(searchLevel+refineSearchLevel, cmd,paragraph,outputQ)
 
 
 

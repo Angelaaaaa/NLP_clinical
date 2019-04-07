@@ -36,8 +36,8 @@
 				"refine": {
 					"one_more_search_1": {
 						"window": { "chars_preceeding": 50,"chars_following": 50 } ,
-                        			"find": { "token":["clear"] } ,
-                                		"output" : { "extra" : "TRUE" }
+                        "find": { "token":["clear"] } ,
+                        "output" : { "extra" : "TRUE" }
 					}
 				}
 			}
