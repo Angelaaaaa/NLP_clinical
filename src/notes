@@ -1,0 +1,2 @@
+imput: isolate read_file and read_from_db
+flush, reset attribute add to data config

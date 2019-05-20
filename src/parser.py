@@ -1,9 +1,59 @@
 import json
 import string
-import queue
-fo = open("test", 'r')
-directory = '/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt'
+import pandas as pd
 import re
+import json
+import csv
+
+index_tracker = {}
+
+# initialise
+def find_column_name(input_dict,column_name):
+    if type(input_dict) == dict:
+        for key,value in input_dict.items():
+            if(key == "output"):
+                column_name.append(value)
+            # print(key,column_name)
+            find_column_name(value,column_name)
+
+
+def init(csv_file_name,config_file_name):
+    fo = open(config_file_name, 'r')
+    input_dict = json.load(fo)
+    column_name= []
+    find_column_name(input_dict,column_name)
+    row = []
+    for item in column_name:
+        for key,value in item.items():
+            if key not in row:
+                row.append(key)
+    with open(csv_file_name, 'w') as csvfile:
+        filewriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        filewriter.writerow(row)
+
+    for i in row:
+        index_tracker[i] = 0
+
+    return row
+    # csvfile.close()
+
+
+
+
+# parser
+def clear(outputQ):
+    # for i in range(0, outputQ.qsize()):
+    #     continue
+    for k,v in index_tracker.items():
+        index_tracker[k] = 0
+        outputQ.drop(outputQ.index, inplace=True)
+
+def flush(outputQ):
+    # with open('persons.csv', 'a') as f:
+    #     df1 = pd.read_csv('persons.csv', index_col=0)
+    # df = df1.append(outputQ,sort = False)
+    outputQ.to_csv('persons.csv', mode='a', header=False)
 
 
 # modify outputQ, create search dictionary
@@ -24,13 +74,14 @@ def parseSearch(searchLevel,cmd,paragraph,outputQ):
             for k,v in tempdict.items():
                 for key in paragraph:
                     if (k == key):
-                        outputQ.put((searchLevel,k, v,resultList[0][1]) )
+                        # outputQ.put((searchLevel,k, v,resultList[0][1]) )
+                        put_value_into_outputQ(outputQ,index_tracker[k],k,v)
                         break
                         # print(v)
         if ("refine" in cmd):
             parseRefine(searchLevel, cmd,  paragraph,outputQ)
-    if resultList == []:
-        outputQ.put((searchLevel,'not found','not found',0))
+    # if resultList == []:
+        # outputQ.put((searchLevel,'not found','not found',0))
     return resultList
 
 def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
@@ -67,18 +118,30 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                     temp2 = pointer + chars_following
                 point = temp1
                 for k,v in tempdict.items():
-                    k = k.lower().translate(str.maketrans('','',string.punctuation))
+                    # k = k.lower().translate(str.maketrans('','',string.punctuation))
                     for key in paragraph[temp1:temp2]:
                         pointer+=1
                         if (k == key) and (searchlevel,k, v, pointer)!= temp_point:
-                            outputQ.put((searchlevel,k, v, pointer))
+                            # outputQ.put((searchlevel,k, v, pointer))
+                            index = index_tracker[k]
+                            put_value_into_outputQ(outputQ,index,k,v)
+                            index +=1
+                            index_tracker[k] = index
+                            # print(outputQ)
                             temp_point = (searchlevel,k, v, pointer)
 
+        if "flush" in cmd.keys():
+            flush(outputQ)
+        if "clear" in cmd.keys():
+            clear(outputQ)
         if ("refine" in cmd.keys()):
             parseRefine(searchlevel, cmd, paragraph, outputQ)
-    if resultList == []:
-        outputQ.put((searchlevel,'not found','not found',0))
+
+    # if resultList == []:
+    #     outputQ.put((searchlevel,'not found','not found',0))
     return resultList
+def put_value_into_outputQ(outputQ, index,k, v):
+    outputQ.loc[index, k] = v
 
 
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
@@ -125,7 +188,6 @@ def parseQuery(input_dict,paragraph,outputQ):
         if ("otherwise" == query):
             # print(searchDict)
             if(searchDict[searchLevel] == []):
-                # print(1)
                 searchLevel = searchLevel + "(otherwise)"
                 parseOtherwise(searchLevel,cmd,paragraph,outputQ)
         #     if len(searchDict.keys()):
@@ -138,21 +200,23 @@ def parseOtherwise(searchLevel,input_dict,paragraph,outputQ):
     parseSearch(searchLevel,input_dict,paragraph,outputQ)
 
 
-def readParagraph():
-    fo = open(directory , "r")
+def readParagraph(clinical_note_file_name):
+    fo = open(clinical_note_file_name , "r")
     lines = str(fo.read().lower().translate(str.maketrans('','',string.punctuation))).split()
     return lines
 
 # outputQ
-def parser():
-    # value = {}
-    outputQ = queue.Queue()
-    paragraph = readParagraph()
+def parser(csv_file_name,config_file_name,clinical_note_file_name):
+
+    fo = open(config_file_name, 'r')
+    outputQ = pd.DataFrame( columns=index_tracker.keys())
+
+    paragraph = readParagraph(clinical_note_file_name)
     input_dict = json.load(fo)
     value = parseQuery(input_dict,paragraph,outputQ)
-    # print(outputQ.qsize())
-    for i in range (0,outputQ.qsize()):
-        print(outputQ.get())
 
+    print(outputQ)
 
-parser()
+init(csv_file_name = "persons.csv",config_file_name="test")
+parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt")
+parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-344.txt")

@@ -38,6 +38,9 @@
 						"window": { "chars_preceeding": 50,"chars_following": 50 } ,
                         "find": { "token":["clear"] } ,
                         "output" : { "extra" : "TRUE" }
+
+
+
 					}
 				}
 			}
@@ -51,7 +54,9 @@
 			"my_search_status_breath": {
 				"window": { "chars_following": 50 } ,
 				"find": { "token":["breath sounds"] } ,
-				"output" : { "lung_status" : "breath sounds issues" }
+				"output" : { "lung_status" : "breath sounds issues" },
+				"flush" : "",
+                "clear" : ""
 			}
 
 		}

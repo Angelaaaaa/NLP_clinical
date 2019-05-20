@@ -1,5 +1,4 @@
 Sample Type / Medical Specialty:  Allergy / Immunology
-
 Sample Name: Asthma in a 5-year-old
 Description: Mother states he has been wheezing and coughing.
 
@@ -40,6 +39,8 @@ CHEST:  Tight wheezing and retractions heard bilaterally.
 HEART:  Regular without rubs or murmurs.
 
 ABDOMEN:  Soft, nontender.  No masses.  No hepatosplenomegaly.
+
+gender: female
 
 GENITALIA:  Male gender is present on a visual examination.
 

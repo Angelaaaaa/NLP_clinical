@@ -1,0 +1,18 @@
+Sample Type / Medical Specialty:  Allergy / Immunology
+Sample Name: Asthma in a 5-year-old
+Description: Mother states he has been wheezing and coughing.
+
+(Medical Transcription Sample Report)
+
+-----
+
+
+CHIEF COMPLAINT:  This 5-year-old male presents to Children's Hospital Emergency Department by the mother with &quot;have asthma.&quot;  Mother states he has been wheezing and coughing.  They saw their primary medical doctor.  He was evaluated at the clinic, given the breathing treatment and discharged home, was not having asthma, prescribed prednisone and an antibiotic.  They told to go to the ER if he got worse.  He has had some vomiting and some abdominal pain.  His peak flows on the morning are normal at 150, but in the morning, they were down to 100 and subsequently decreased to 75 over the course of the day.
+
+PAST MEDICAL HISTORY:  Asthma with his last admission in 07/2007.  Also inclusive of frequent pneumonia by report.
+
+IMMUNIZATIONS:  Up-to-date.
+
+ALLERGIES:  Denied.
+
+MEDICATIONS:  Advair, Nasonex, Xopenex, Zicam, Zithromax, prednisone, and albuterol.
