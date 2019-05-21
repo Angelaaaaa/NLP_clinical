@@ -1,1 +1,3 @@
 age,gender,regular,lung_status,extra
+0,,male,regular,,TRUE
+1,,female,,,

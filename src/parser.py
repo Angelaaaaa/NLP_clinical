@@ -6,7 +6,7 @@ import json
 import csv
 
 index_tracker = {}
-
+p = ""
 # initialise
 def find_column_name(input_dict,column_name):
     if type(input_dict) == dict:
@@ -206,7 +206,7 @@ def readParagraph(clinical_note_file_name):
     return lines
 
 # outputQ
-def parser(csv_file_name,config_file_name,clinical_note_file_name):
+def parserFile(csv_file_name,config_file_name,clinical_note_file_name):
 
     fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
@@ -217,6 +217,18 @@ def parser(csv_file_name,config_file_name,clinical_note_file_name):
 
     print(outputQ)
 
+def parser(csv_file_name,config_file_name,paragraph):
+
+    fo = open(config_file_name, 'r')
+    outputQ = pd.DataFrame( columns=index_tracker.keys())
+
+    # paragraph = readParagraph(clinical_note_file_name)
+    input_dict = json.load(fo)
+    value = parseQuery(input_dict,paragraph,outputQ)
+
+    print(outputQ)
 init(csv_file_name = "persons.csv",config_file_name="test")
-parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt")
-parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-344.txt")
+# parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt")
+# parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/inputmttest/mtsamples-type-3-sample-343.txt")
+parser(csv_file_name = "persons.csv",config_file_name="test",paragraph=p)
+parser(csv_file_name = "persons.csv",config_file_name="test",paragraph=p)
