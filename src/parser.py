@@ -5,7 +5,10 @@ import re
 import json
 import csv
 
+
+docID =0
 index_tracker = {}
+
 p = ""
 # initialise
 def find_column_name(input_dict,column_name):
@@ -17,12 +20,12 @@ def find_column_name(input_dict,column_name):
             find_column_name(value,column_name)
 
 
-def init(csv_file_name,config_file_name):
+def init(doc_id, csv_file_name,config_file_name):
     fo = open(config_file_name, 'r')
     input_dict = json.load(fo)
     column_name= []
     find_column_name(input_dict,column_name)
-    row = []
+    row = ["doc_id"]
     for item in column_name:
         for key,value in item.items():
             if key not in row:
@@ -34,7 +37,7 @@ def init(csv_file_name,config_file_name):
 
     for i in row:
         index_tracker[i] = 0
-
+    docID = doc_id
     return row
     # csvfile.close()
 
@@ -142,6 +145,7 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
     return resultList
 def put_value_into_outputQ(outputQ, index,k, v):
     outputQ.loc[index, k] = v
+    outputQ.loc[index,"doc_id"] = docID
 
 
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
@@ -206,7 +210,7 @@ def readParagraph(clinical_note_file_name):
     return lines
 
 # outputQ
-def parserFile(csv_file_name,config_file_name,clinical_note_file_name):
+def parserFile(config_file_name,clinical_note_file_name):
 
     fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
@@ -215,9 +219,8 @@ def parserFile(csv_file_name,config_file_name,clinical_note_file_name):
     input_dict = json.load(fo)
     value = parseQuery(input_dict,paragraph,outputQ)
 
-    print(outputQ)
 
-def parser(csv_file_name,config_file_name,paragraph):
+def parser(config_file_name,paragraph):
 
     fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
@@ -227,8 +230,8 @@ def parser(csv_file_name,config_file_name,paragraph):
     value = parseQuery(input_dict,paragraph,outputQ)
 
     print(outputQ)
-init(csv_file_name = "persons.csv",config_file_name="test")
-# parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt")
-# parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/inputmttest/mtsamples-type-3-sample-343.txt")
-parser(csv_file_name = "persons.csv",config_file_name="test",paragraph=p)
-parser(csv_file_name = "persons.csv",config_file_name="test",paragraph=p)
+# init(csv_file_name = "persons.csv",config_file_name="test")
+# # parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt")
+# # parser(csv_file_name = "persons.csv",config_file_name="test",clinical_note_file_name = "/Users/yuanpan/Documents/NLP_project/inputmttest/mtsamples-type-3-sample-343.txt")
+# parser(config_file_name="test",paragraph=p)
+# parser(config_file_name="test",paragraph=p)

@@ -1,2 +1,5 @@
-imput: isolate read_file and read_from_db
-flush, reset attribute add to data config
+each row need document id
+do not need to pass in config again
+add in the statistical analysis in init
+stas_window = 20 <- make it variable
+make it importable
