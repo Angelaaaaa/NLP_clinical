@@ -143,6 +143,7 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
 def put_value_into_outputQ(outputQ, index,k, v):
     outputQ.loc[index, k] = v
     outputQ.loc[index,"doc_id"] = docID
+    print(outputQ)
 
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
@@ -215,7 +216,6 @@ def parserFile(doc_id,config_file_name,clinical_note_file_name):
     value = parseQuery(input_dict,paragraph,outputQ)
 
 def processDocument(docID,content):
-
 
     # fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
