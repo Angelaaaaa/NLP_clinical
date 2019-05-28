@@ -112,7 +112,7 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                 index_tracker[k] = index
         if ("refine" in cmd.keys()):
             for keyword, pointer in resultList:
-                tempdict = cmd["output"]
+                tempdict = cmd["find"]
                 if pointer - chars_preceeding < 0:
                     temp1 = pointer
                 else:
@@ -205,8 +205,8 @@ def readParagraph(clinical_note_file_name):
 
 # outputQ
 def parserFile(doc_id,config_file_name,clinical_note_file_name):
-
-
+    global docID
+    docID = doc_id
     fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
 
@@ -227,7 +227,6 @@ def processDocument(docID,content):
 
 
 def parser(doc_id,config_file_name,paragraph):
-    global docID
     docID = doc_id
 
     paragraph = str(paragraph.lower().translate(str.maketrans('','',string.punctuation))).split()
