@@ -156,18 +156,21 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
 def put_value_into_outputQ(outputQ, index,k, v):
     outputQ.loc[index, k] = v
     outputQ.loc[index,"doc_id"] = docID
-    print(outputQ)
+    # print(outputQ)
 
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
     searchDict = {}
     for query, cmd in input_dict.items():
         refineSearchLevel = query
+        if (refineSearchLevel != "output" and refineSearchLevel != "refine" and refineSearchLevel != "action" and refineSearchLevel != "find"):
+            print(refineSearchLevel)
         searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
 
         if ("refine" in query):
-            print("refine: " + searchLevel)
+            # print(cmd.keys())
             parseRefine(searchLevel+refineSearchLevel, cmd,paragraph,outputQ)
+
 
 
 def parseRegex(cmd,paragraph):
