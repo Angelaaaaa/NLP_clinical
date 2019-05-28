@@ -4,6 +4,9 @@ import pandas as pd
 import re
 import json
 import csv
+import tokenize
+
+
 docID = ""
 index_tracker = {}
 input_dict = {}
@@ -153,7 +156,7 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
 def put_value_into_outputQ(outputQ, index,k, v):
     outputQ.loc[index, k] = v
     outputQ.loc[index,"doc_id"] = docID
-    # print(outputQ)
+    print(outputQ)
 
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
@@ -163,8 +166,8 @@ def parseRefine(searchLevel,input_dict,paragraph,outputQ):
         searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
 
         if ("refine" in query):
-            parseRefine(searchLevel+refineSearchLevel, cmd,paragraph,outputQ)
             print("refine: " + searchLevel)
+            parseRefine(searchLevel+refineSearchLevel, cmd,paragraph,outputQ)
 
 
 def parseRegex(cmd,paragraph):
@@ -211,10 +214,17 @@ def parseOtherwise(searchLevel,input_dict,paragraph,outputQ):
     parseSearch(searchLevel,input_dict,paragraph,outputQ)
 
 
+
+
 def readParagraph(clinical_note_file_name):
     fo = open(clinical_note_file_name , "r")
     lines = str(fo.read().lower().translate(str.maketrans('','',string.punctuation))).split()
+    # lines = str(fo.read().lower()).split()
+    # lines = tokenize.tokenize(fo.readlines())
+    print(lines)
     return lines
+
+
 
 # outputQ
 def parserFile(doc_id,config_file_name,clinical_note_file_name):
