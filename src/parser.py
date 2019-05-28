@@ -6,6 +6,7 @@ import json
 import csv
 docID = ""
 index_tracker = {}
+input_dict = {}
 # initialise
 def find_column_name(input_dict,column_name):
     if type(input_dict) == dict:
@@ -18,6 +19,7 @@ def find_column_name(input_dict,column_name):
 
 def init(csv_file_name,config_file_name):
     fo = open(config_file_name, 'r')
+    global input_dict
     input_dict = json.load(fo)
     column_name= []
     find_column_name(input_dict,column_name)
@@ -33,7 +35,7 @@ def init(csv_file_name,config_file_name):
 
     for i in row:
         index_tracker[i] = 0
-    return row
+    return input_dict
     # csvfile.close()
 
 
@@ -212,6 +214,17 @@ def parserFile(doc_id,config_file_name,clinical_note_file_name):
 
     paragraph = readParagraph(clinical_note_file_name)
     input_dict = json.load(fo)
+    value = parseQuery(input_dict,paragraph,outputQ)
+
+def processDocument(docID,content):
+
+
+    # fo = open(config_file_name, 'r')
+    outputQ = pd.DataFrame( columns=index_tracker.keys())
+
+    paragraph = str(content.lower().translate(str.maketrans('','',string.punctuation))).split()
+    # input_dict = json.load(fo)
+    # print(input_dict)
     value = parseQuery(input_dict,paragraph,outputQ)
 
 
