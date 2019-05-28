@@ -148,14 +148,11 @@ def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
     searchDict = {}
     for query, cmd in input_dict.items():
-        if re.findall("^.*search.*$", query):
-            # for keyword,pointer in searchDict[searchLevel]:
-            refineSearchLevel = query
-            searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
+        refineSearchLevel = query
+        searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
 
         if ("refine" in query):
             parseRefine(searchLevel+refineSearchLevel, cmd,paragraph,outputQ)
-
 
 
 def parseRegex(cmd,paragraph):
@@ -181,15 +178,16 @@ def parseQuery(input_dict,paragraph,outputQ):
     # print(input_dict)
     # lv1
     for query, cmd in input_dict.items():
-        if re.findall("^.*search.*$", query):
-            searchLevel = query
-            searchDict[query] = parseSearch(searchLevel,cmd,paragraph,outputQ)
+        # if re.findall("^.*search.*$", query):
+        searchLevel = query
+        searchDict[query] = parseSearch(searchLevel,cmd,paragraph,outputQ)
 
-        if ("otherwise" == query):
-            # print(searchDict)
-            if(searchDict[searchLevel] == []):
-                searchLevel = searchLevel + "(otherwise)"
-                parseOtherwise(searchLevel,cmd,paragraph,outputQ)
+        # if ("otherwise" == query):
+        #     # print(searchDict)
+        #     if(searchDict[searchLevel] == []):
+        #         searchLevel = searchLevel + "(otherwise)"
+        #         parseOtherwise(searchLevel,cmd,paragraph,outputQ)
+
         #     if len(searchDict.keys()):
         #         parseOutput(searchLevel,searchDict,cmd,outputQ)
 
@@ -229,6 +227,7 @@ def processDocument(docID,content):
 
 
 def parser(doc_id,config_file_name,paragraph):
+    global docID
     docID = doc_id
 
     paragraph = str(paragraph.lower().translate(str.maketrans('','',string.punctuation))).split()

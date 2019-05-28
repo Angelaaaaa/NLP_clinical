@@ -18,12 +18,7 @@
 			}
 		 }
 		},
-		"otherwise":{
-            "find": {"token":["heart"]}
-            ,
-            "output": {"regular":"regular"}
 
-		},
 	"my_search_lungs": {
 		"find": {"token":["lung","lungs"]}
 		,

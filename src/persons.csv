@@ -1,1 +1,11 @@
-doc_id,gender,regular,lung_status,extra
+doc_id,gender,lung_status,extra
+0,,male,clear,
+1,,female,lower,
+2,,male,breath sounds issues,
+3,,female,,
+0,,,clear,
+1,,,lower,
+2,,,breath sounds issues,
+0,,,clear,
+1,,,lower,
+2,,,breath sounds issues,
