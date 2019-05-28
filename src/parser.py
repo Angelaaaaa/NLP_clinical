@@ -67,6 +67,7 @@ def parseSearch(searchLevel,cmd,paragraph,outputQ):
                 for i in paragraph:
                     counter += 1
                     if i in [i.lower() for i in cmd["find"]["token"]]:
+                        print("token: "+ str(i) ,counter)
                         resultList.append((i,counter))
         if"output" in cmd.keys():
             tempdict = cmd["output"]
@@ -81,6 +82,13 @@ def parseSearch(searchLevel,cmd,paragraph,outputQ):
                 parseRefine(searchLevel, cmd, paragraph, outputQ)
     # if resultList == []:
         # outputQ.put((searchLevel,'not found','not found',0))
+
+        if "action" in cmd.keys():
+            if "flush" in cmd["action"]:
+                flush(outputQ)
+            if "clear" in cmd["action"]:
+                clear(outputQ)
+
     return resultList
 
 def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
@@ -131,11 +139,11 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                         if (k == key) and (searchlevel, k, v, pointer) != temp_point:
                             parseRefine(searchlevel, cmd, paragraph, outputQ)
                             temp_point = (searchlevel, k, v, pointer)
-
-        if "flush" in cmd.keys():
-            flush(outputQ)
-        if "clear" in cmd.keys():
-            clear(outputQ)
+        if "action" in cmd.keys():
+            if "flush" in cmd["action"]:
+                flush(outputQ)
+            if "clear" in cmd["action"]:
+                clear(outputQ)
 
 
     # if resultList == []:

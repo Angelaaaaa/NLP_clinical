@@ -50,8 +50,7 @@
 				"window": { "chars_following": 50 } ,
 				"find": { "token":["breath sounds"] } ,
 				"output" : { "lung_status" : "breath sounds issues" },
-				"flush" : "",
-                "clear" : ""
+				"action": ["flush","clear"]
 			}
 
 		}
