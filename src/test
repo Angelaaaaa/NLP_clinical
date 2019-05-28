@@ -6,13 +6,13 @@
 		,
 		"refine": {
 			"my_search_gender_male": {
-				"window": { "chars_following": 50 } ,
+				"window": { "words_following": 50 } ,
 				"find": { "token":["male"] } ,
 				"output" : { "gender" : "male" }
 			}
 			,
 			"my_search_gender_female": {
-				"window": { "chars_following": 50 } ,
+				"window": { "words_following": 50 } ,
 				"find": { "token":["female"] } ,
 				"output" : { "gender" : "female" }
 			}
@@ -24,13 +24,13 @@
 		,
 		"refine": {
 			"my_search_status_clear": {
-				"window": { "chars_following": 50 } ,
+				"window": { "words_following": 50 } ,
 				"find": { "token":["clear"] } ,
 				"output" : { "lung_status" : "clear" }
 				,
 				"refine": {
 					"one_more_search_1": {
-						"window": { "chars_preceeding": 50,"chars_following": 50 } ,
+						"window": { "words_preceeding": 50,"words_following": 50 } ,
                         "find": { "token":["clear"] } ,
                         "output" : { "extra" : "TRUE" }
 
@@ -41,13 +41,13 @@
 			}
 			,
 			"my_search_status_lower": {
-				"window": { "chars_following": 50 } ,
+				"window": { "words_following": 50 } ,
 				"find": { "token":["lower"] } ,
 				"output" : { "lung_status" : "lower" }
 			}
 			,
 			"my_search_status_breath": {
-				"window": { "chars_following": 50 } ,
+				"window": { "words_following": 50 } ,
 				"find": { "token":["breath sounds"] } ,
 				"output" : { "lung_status" : "breath sounds issues" },
 				"action": ["flush","clear"]
