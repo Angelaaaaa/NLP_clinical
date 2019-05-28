@@ -1,20 +1,32 @@
 {
 	"my_search_gender": {
+	    "output": {"datapoint":"gender"}
+	    ,
 		"find": {"token":["gender"]}
-		,
-		"output": {"gender":"found"}
 		,
 		"refine": {
 			"my_search_gender_male": {
+			    "output" : { "gender" : "found" },
 				"window": { "chars_following": 50 } ,
-				"find": { "token":["male"] } ,
-				"output" : { "gender" : "male" }
+				"find": { "token":["male"] },
+				"refine":{
+				    "my_search_gender_male": {
+			            "output" : { "gender" : "male" },
+
+
+				}
+
+				}
+
 			}
 			,
 			"my_search_gender_female": {
+			    "output" : { "gender" : "found" }
 				"window": { "chars_following": 50 } ,
 				"find": { "token":["female"] } ,
-				"output" : { "gender" : "female" }
+				"refine":{
+
+				}
 			}
 		 }
 		},

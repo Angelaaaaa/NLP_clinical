@@ -4,9 +4,7 @@ import pandas as pd
 import re
 import json
 import csv
-
-
-docID =0
+docID = ""
 index_tracker = {}
 # initialise
 def find_column_name(input_dict,column_name):
@@ -18,7 +16,7 @@ def find_column_name(input_dict,column_name):
             find_column_name(value,column_name)
 
 
-def init(doc_id, csv_file_name,config_file_name):
+def init(csv_file_name,config_file_name):
     fo = open(config_file_name, 'r')
     input_dict = json.load(fo)
     column_name= []
@@ -35,7 +33,6 @@ def init(doc_id, csv_file_name,config_file_name):
 
     for i in row:
         index_tracker[i] = 0
-    docID = doc_id
     return row
     # csvfile.close()
 
@@ -69,18 +66,17 @@ def parseSearch(searchLevel,cmd,paragraph,outputQ):
                     counter += 1
                     if i in [i.lower() for i in cmd["find"]["token"]]:
                         resultList.append((i,counter))
-        if"output" in cmd.keys() and resultList!=[]:
+        if"output" in cmd.keys():
             tempdict = cmd["output"]
-            # print(tempdict)
-            for k,v in tempdict.items():
-                for key in paragraph:
-                    if (k == key):
-                        # outputQ.put((searchLevel,k, v,resultList[0][1]) )
-                        put_value_into_outputQ(outputQ,index_tracker[k],k,v)
-                        break
+            for k, v in tempdict.items():
+                put_value_into_outputQ(outputQ, index_tracker[k], k, v)
+                # index_tracker[k] = index_tracker[k]+1
                         # print(v)
-        if ("refine" in cmd):
-            parseRefine(searchLevel, cmd,  paragraph,outputQ)
+        if ("refine" in cmd) and resultList!=[]:
+            for k, v in  cmd["refine"].items():
+
+                        # outputQ.put((searchLevel,k, v,resultList[0][1]) )
+                parseRefine(searchLevel, cmd, paragraph, outputQ)
     # if resultList == []:
         # outputQ.put((searchLevel,'not found','not found',0))
     return resultList
@@ -91,6 +87,7 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
     temp_point = 0
     # assume search defo has attribute "find" and "output"
     chars_preceeding = len(paragraph)
+
     chars_following = len(paragraph)
     if type(cmd) == dict:
         if ("window" in cmd.keys()):
@@ -100,13 +97,19 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                 chars_following = int(cmd["window"]["chars_following"])
         if "find" in cmd.keys():
             if "token" in cmd["find"].keys():
-
                 for i in paragraph:
                     counter += 1
                     if i in [i.lower() for i in cmd["find"]["token"]]:
                         resultList.append((i,counter))
         if"output" in cmd.keys():
-            for keyword,pointer in resultList:
+            tempdict = cmd["output"]
+            for k, v in tempdict.items():
+                index = index_tracker[k]
+                put_value_into_outputQ(outputQ, index, k, v)
+                index += 1
+                index_tracker[k] = index
+        if ("refine" in cmd.keys()):
+            for keyword, pointer in resultList:
                 tempdict = cmd["output"]
                 if pointer - chars_preceeding < 0:
                     temp1 = pointer
@@ -118,25 +121,19 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                 else:
                     temp2 = pointer + chars_following
                 point = temp1
-                for k,v in tempdict.items():
+                for k, v in tempdict.items():
                     # k = k.lower().translate(str.maketrans('','',string.punctuation))
                     for key in paragraph[temp1:temp2]:
-                        pointer+=1
-                        if (k == key) and (searchlevel,k, v, pointer)!= temp_point:
-                            # outputQ.put((searchlevel,k, v, pointer))
-                            index = index_tracker[k]
-                            put_value_into_outputQ(outputQ,index,k,v)
-                            index +=1
-                            index_tracker[k] = index
-                            # print(outputQ)
-                            temp_point = (searchlevel,k, v, pointer)
+                        pointer += 1
+                        if (k == key) and (searchlevel, k, v, pointer) != temp_point:
+                            parseRefine(searchlevel, cmd, paragraph, outputQ)
+                            temp_point = (searchlevel, k, v, pointer)
 
         if "flush" in cmd.keys():
             flush(outputQ)
         if "clear" in cmd.keys():
             clear(outputQ)
-        if ("refine" in cmd.keys()):
-            parseRefine(searchlevel, cmd, paragraph, outputQ)
+
 
     # if resultList == []:
     #     outputQ.put((searchlevel,'not found','not found',0))
@@ -144,7 +141,6 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
 def put_value_into_outputQ(outputQ, index,k, v):
     outputQ.loc[index, k] = v
     outputQ.loc[index,"doc_id"] = docID
-
 
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
@@ -208,7 +204,8 @@ def readParagraph(clinical_note_file_name):
     return lines
 
 # outputQ
-def parserFile(config_file_name,clinical_note_file_name):
+def parserFile(doc_id,config_file_name,clinical_note_file_name):
+
 
     fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
@@ -218,7 +215,9 @@ def parserFile(config_file_name,clinical_note_file_name):
     value = parseQuery(input_dict,paragraph,outputQ)
 
 
-def parser(config_file_name,paragraph):
+def parser(doc_id,config_file_name,paragraph):
+    docID = doc_id
+
     paragraph = str(paragraph.lower().translate(str.maketrans('','',string.punctuation))).split()
     fo = open(config_file_name, 'r')
 

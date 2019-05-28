@@ -3,3 +3,6 @@ do not need to pass in config again
 add in the statistical analysis in init
 stas_window = 20 <- make it variable
 make it importable
+
+DOC_ID IN PARSER
+action: flush, clear
