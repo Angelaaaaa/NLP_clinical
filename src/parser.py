@@ -148,6 +148,7 @@ def put_value_into_outputQ(outputQ, index,k, v):
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
     searchDict = {}
+    print(searchLevel)
     for query, cmd in input_dict.items():
         refineSearchLevel = query
         searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
@@ -181,6 +182,7 @@ def parseQuery(input_dict,paragraph,outputQ):
     for query, cmd in input_dict.items():
         # if re.findall("^.*search.*$", query):
         searchLevel = query
+        print(searchLevel)
         searchDict[query] = parseSearch(searchLevel,cmd,paragraph,outputQ)
 
         # if ("otherwise" == query):
