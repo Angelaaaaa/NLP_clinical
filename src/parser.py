@@ -46,75 +46,47 @@ def init(csv_file_name,config_file_name):
 
 # parser
 def clear(outputQ):
-    # for i in range(0, outputQ.qsize()):
-    #     continue
     for k,v in index_tracker.items():
         index_tracker[k] = 0
         outputQ.drop(outputQ.index, inplace=True)
 
 def flush(outputQ):
-    # with open('persons.csv', 'a') as f:
-    #     df1 = pd.read_csv('persons.csv', index_col=0)
-    # df = df1.append(outputQ,sort = False)
     outputQ.to_csv('persons.csv', mode='a', header=False)
 
 
-# modify outputQ, create search dictionary
-def parseSearch(searchLevel,cmd,paragraph,outputQ):
-    resultList = []
-    counter = 0
-    # assume search defo has attribute "find" and "output"
-    if type(cmd) == dict:
-        if "find" in cmd.keys():
-            if "token" in cmd["find"].keys():
-                for i in paragraph:
-                    counter += 1
-                    if i in [i.lower() for i in cmd["find"]["token"]]:
-                        print("token: "+ str(i) ,counter)
-                        resultList.append((i,counter))
-        if"output" in cmd.keys():
-            tempdict = cmd["output"]
-            for k, v in tempdict.items():
-                put_value_into_outputQ(outputQ, index_tracker[k], k, v)
-                # index_tracker[k] = index_tracker[k]+1
-                        # print(v)
-        if ("refine" in cmd) and resultList!=[]:
-            for k, v in  cmd["refine"].items():
-
-                        # outputQ.put((searchLevel,k, v,resultList[0][1]) )
-                parseRefine(searchLevel, cmd, paragraph, outputQ)
-    # if resultList == []:
-        # outputQ.put((searchLevel,'not found','not found',0))
-
-        if "action" in cmd.keys():
-            if "flush" in cmd["action"]:
-                flush(outputQ)
-            if "clear" in cmd["action"]:
-                clear(outputQ)
-
-    return resultList
-
-def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
+def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
     resultList = []
     counter = 0
     temp_point = 0
     # assume search defo has attribute "find" and "output"
-    tokens_preceeding = len(paragraph)
+    tokens_preceeding = len(tokens)
 
-    tokens_following = len(paragraph)
+    tokens_following = len(tokens)
     if type(cmd) == dict:
         if ("window" in cmd.keys()):
             if "tokens_preceeding" in cmd["window"].keys():
                 tokens_preceeding = int(cmd["window"]["tokens_preceeding"])
             if "tokens_following" in cmd["window"].keys():
                 tokens_following = int(cmd["window"]["tokens_following"])
+
         if "find" in cmd.keys():
+            if pointer - tokens_preceeding < 0:
+                temp1 = pointer
+            else:
+                temp1 = pointer - tokens_preceeding
+
+            if pointer + tokens_following > len(tokens) -1:
+                temp2 = len(tokens)
+            else:
+                temp2 = pointer + tokens_following
+
             if "token" in cmd["find"].keys():
-                for i in paragraph:
+                for i in tokens[temp1:temp2]:
                     counter += 1
                     if i in [i.lower() for i in cmd["find"]["token"]]:
-                        print("token: "+ str(i) ,counter)
                         resultList.append((i,counter))
+                        print("token: "+ i)
+
         if"output" in cmd.keys():
             tempdict = cmd["output"]
             for k, v in tempdict.items():
@@ -123,25 +95,11 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                 index += 1
                 index_tracker[k] = index
         if ("refine" in cmd.keys()):
-            for keyword, pointer in resultList:
-                tempdict = cmd["find"]
-                if pointer - tokens_preceeding < 0:
-                    temp1 = pointer
-                else:
-                    temp1 = pointer - tokens_preceeding
-
-                if pointer + tokens_following > len(paragraph) - 1:
-                    temp2 = pointer
-                else:
-                    temp2 = pointer + tokens_following
-                point = temp1
-                for k, v in tempdict.items():
-                    # k = k.lower().translate(str.maketrans('','',string.punctuation))
-                    for key in paragraph[temp1:temp2]:
-                        pointer += 1
-                        if (k == key) and (searchlevel, k, v, pointer) != temp_point:
-                            parseRefine(searchlevel, cmd, paragraph, outputQ)
-                            temp_point = (searchlevel, k, v, pointer)
+                for i in resultList:
+                    # searchlevel = cmd["refine"].keys()
+                    for key in cmd["refine"].keys():
+                        print("search: "+key)
+                        parseSearch(key,cmd["refine"][key],tokens,outputQ,i[1])
         if "action" in cmd.keys():
             if "flush" in cmd["action"]:
                 flush(outputQ)
@@ -158,25 +116,11 @@ def put_value_into_outputQ(outputQ, index,k, v):
     outputQ.loc[index,"doc_id"] = docID
     # print(outputQ)
 
-def parseRefine(searchLevel,input_dict,paragraph,outputQ):
-    refineSearchLevel = ""
-    searchDict = {}
-    for query, cmd in input_dict.items():
-        refineSearchLevel = query
-        if (refineSearchLevel != "output" and refineSearchLevel != "refine" and refineSearchLevel != "action" and refineSearchLevel != "find"):
-            print(refineSearchLevel)
-        searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
 
-        if ("refine" in query):
-            # print(cmd.keys())
-            parseRefine(searchLevel+refineSearchLevel, cmd,paragraph,outputQ)
-
-
-
-def parseRegex(cmd,paragraph):
-    # print(cmd,paragraph)
-    paragraph = "".join(paragraph)
-    matches = re.findall(cmd, paragraph)
+def parseRegex(cmd,tokens):
+    # print(cmd,tokens)
+    tokens = "".join(tokens)
+    matches = re.findall(cmd, tokens)
     return matches
 
 def parseOutput(searchLevel,searchDict,cmd,outputQ):
@@ -189,23 +133,22 @@ def parseOutput(searchLevel,searchDict,cmd,outputQ):
 
 
 
-def parseQuery(input_dict,paragraph,outputQ):
+def parseQuery(input_dict,tokens,outputQ):
     value = None
     searchDict= {}
     searchLevel = ""
     # print(input_dict)
     # lv1
     for query, cmd in input_dict.items():
-        # if re.findall("^.*search.*$", query):
         searchLevel = query
         print("search: " + searchLevel)
-        searchDict[query] = parseSearch(searchLevel,cmd,paragraph,outputQ)
+        searchDict[query] = parseSearch(searchLevel,cmd,tokens,outputQ,0)
 
         # if ("otherwise" == query):
         #     # print(searchDict)
         #     if(searchDict[searchLevel] == []):
         #         searchLevel = searchLevel + "(otherwise)"
-        #         parseOtherwise(searchLevel,cmd,paragraph,outputQ)
+        #         parseOtherwise(searchLevel,cmd,tokens,outputQ)
 
         #     if len(searchDict.keys()):
         #         parseOutput(searchLevel,searchDict,cmd,outputQ)
@@ -213,18 +156,18 @@ def parseQuery(input_dict,paragraph,outputQ):
     return value
 
 
-def parseOtherwise(searchLevel,input_dict,paragraph,outputQ):
-    parseSearch(searchLevel,input_dict,paragraph,outputQ)
+def parseOtherwise(searchLevel,input_dict,tokens,outputQ):
+    parseSearch(searchLevel,input_dict,tokens,outputQ)
 
 
 
 
-def readParagraph(clinical_note_file_name):
+def readtokens(clinical_note_file_name):
     fo = open(clinical_note_file_name , "r")
     lines = str(fo.read().lower().translate(str.maketrans('','',string.punctuation))).split()
     # lines = str(fo.read().lower()).split()
     # lines = tokenize.tokenize(fo.readlines())
-    print(lines)
+    # print(lines)
     return lines
 
 
@@ -235,31 +178,29 @@ def parserFile(doc_id,config_file_name,clinical_note_file_name):
     docID = doc_id
     fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
-
-    paragraph = readParagraph(clinical_note_file_name)
+    tokens = readtokens(clinical_note_file_name)
     input_dict = json.load(fo)
-    value = parseQuery(input_dict,paragraph,outputQ)
+    value = parseQuery(input_dict,tokens,outputQ)
 
 def processDocument(docID,content):
 
     # fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
 
-    paragraph = str(content.lower().translate(str.maketrans('','',string.punctuation))).split()
+    tokens = str(content.lower().translate(str.maketrans('','',string.punctuation))).split()
     # input_dict = json.load(fo)
     # print(input_dict)
-    value = parseQuery(input_dict,paragraph,outputQ)
+    parseQuery(input_dict,tokens,outputQ)
 
 
-def parser(doc_id,config_file_name,paragraph):
+def parser(doc_id,config_file_name,tokens):
     docID = doc_id
 
-    paragraph = str(paragraph.lower().translate(str.maketrans('','',string.punctuation))).split()
+    tokens = str(tokens.lower().translate(str.maketrans('','',string.punctuation))).split()
     fo = open(config_file_name, 'r')
-
     outputQ = pd.DataFrame( columns=index_tracker.keys())
-
     input_dict = json.load(fo)
-    parseQuery(input_dict,paragraph,outputQ)
+    parseQuery(input_dict,tokens,outputQ)
+
 
     print(outputQ)

@@ -1,0 +1,56 @@
+{
+        "GRADE_DIFFERENTIATION": {
+                "find": { "token":["differentiation","differentiated"] }
+                ,
+                "refine" : {
+                        "GRADE_DIFFERENTIATION_G2" : {
+                                "window" : { "tokens_preceeding" : 5 , "tokens_following" : 5 }
+                                ,
+                                "find": { "token":["moderately","moderate","moderated"] }
+                                ,
+                                "refine" : {
+                                        "GRADE_DIFFERENTIATION_G2_value" : {
+                                                "output": { "data_point": "GRADE_DIFFERENTIATION", "value" : "G2" , "score": 0.7 }
+                                                ,
+                                                "window" : { "tokens_preceeding" : 5 , "tokens_following" : 5 }
+                                                ,
+                                                "find": { "token":["grade"] }
+                                                ,
+                                                "refine" : {
+                                                        "GRADE_DIFFERENTIATION_G2_plus" : {
+                                                                "output": { "score": 0.9 }
+                                                        }
+                                                }
+                                                ,
+                                                "action" : ["flush","clear"]
+                                        }
+                                }
+                                , "action" : ["flush","clear"]
+                        }
+                        ,
+                        "GRADE_DIFFERENTIATION_G3" : {
+                                "window" : { "words_preceeding" : 5 , "words_following" : 5 }
+                                ,
+                                "find": { "token":["poor","poorly"] }
+                                ,
+                                "refine" : {
+                                        "GRADE_DIFFERENTIATION_G3_value" : {
+                                                "output": { "data_point": "GRADE_DIFFERENTIATION", "value" : "G3" , "score": 0.7 }
+                                                ,
+                                                "window" : { "tokens_preceeding" : 5 , "tokens_following" : 5 }
+                                                ,
+                                                "find": { "token":["grade"] }
+                                                ,
+                                                "refine" : {
+                                                        "GRADE_DIFFERENTIATION_G3_plus" : {
+                                                                "output": { "score": 0.9 }
+                                                        }
+                                                }
+                                                ,
+                                                "action" : ["flush","clear"]
+                                        }
+                                }
+                        }
+                }
+        }
+}
