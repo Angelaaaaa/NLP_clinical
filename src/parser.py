@@ -102,6 +102,7 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
                 for i in paragraph:
                     counter += 1
                     if i in [i.lower() for i in cmd["find"]["token"]]:
+                        print("token: "+ str(i) ,counter)
                         resultList.append((i,counter))
         if"output" in cmd.keys():
             tempdict = cmd["output"]
@@ -140,21 +141,22 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
     # if resultList == []:
     #     outputQ.put((searchlevel,'not found','not found',0))
     return resultList
+
 def put_value_into_outputQ(outputQ, index,k, v):
     outputQ.loc[index, k] = v
     outputQ.loc[index,"doc_id"] = docID
-    print(outputQ)
+    # print(outputQ)
 
 def parseRefine(searchLevel,input_dict,paragraph,outputQ):
     refineSearchLevel = ""
     searchDict = {}
-    print(searchLevel)
     for query, cmd in input_dict.items():
         refineSearchLevel = query
         searchDict[query] = parseRefineSearch(searchLevel+"->"+refineSearchLevel, cmd, paragraph,outputQ)
 
         if ("refine" in query):
             parseRefine(searchLevel+refineSearchLevel, cmd,paragraph,outputQ)
+            print("refine: " + searchLevel)
 
 
 def parseRegex(cmd,paragraph):
@@ -182,7 +184,7 @@ def parseQuery(input_dict,paragraph,outputQ):
     for query, cmd in input_dict.items():
         # if re.findall("^.*search.*$", query):
         searchLevel = query
-        print(searchLevel)
+        print("search: " + searchLevel)
         searchDict[query] = parseSearch(searchLevel,cmd,paragraph,outputQ)
 
         # if ("otherwise" == query):
