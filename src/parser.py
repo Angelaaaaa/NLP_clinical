@@ -96,15 +96,15 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
     counter = 0
     temp_point = 0
     # assume search defo has attribute "find" and "output"
-    words_preceeding = len(paragraph)
+    tokens_preceeding = len(paragraph)
 
-    words_following = len(paragraph)
+    tokens_following = len(paragraph)
     if type(cmd) == dict:
         if ("window" in cmd.keys()):
-            if "words_preceeding" in cmd["window"].keys():
-                words_preceeding = int(cmd["window"]["words_preceeding"])
-            if "words_following" in cmd["window"].keys():
-                words_following = int(cmd["window"]["words_following"])
+            if "tokens_preceeding" in cmd["window"].keys():
+                tokens_preceeding = int(cmd["window"]["tokens_preceeding"])
+            if "tokens_following" in cmd["window"].keys():
+                tokens_following = int(cmd["window"]["tokens_following"])
         if "find" in cmd.keys():
             if "token" in cmd["find"].keys():
                 for i in paragraph:
@@ -122,15 +122,15 @@ def parseRefineSearch(searchlevel,cmd,paragraph,outputQ):
         if ("refine" in cmd.keys()):
             for keyword, pointer in resultList:
                 tempdict = cmd["find"]
-                if pointer - words_preceeding < 0:
+                if pointer - tokens_preceeding < 0:
                     temp1 = pointer
                 else:
-                    temp1 = pointer - words_preceeding
+                    temp1 = pointer - tokens_preceeding
 
-                if pointer + words_following > len(paragraph) - 1:
+                if pointer + tokens_following > len(paragraph) - 1:
                     temp2 = pointer
                 else:
-                    temp2 = pointer + words_following
+                    temp2 = pointer + tokens_following
                 point = temp1
                 for k, v in tempdict.items():
                     # k = k.lower().translate(str.maketrans('','',string.punctuation))
