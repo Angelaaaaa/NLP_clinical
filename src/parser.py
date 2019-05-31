@@ -5,8 +5,11 @@ import re
 import json
 import csv
 import tokenize
-
-
+import nltk
+# nltk.download('punkt')
+from nltk.classify import NaiveBayesClassifier
+from nltk.tokenize import regexp
+word_tokenizer = regexp.WhitespaceTokenizer()
 docID = ""
 index_tracker = {}
 input_dict = {}
@@ -21,6 +24,8 @@ def find_column_name(input_dict,column_name):
 
 
 def init(csv_file_name,config_file_name):
+    global csv_file
+    csv_file = csv_file_name
     fo = open(config_file_name, 'r')
     global input_dict
     input_dict = json.load(fo)
@@ -31,7 +36,7 @@ def init(csv_file_name,config_file_name):
         for key,value in item.items():
             if key not in row:
                 row.append(key)
-    with open(csv_file_name, 'w') as csvfile:
+    with open(csv_file, 'w') as csvfile:
         filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
         filewriter.writerow(row)
@@ -51,7 +56,7 @@ def clear(outputQ):
         outputQ.drop(outputQ.index, inplace=True)
 
 def flush(outputQ):
-    outputQ.to_csv('persons.csv', mode='a', header=False)
+    outputQ.to_csv(csv_file, mode='a', header=False)
 
 
 def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
@@ -164,11 +169,12 @@ def parseOtherwise(searchLevel,input_dict,tokens,outputQ):
 
 def readtokens(clinical_note_file_name):
     fo = open(clinical_note_file_name , "r")
-    lines = str(fo.read().lower().translate(str.maketrans('','',string.punctuation))).split()
-    # lines = str(fo.read().lower()).split()
-    # lines = tokenize.tokenize(fo.readlines())
-    # print(lines)
-    return lines
+    # lines = str(fo.read().lower().translate(str.maketrans('','',string.punctuation))).split()
+    tokens =[word.lower() for word in  nltk.word_tokenize(fo.read())]
+
+
+    print(tokens)
+    return tokens
 
 
 

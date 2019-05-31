@@ -34,6 +34,8 @@ HEENT:  Head is atraumatic and normocephalic.  Pupils are equal, round, and reac
 
 NECK:  Supple.  Full painless nontender range of motion.
 
+grade of differentiation: Moderately
+
 CHEST:  Tight wheezing and retractions heard bilaterally.
 
 HEART:  Regular without rubs or murmurs.
@@ -52,4 +54,5 @@ NEUROLOGIC:  Symmetric face, cooperative, and age appropriate. old
 
 MEDICAL DECISION MAKING:  The differential entertained on this patient includes reactive airways disease, viral syndrome, and foreign body pneumonia.  He is evaluated in the emergency department with continuous high-dose albuterol, Decadron by mouth, pulse oximetry, and close observation.  Chest x-ray reveals bronchial thickening, otherwise no definite infiltrate.  She is further treated in the emergency department with continued breathing treatments.  At 0048 hours, he has continued tight wheezes with saturations 99%, but ED sats are 92% with coughing spells.  Based on the above, the hospitalist was consulted and accepts this patient for admission to the hospital with the working diagnosis of respiratory distress and asthma.
 
-grade of differentiation: Moderately
+
+grade/differentiation : poor

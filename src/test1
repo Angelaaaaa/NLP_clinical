@@ -1,6 +1,6 @@
 {
         "GRADE_DIFFERENTIATION": {
-                "find": { "token":["differentiation","differentiated"] }
+                "find": { "token":["differentiation","differentiated","grade/differentiation"] }
                 ,
                 "refine" : {
                         "GRADE_DIFFERENTIATION_G2" : {
