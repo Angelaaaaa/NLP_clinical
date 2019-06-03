@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea2e763-a93d-4660-80ca-0432a6890e46" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt" afterPath="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt" />
-      <change beforePath="$PROJECT_DIR$/src/parser.py" afterPath="$PROJECT_DIR$/src/parser.py" />
-      <change beforePath="$PROJECT_DIR$/src/persons.csv" afterPath="$PROJECT_DIR$/src/persons.csv" />
-      <change beforePath="$PROJECT_DIR$/src/test1" afterPath="$PROJECT_DIR$/src/test1" />
+      <change beforePath="$PROJECT_DIR$/src/notes" afterPath="$PROJECT_DIR$/src/notes" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parser.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1825">
@@ -68,8 +64,8 @@
       <file leaf-file-name="test1" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -117,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notes" pinned="false" current-in-tab="false">
+      <file leaf-file-name="notes" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/notes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+            <state relative-caret-position="195">
+              <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -192,12 +188,12 @@
         <option value="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-344.txt" />
         <option value="$PROJECT_DIR$/src/newtest" />
         <option value="$PROJECT_DIR$/src/test" />
-        <option value="$PROJECT_DIR$/src/notes" />
         <option value="$PROJECT_DIR$/src/persons.csv" />
         <option value="$PROJECT_DIR$/src/tests.py" />
         <option value="$PROJECT_DIR$/src/parser.py" />
         <option value="$PROJECT_DIR$/src/test1" />
         <option value="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt" />
+        <option value="$PROJECT_DIR$/src/notes" />
       </list>
     </option>
   </component>
@@ -566,24 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#115#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/problems">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -618,14 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -642,10 +612,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#115#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1825">
           <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding />
         </state>
       </provider>

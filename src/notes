@@ -10,3 +10,6 @@ action: flush, clear
 
 one single unit
 fix find and its window, find the upper level not the same level
+
+statistics 
+for every unique token per document, include parameter(window size, dault(5)), pass patameter in init (stat_window).
