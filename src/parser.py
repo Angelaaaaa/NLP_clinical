@@ -1,5 +1,6 @@
 import json
 import string
+import re
 import pandas as pd
 import re
 import json
@@ -13,6 +14,8 @@ word_tokenizer = regexp.WhitespaceTokenizer()
 docID = ""
 index_tracker = {}
 input_dict = {}
+import yaml
+
 # initialise
 def find_column_name(input_dict,column_name):
     if type(input_dict) == dict:
@@ -28,10 +31,13 @@ def init(csv_file_name,config_file_name):
     csv_file = csv_file_name
     fo = open(config_file_name, 'r')
     global input_dict
-    input_dict = json.load(fo)
+    # input_dict = json.load(fo)
+    input_dict = yaml.safe_load(fo)
+    print(input_dict)
     column_name= []
     find_column_name(input_dict,column_name)
     row = ["doc_id"]
+
     for item in column_name:
         for key,value in item.items():
             if key not in row:
@@ -84,21 +90,79 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                 temp2 = len(tokens)
             else:
                 temp2 = pointer + tokens_following
-
             if "token" in cmd["find"].keys():
-                for i in tokens[temp1:temp2]:
-                    counter += 1
-                    if i in [i.lower() for i in cmd["find"]["token"]]:
-                        resultList.append((i,counter))
-                        print("token: "+ i)
+                tokenlist = cmd["find"]["token"]
+                # case 1 token is a token
+                if type(tokenlist) == str:
+                    if (" " not in tokenlist):
+                        for i in tokens[temp1:temp2]:
+                            counter += 1
+                            if i == tokenlist.lower():
+                                resultList.append((i, counter))
+                                print("token: " + i)
+                    else:
+                        length = len(tokenlist.split(" "))
+                        for i in tokens[temp1:temp2]:
+                            counter += 1
+                            if i == tokenlist.split(" ")[0].lower():
+                                flag = 0
+                                for j in range(1, length - 1):
+                                    if tokens[temp1 + counter + j - 1] == tokenlist.split(" ")[j].lower():
+                                        flag = 1
+                                        continue
+                                    else:
+                                        flag = 0
+                                        break
+                                if flag == 1:
+                                    resultList.append((tokenlist, counter))
+                                    print("token: " + tokenlist)
+
+                # case 2 token is a list of token
+                else:
+                    for token in tokenlist:
+                        print(token)
+                        if (" " not in token):
+                            for i in tokens[temp1:temp2]:
+                                counter += 1
+                                if i == token.lower():
+                                    resultList.append((i,counter))
+                                    print("token: "+ i)
+                        else:
+                            length = len(token.split(" "))
+
+                            print("length = " + str(length))
+                            for i in tokens[temp1:temp2]:
+                                counter += 1
+                                if i == token.split(" ")[0].lower():
+                                    flag = 0
+                                    for j in range (1, length-1):
+                                        if tokens[temp1+counter+j-1] == token.split(" ")[j].lower():
+                                            flag = 1
+                                            continue
+                                        else:
+                                            flag = 0
+                                            break
+                                    if flag == 1:
+                                        resultList.append((token,counter))
+                                        print("token: "+ token)
+
 
         if"output" in cmd.keys():
             tempdict = cmd["output"]
             for k, v in tempdict.items():
                 index = index_tracker[k]
-                put_value_into_outputQ(outputQ, index, k, v)
-                index += 1
-                index_tracker[k] = index
+                if v[0] == "^" and v[-1] == "$":
+                    for i in tokens[temp1:temp2]:
+                        res = re.match(v,i)
+                        if res!=None:
+                            put_value_into_outputQ(outputQ, index, k, res.group())
+                            index += 1
+                            index_tracker[k] = index
+
+                else:
+                    put_value_into_outputQ(outputQ, index, k, v)
+                    index += 1
+                    index_tracker[k] = index
         if ("refine" in cmd.keys()):
                 for i in resultList:
                     # searchlevel = cmd["refine"].keys()
@@ -179,14 +243,12 @@ def readtokens(clinical_note_file_name):
 
 
 # outputQ
-def parserFile(doc_id,config_file_name,clinical_note_file_name):
+def parserFile(doc_id,clinical_note_file_name):
     global docID
     docID = doc_id
-    fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
     tokens = readtokens(clinical_note_file_name)
-    input_dict = json.load(fo)
-    value = parseQuery(input_dict,tokens,outputQ)
+    parseQuery(input_dict,tokens,outputQ)
 
 def processDocument(docID,content):
 
@@ -199,14 +261,12 @@ def processDocument(docID,content):
     parseQuery(input_dict,tokens,outputQ)
 
 
-def parser(doc_id,config_file_name,tokens):
+def parser(doc_id,tokens):
     docID = doc_id
-
-    tokens = str(tokens.lower().translate(str.maketrans('','',string.punctuation))).split()
-    fo = open(config_file_name, 'r')
+    # tokens = str(tokens.lower().translate(str.maketrans('','',string.punctuation))).split()
+    # fo = open(config_file_name, 'r')
     outputQ = pd.DataFrame( columns=index_tracker.keys())
-    input_dict = json.load(fo)
+    # input_dict = json.load(fo)
     parseQuery(input_dict,tokens,outputQ)
-
-
     print(outputQ)
+

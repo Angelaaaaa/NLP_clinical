@@ -1,5 +1,4 @@
-directory = '/Users/yuanpan/Documents/NLP_project/input/mttest/mtsamples-type-3-sample-343.txt'
-file_name = "test"
+
 import json
 import csv
 

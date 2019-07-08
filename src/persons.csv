@@ -1,4 +1,4 @@
-doc_id,data_point,value,score
-0,jdfiks,GRADE_DIFFERENTIATION,G2,0.7
-0,jdfiks,GRADE_DIFFERENTIATION,G3,0.7
-0,jdfiks,GRADE_DIFFERENTIATION,G3,0.7
+doc_id,drug_dose_unit,drug_name
+0,jdfiks,100,jaja
+0,jdfiks,,jaja
+0,djks,15,jaja

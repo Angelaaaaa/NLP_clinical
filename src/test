@@ -1,58 +1,18 @@
-{
-	"my_search_gender": {
-		"find": {"token":["gender"]}
-		,
-		"output": {"gender":"found"}
-		,
-		"refine": {
-			"my_search_gender_male": {
-				"window": { "tokens_following": 50 } ,
-				"find": { "token":["male"] } ,
-				"output" : { "gender" : "male" }
-			}
-			,
-			"my_search_gender_female": {
-				"window": { "tokens_following": 50 } ,
-				"find": { "token":["female"] } ,
-				"output" : { "gender" : "female" }
-			}
-		 }
-		},
+drug_list:
+    find:
+        token:
+        - "MEDICAL DECISION MAKING"
+        - "Hydroxyzine"
+    refine:
+        dose_unit:
+            window:
+                tokens_following: 5
+            find:
+                token: 'mg'
+            output:
+                drug_dose_unit: '^[0-9]+$'
+                drug_name: "jaja"
 
-	"my_search_lungs": {
-		"find": {"token":["lung","lungs"]}
-		,
-		"refine": {
-			"my_search_status_clear": {
-				"window": { "tokens_following": 50 } ,
-				"find": { "token":["clear"] } ,
-				"output" : { "lung_status" : "clear" }
-				,
-				"refine": {
-					"one_more_search_1": {
-						"window": { "tokens_preceeding": 50,"tokens_following": 50 } ,
-                        "find": { "token":["clear"] } ,
-                        "output" : { "extra" : "TRUE" }
-
-
-
-					}
-				}
-			}
-			,
-			"my_search_status_lower": {
-				"window": { "tokens_following": 50 } ,
-				"find": { "token":["lower"] } ,
-				"output" : { "lung_status" : "lower" }
-			}
-			,
-			"my_search_status_breath": {
-				"window": { "tokens_following": 50 } ,
-				"find": { "token":["breath sounds"] } ,
-				"output" : { "lung_status" : "breath sounds issues" },
-				"action": ["flush","clear"]
-			}
-
-		}
-	}
-}
+            action:
+                - "flush"
+                - "clear"
