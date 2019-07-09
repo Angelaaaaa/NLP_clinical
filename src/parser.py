@@ -49,6 +49,7 @@ def init(csv_file_name,config_file_name):
     with open(csv_file, 'w') as csvfile:
         filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        filewriter.writerow(row)
 
     for i in row:
         index_tracker[i] = 0
@@ -98,99 +99,126 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                 tokenlist = cmd["find"]["token"]
                 # case 1 token is a token
                 if type(tokenlist) == str:
-                    if (" " not in tokenlist):
-                        for i in tokens[temp1:temp2]:
-                            counter += 1
-                            if i == tokenlist.lower():
-                                resultList.append((i, counter))
-                                print("token: " + i)
+                    if tokenlist[0] == "^" or tokenlist[-1] == "$" or "+" in tokenlist or "\\" in tokenlist:
+                        res = re.findall(tokenlist, " ".join(tokens[temp1:temp2]))
+                        if res != None:
+                            for i in res:
                                 index = index_tracker[searchlevel]
                                 put_value_into_outputQ(outputQ, index, searchlevel, i)
                                 index += 1
                                 index_tracker[searchlevel] = index
-
-
-
+                                print("token: " + str(i))
                     else:
-                        length = len(tokenlist.split(" "))
-                        for i in tokens[temp1:temp2]:
-                            counter += 1
-                            if i == tokenlist.split(" ")[0].lower():
-                                flag = 0
-                                for j in range(1, length - 1):
-                                    if tokens[temp1 + counter + j - 1] == tokenlist.split(" ")[j].lower():
-                                        flag = 1
-                                        continue
-                                    else:
-                                        flag = 0
-                                        break
-                                if flag == 1:
-                                    resultList.append((tokenlist, counter))
-                                    print("token: " + tokenlist)
+                        if (" " not in tokenlist):
+                            for i in tokens[temp1:temp2]:
+                                counter += 1
+                                if i == tokenlist.lower():
+                                    resultList.append((i, counter))
+                                    print("token: " + i)
                                     index = index_tracker[searchlevel]
                                     put_value_into_outputQ(outputQ, index, searchlevel, i)
                                     index += 1
                                     index_tracker[searchlevel] = index
 
-                # case 2 token is a list of token
-                else:
-                    for token in tokenlist:
-                        print(token)
-                        if (" " not in token):
-                            for i in tokens[temp1:temp2]:
-                                counter += 1
-                                if i == token.lower():
-                                    resultList.append((i,counter))
-                                    print("token: "+ i)
-                                    index = index_tracker[searchlevel]
-                                    put_value_into_outputQ(outputQ, index, searchlevel, i)
-                                    index += 1
-                                    index_tracker[searchlevel] = index
+
+
                         else:
-                            length = len(token.split(" "))
-
+                            length = len(tokenlist.split(" "))
                             for i in tokens[temp1:temp2]:
                                 counter += 1
-                                if i == token.split(" ")[0].lower():
+                                if i == tokenlist.split(" ")[0].lower():
                                     flag = 0
-                                    for j in range (1, length-1):
-                                        if tokens[temp1+counter+j-1] == token.split(" ")[j].lower():
+                                    for j in range(1, length - 1):
+                                        if tokens[temp1 + counter + j - 1] == tokenlist.split(" ")[j].lower():
                                             flag = 1
                                             continue
                                         else:
                                             flag = 0
                                             break
                                     if flag == 1:
-                                        resultList.append((token,counter))
-                                        print("token: "+ token)
+                                        resultList.append((tokenlist, counter))
+                                        print("token: " + tokenlist)
                                         index = index_tracker[searchlevel]
                                         put_value_into_outputQ(outputQ, index, searchlevel, i)
                                         index += 1
                                         index_tracker[searchlevel] = index
+
+                # case 2 token is a list of token
+                else:
+                    for token in tokenlist:
+
+                        if token[0] == "^" or token[-1] == "$" or "+" in token or "\\" in token:
+                            res = re.findall(token, " ".join(tokens[temp1:temp2]))
+                            if res != None:
+                                for i in res:
+                                    index = index_tracker[searchlevel]
+                                    put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                    index += 1
+                                    index_tracker[searchlevel] = index
+                                    print("token: "+str(i))
+
+
+
+                        else:
+                            if (" " not in token):
+                                for i in tokens[temp1:temp2]:
+                                    counter += 1
+                                    if i == token.lower():
+                                        resultList.append((i,counter))
+                                        print("token: "+ i)
+                                        index = index_tracker[searchlevel]
+                                        put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                        index += 1
+                                        index_tracker[searchlevel] = index
+                            else:
+                                length = len(token.split(" "))
+
+                                print("length = " + str(length))
+                                for i in tokens[temp1:temp2]:
+                                    counter += 1
+                                    if i == token.split(" ")[0].lower():
+                                        flag = 0
+                                        for j in range (1, length-1):
+                                            if tokens[temp1+counter+j-1] == token.split(" ")[j].lower():
+                                                flag = 1
+                                                continue
+                                            else:
+                                                flag = 0
+                                                break
+                                        if flag == 1:
+                                            resultList.append((token,counter))
+                                            print("token: "+ token)
+                                            index = index_tracker[searchlevel]
+                                            put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                            index += 1
+                                            index_tracker[searchlevel] = index
 
 
         if"output" in cmd.keys():
             tempdict = cmd["output"]
             for k, v in tempdict.items():
                 index = index_tracker[k]
-                if v[0] == "^" and v[-1] == "$":
-
-                    # res = re.match("^[1-9]+$","ecision making dejud 15 mg")
-                    # print(res)
-                    # if res!=None:
-                    #     print("hahahah"+str(res.group()))
-
-                    for i in tokens[temp1:temp2]:
-                        res = re.match(v,i)
-                        if res!=None:
-                            put_value_into_outputQ(outputQ, index, k, res.group())
+                # if it is a regex sentence (need to fix this if statement)
+                if v[0] == "^" or v[-1] == "$" or "+" in v or "\\" in v:
+                    res = re.findall(v," ".join(tokens[temp1:temp2]))
+                    if res!=None:
+                        for i in res:
+                            put_value_into_outputQ(outputQ, index, k, i)
                             index += 1
                             index_tracker[k] = index
+
+                    # for i in tokens[temp1:temp2]:
+                    #     res = re.match(v,i)
+                    #     if res!=None:
+                    #         put_value_into_outputQ(outputQ, index, k, res.group())
+                    #         index += 1
+                    #         index_tracker[k] = index
 
                 else:
                     put_value_into_outputQ(outputQ, index, k, v)
                     index += 1
                     index_tracker[k] = index
+
         if ("refine" in cmd.keys()):
                 for i in resultList:
                     # searchlevel = cmd["refine"].keys()

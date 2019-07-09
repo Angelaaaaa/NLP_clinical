@@ -2,7 +2,7 @@ drug_list:
     find:
         token:
         - "MEDICAL DECISION MAKING"
-        - "Hydroxyzine"
+        - "[0-9]+"
     refine:
         dose_unit:
             window:
@@ -10,7 +10,7 @@ drug_list:
             find:
                 token: 'mg'
             output:
-                drug_dose_unit: '^[0-9]+$'
+                drug_dose_unit: '[0-9]+'
                 drug_name: "jaja"
 
             action:
