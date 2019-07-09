@@ -4,13 +4,8 @@
     <list default="true" id="eea2e763-a93d-4660-80ca-0432a6890e46" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt" afterPath="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt" />
-      <change beforePath="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-344.txt" afterPath="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-344.txt" />
-      <change beforePath="$PROJECT_DIR$/src/init.py" afterPath="$PROJECT_DIR$/src/init.py" />
-      <change beforePath="$PROJECT_DIR$/src/notes" afterPath="$PROJECT_DIR$/src/notes" />
       <change beforePath="$PROJECT_DIR$/src/parser.py" afterPath="$PROJECT_DIR$/src/parser.py" />
       <change beforePath="$PROJECT_DIR$/src/persons.csv" afterPath="$PROJECT_DIR$/src/persons.csv" />
-      <change beforePath="$PROJECT_DIR$/src/test" afterPath="$PROJECT_DIR$/src/test" />
-      <change beforePath="$PROJECT_DIR$/src/tests.py" afterPath="$PROJECT_DIR$/src/tests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,26 +17,26 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NLP_project$readinput.coverage" NAME="readinput Coverage Results" MODIFIED="1558437799442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/NLP_project$parser.coverage" NAME="parser Coverage Results" MODIFIED="1559006802463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/NLP_project$tests.coverage" NAME="tests Coverage Results" MODIFIED="1562407237901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/NLP_project$tests.coverage" NAME="tests Coverage Results" MODIFIED="1562681901454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/NLP_project$init.coverage" NAME="init Coverage Results" MODIFIED="1559006842424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persons.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="persons.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/persons.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -50,11 +45,21 @@
       <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="260" column="29" lean-forward="false" selection-start-line="260" selection-start-column="29" selection-end-line="260" selection-end-column="29" />
+            <state relative-caret-position="1892">
+              <caret line="198" column="29" lean-forward="false" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="re.py" pinned="false" current-in-tab="false">
+        <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="168" column="4" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +68,17 @@
         <entry file="file://$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,8 +87,8 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,13 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>regular</find>
-      <find>parseOtherwise</find>
-      <find>parseSearch</find>
-      <find>female</find>
-      <find>put</find>
-      <find>input_dict</find>
-      <find>OUTPUT</find>
       <find>put_value_into_outputQ</find>
       <find>parseRefineSearchparseRefineSearch</find>
       <find>parserefinesearch</find>
@@ -140,6 +148,13 @@
       <find>dose_unit</find>
       <find>mg</find>
       <find>output</find>
+      <find>regex</find>
+      <find>re</find>
+      <find>re.fin</find>
+      <find>re.</find>
+      <find>search</find>
+      <find>parseSearch</find>
+      <find>length =</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/input/mtsamples</dir>
@@ -161,15 +176,15 @@
         <option value="$PROJECT_DIR$/input/mtsamples/mtsamples-type-3-sample-1211.txt" />
         <option value="$PROJECT_DIR$/src/problems" />
         <option value="$PROJECT_DIR$/src/newtest" />
-        <option value="$PROJECT_DIR$/src/persons.csv" />
         <option value="$PROJECT_DIR$/src/test1" />
         <option value="$PROJECT_DIR$/src/notes" />
         <option value="$PROJECT_DIR$/src/init.py" />
-        <option value="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt" />
-        <option value="$PROJECT_DIR$/src/parser.py" />
         <option value="$PROJECT_DIR$/src/test" />
-        <option value="$PROJECT_DIR$/src/tests.py" />
         <option value="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-344.txt" />
+        <option value="$PROJECT_DIR$/src/persons.csv" />
+        <option value="$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt" />
+        <option value="$PROJECT_DIR$/src/tests.py" />
+        <option value="$PROJECT_DIR$/src/parser.py" />
       </list>
     </option>
   </component>
@@ -448,7 +463,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -484,14 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1068">
@@ -521,7 +528,7 @@
         <state relative-caret-position="-682">
           <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -568,18 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests.py">
+    <entry file="file://$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-344.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -592,36 +591,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-344.txt">
+    <entry file="file://$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="390">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="260" column="29" lean-forward="false" selection-start-line="260" selection-start-column="29" selection-end-line="260" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input/mttest/mtsamples-type-3-sample-343.txt">
+    <entry file="file://$PROJECT_DIR$/src/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="168" column="4" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/persons.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="198" column="29" lean-forward="false" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
         </state>
       </provider>

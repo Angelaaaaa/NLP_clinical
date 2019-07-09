@@ -1,4 +1,4 @@
-doc_id,drug_dose_unit,drug_name
-0,jdfiks,100,jaja
-0,jdfiks,,jaja
-0,djks,15,jaja
+0,jdfiks,medical,,100,jaja
+1,jdfiks,hydroxyzine,,10,
+0,jdfiks,,,,jaja
+0,djks,medical,mg,15,jaja

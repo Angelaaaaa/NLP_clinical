@@ -20,8 +20,12 @@ import yaml
 def find_column_name(input_dict,column_name):
     if type(input_dict) == dict:
         for key,value in input_dict.items():
+            if type(value)==dict:
+                if "find" in value.keys():
+                    column_name.append(key)
             if(key == "output"):
-                column_name.append(value)
+                for i in value.keys():
+                    column_name.append(i)
             # print(key,column_name)
             find_column_name(value,column_name)
 
@@ -36,16 +40,15 @@ def init(csv_file_name,config_file_name):
     print(input_dict)
     column_name= []
     find_column_name(input_dict,column_name)
+    print("columnname"+ str(column_name))
     row = ["doc_id"]
-
     for item in column_name:
-        for key,value in item.items():
-            if key not in row:
-                row.append(key)
+        # for key,value in item.items():
+        if item not in row:
+            row.append(item)
     with open(csv_file, 'w') as csvfile:
         filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        filewriter.writerow(row)
 
     for i in row:
         index_tracker[i] = 0
@@ -81,6 +84,7 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                 tokens_following = int(cmd["window"]["tokens_following"])
 
         if "find" in cmd.keys():
+
             if pointer - tokens_preceeding < 0:
                 temp1 = pointer
             else:
@@ -100,6 +104,13 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                             if i == tokenlist.lower():
                                 resultList.append((i, counter))
                                 print("token: " + i)
+                                index = index_tracker[searchlevel]
+                                put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                index += 1
+                                index_tracker[searchlevel] = index
+
+
+
                     else:
                         length = len(tokenlist.split(" "))
                         for i in tokens[temp1:temp2]:
@@ -116,6 +127,10 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                                 if flag == 1:
                                     resultList.append((tokenlist, counter))
                                     print("token: " + tokenlist)
+                                    index = index_tracker[searchlevel]
+                                    put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                    index += 1
+                                    index_tracker[searchlevel] = index
 
                 # case 2 token is a list of token
                 else:
@@ -127,10 +142,13 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                                 if i == token.lower():
                                     resultList.append((i,counter))
                                     print("token: "+ i)
+                                    index = index_tracker[searchlevel]
+                                    put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                    index += 1
+                                    index_tracker[searchlevel] = index
                         else:
                             length = len(token.split(" "))
 
-                            print("length = " + str(length))
                             for i in tokens[temp1:temp2]:
                                 counter += 1
                                 if i == token.split(" ")[0].lower():
@@ -145,6 +163,10 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                                     if flag == 1:
                                         resultList.append((token,counter))
                                         print("token: "+ token)
+                                        index = index_tracker[searchlevel]
+                                        put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                        index += 1
+                                        index_tracker[searchlevel] = index
 
 
         if"output" in cmd.keys():
@@ -152,6 +174,12 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
             for k, v in tempdict.items():
                 index = index_tracker[k]
                 if v[0] == "^" and v[-1] == "$":
+
+                    # res = re.match("^[1-9]+$","ecision making dejud 15 mg")
+                    # print(res)
+                    # if res!=None:
+                    #     print("hahahah"+str(res.group()))
+
                     for i in tokens[temp1:temp2]:
                         res = re.match(v,i)
                         if res!=None:
