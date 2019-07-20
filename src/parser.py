@@ -56,6 +56,17 @@ def init(csv_file_name,config_file_name):
     return input_dict
     # csvfile.close()
 
+def isNaturalLanguage(str):
+    str = str.split(" ")
+    # print("".join(str))
+    str = "".join(str)
+    valid = re.match('^[\w-]+$', str) is not None
+    print(valid)
+    return valid
+
+
+
+
 
 
 
@@ -67,6 +78,14 @@ def clear(outputQ):
 
 def flush(outputQ):
     outputQ.to_csv(csv_file, mode='a', header=False)
+
+
+def isNaturalLanguage(str):
+    str = str.split(" ")
+    str = "".join((str))
+    valid = re.match('^[\w-]+$', str) is not None
+    print(valid)
+    return valid
 
 
 def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
@@ -99,7 +118,8 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                 tokenlist = cmd["find"]["token"]
                 # case 1 token is a token
                 if type(tokenlist) == str:
-                    if tokenlist[0] == "^" or tokenlist[-1] == "$" or "+" in tokenlist or "\\" in tokenlist:
+                    # if tokenlist[0] == "^" or tokenlist[-1] == "$" or "+" in tokenlist or "\\" in tokenlist:
+                    if isNaturalLanguage(tokenlist) is False:
                         res = re.findall(tokenlist, " ".join(tokens[temp1:temp2]))
                         if res != None:
                             for i in res:
@@ -146,8 +166,7 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
                 # case 2 token is a list of token
                 else:
                     for token in tokenlist:
-
-                        if token[0] == "^" or token[-1] == "$" or "+" in token or "\\" in token:
+                        if isNaturalLanguage(token) is False:
                             res = re.findall(token, " ".join(tokens[temp1:temp2]))
                             if res != None:
                                 for i in res:
@@ -199,7 +218,7 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer):
             for k, v in tempdict.items():
                 index = index_tracker[k]
                 # if it is a regex sentence (need to fix this if statement)
-                if v[0] == "^" or v[-1] == "$" or "+" in v or "\\" in v:
+                if isNaturalLanguage(v) is False:
                     res = re.findall(v," ".join(tokens[temp1:temp2]))
                     if res!=None:
                         for i in res:

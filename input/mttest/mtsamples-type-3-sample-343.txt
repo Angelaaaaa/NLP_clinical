@@ -44,7 +44,7 @@ ABDOMEN:  Soft, nontender.  No masses.  No hepatosplenomegaly.
 
 gender: female
 
-GENITALIA:  Male gender is present on a visual examination.
+GENITALIA:  Male gender is mg present on a visual examination.
 
 Lung:  No clear bruising, lung_status or clear extra.
 
