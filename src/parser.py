@@ -77,7 +77,7 @@ def clear(outputQ):
         outputQ.drop(outputQ.index, inplace=True)
 
 def flush(outputQ):
-    outputQ.to_csv(csv_file, mode='a', header=False)
+    outputQ.to_csv(csv_file, mode='a', header=False,index=False)
     clear(outputQ)
 
 
