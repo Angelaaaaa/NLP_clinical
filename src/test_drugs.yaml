@@ -1,0 +1,34 @@
+drug_name:
+    find: 
+        token:
+        - Hydroxyzine
+        - Claritin
+        - Protonix
+        - Fluoxetine
+        - Ergocalciferol
+        - Actonel
+        - Zantac
+        - Zocor
+        - Valsartan
+        - Amlodipine
+        - Plavix
+        - Aspirin
+        - Lasix
+        - Levothyroxine
+    refine:
+        dose_unit:
+            window:
+                tokens_preceeding: 0
+                tokens_following: 5
+            find: 
+                token: 'mg'
+            refine:
+                dose:
+                    window: 
+                        tokens_preceeding: 4
+                        tokens_following: 0
+                    find:
+                        token: '[0-9]+'
+                    action: 'flush'
+
+                    

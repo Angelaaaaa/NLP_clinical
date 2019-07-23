@@ -8,7 +8,9 @@ drug_list:
             window:
                 tokens_following: 5
             find:
-                token: 'mg'
+                token:
+                - 'mg'
+                - 'grade/differentiation'
             output:
                 drug_dose_unit: '[0-9]+'
                 drug_name: "jaja"
@@ -16,3 +18,17 @@ drug_list:
             action:
                 - "flush"
                 - "clear"
+
+
+     - Fluoxetine
+        - Ergocalciferol
+        - Protonix
+        - Actonel
+        - Zantac
+        - Zocor
+        - Valsartan
+        - Amlodipine
+        - Plavix
+        - Aspirin
+        - Lasix
+        - Levothyroxine
