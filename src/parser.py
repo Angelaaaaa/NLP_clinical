@@ -267,6 +267,8 @@ def parseRefine(cmd,resultList,tokens,outputQ,pointer,temp1,temp2):
 
 
 def put_value_into_outputQ(outputQ, index,k, v):
+    if "," in v:
+        v = "\""+v + "\""
     outputQ.loc[index, k] = v
     outputQ.loc[index,"doc_id"] = docID
     # print(outputQ)
