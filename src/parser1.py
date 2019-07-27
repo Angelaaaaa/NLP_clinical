@@ -12,6 +12,8 @@ word_tokenizer = regexp.WhitespaceTokenizer()
 docID = ""
 index_tracker = {}
 input_dict = {}
+df = pd.DataFrame(columns=index_tracker.keys())
+
 import yaml
 
 # initialise
@@ -68,17 +70,17 @@ def clear(outputQ):
         outputQ.drop(outputQ.index, inplace=True)
 
 def flush(outputQ):
-    # print(outputQ)
     outputQ.to_csv("test", mode='a', header=False,index=False)
+    global df
     df = outputQ.dropna(subset=[outputQ.columns[-1]])
     df.to_csv(csv_file, mode='a', header=False,index=False)
     clear(outputQ)
+
 
 def isNaturalLanguage(str):
     str = str.split(" ")
     str = "".join((str))
     valid = re.match('^[\w-]+$', str) is not None
-    # print(valid)
     return valid
 
 def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
@@ -118,12 +120,10 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                 index_tracker[searchlevel] = index
                                 print("token: " + str(i))
                                 parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2,level)
-                        else:
-                            flush(outputQ)
+
                     else:
                         if (" " not in tokenlist):
-                            # if tokenlist.lower() not in tokens[temp1:temp2]:
-                            #     flush(outputQ)
+
                             for i in tokens[temp1:temp2]:
                                 counter += 1
                                 if i == tokenlist.lower():
@@ -136,8 +136,7 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                     parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2,level)
                         else:
                             length = len(tokenlist.split(" "))
-                            # if tokenlist.lower() not in tokens[temp1:temp2]:
-                            #     flush(outputQ)
+
                             for i in tokens[temp1:temp2]:
                                 counter += 1
                                 if i == tokenlist.split(" ")[0].lower():
@@ -172,13 +171,9 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                     index += 1
                                     index_tracker[searchlevel] = index
                                     print("token: "+str(i))
-                            else:
-                                flush(outputQ)
 
                         else:
                             if (" " not in token):
-                                # if token.lower() not in tokens[temp1:temp2]:
-                                    # print(1)
 
                                 for i in tokens[temp1:temp2]:
                                     counter += 1
@@ -193,8 +188,7 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
 
                             else:
                                 length = len(token.split(" "))
-                                # if token.lower() not in tokens[temp1:temp2]:
-                                #     flush(outputQ)
+
                                 for i in tokens[temp1:temp2]:
                                     counter += 1
                                     if i == token.split(" ")[0].lower():
@@ -214,15 +208,11 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                             index += 1
                                             index_tracker[searchlevel] = index
                                             parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2,level)
-
-
-
     # if resultList == []:
     #     outputQ.put((searchlevel,'not found','not found',0))
     return resultList
 
 def parseRefine(cmd,resultList,tokens,outputQ,pointer,temp1,temp2,level):
-
     if "output" in cmd.keys():
         tempdict = cmd["output"]
         for k, v in tempdict.items():
@@ -241,8 +231,6 @@ def parseRefine(cmd,resultList,tokens,outputQ,pointer,temp1,temp2,level):
                 index_tracker[k] = index
 
     if ("refine" in cmd.keys()):
-        # for i in resultList:
-            # searchlevel = cmd["refine"].keys()
         for key in cmd["refine"].keys():
             print("search: " + key)
             parseSearch(key, cmd["refine"][key], tokens, outputQ, pointer + resultList[-1][1],level)
@@ -255,11 +243,12 @@ def parseRefine(cmd,resultList,tokens,outputQ,pointer,temp1,temp2,level):
 
 
 def put_value_into_outputQ(outputQ, index,k, v):
+    if outputQ.empty is True and df.empty is False:
+        outputQ.loc[0] = df.loc[0]
     if "," in v:
         v = "\""+v + "\""
     outputQ.loc[index, k] = v
     outputQ.loc[index,"doc_id"] = docID
-    # print(outputQ)
 
 def parseRegex(cmd,tokens):
     # print(cmd,tokens)
@@ -303,9 +292,7 @@ def parseOtherwise(searchLevel,input_dict,tokens,outputQ):
 
 def readtokens(clinical_note_file_name):
     fo = open(clinical_note_file_name , "r")
-    # lines = str(fo.read().lower().translate(str.maketrans('','',string.punctuation))).split()
     tokens =[word.lower() for word in  nltk.word_tokenize(fo.read())]
-    # print(tokens)
     return tokens
 
 # outputQ
