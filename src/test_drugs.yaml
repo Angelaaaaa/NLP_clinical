@@ -21,7 +21,9 @@ drug_name:
                 tokens_preceeding: 0
                 tokens_following: 5
             find: 
-                token: 'mg'
+                token:
+                - 'mg'
+                - 'micrograms'
             refine:
                 dose:
                     window: 
