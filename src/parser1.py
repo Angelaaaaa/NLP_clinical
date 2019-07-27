@@ -122,8 +122,8 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                             flush(outputQ)
                     else:
                         if (" " not in tokenlist):
-                            if tokenlist.lower() not in tokens[temp1:temp2]:
-                                flush(outputQ)
+                            # if tokenlist.lower() not in tokens[temp1:temp2]:
+                            #     flush(outputQ)
                             for i in tokens[temp1:temp2]:
                                 counter += 1
                                 if i == tokenlist.lower():
@@ -136,8 +136,8 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                     parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2,level)
                         else:
                             length = len(tokenlist.split(" "))
-                            if tokenlist.lower() not in tokens[temp1:temp2]:
-                                flush(outputQ)
+                            # if tokenlist.lower() not in tokens[temp1:temp2]:
+                            #     flush(outputQ)
                             for i in tokens[temp1:temp2]:
                                 counter += 1
                                 if i == tokenlist.split(" ")[0].lower():
@@ -177,8 +177,9 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
 
                         else:
                             if (" " not in token):
-                                if token.lower() not in tokens[temp1:temp2]:
-                                    print(1)
+                                # if token.lower() not in tokens[temp1:temp2]:
+                                    # print(1)
+
                                 for i in tokens[temp1:temp2]:
                                     counter += 1
                                     if i == token.lower():
@@ -192,8 +193,8 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
 
                             else:
                                 length = len(token.split(" "))
-                                if token.lower() not in tokens[temp1:temp2]:
-                                    flush(outputQ)
+                                # if token.lower() not in tokens[temp1:temp2]:
+                                #     flush(outputQ)
                                 for i in tokens[temp1:temp2]:
                                     counter += 1
                                     if i == token.split(" ")[0].lower():
