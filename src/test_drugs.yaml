@@ -23,6 +23,8 @@ drug_name:
             find: 
                 token:
                 - 'mg'
+                - 'mgs'
+                - 'm'
                 - 'micrograms'
             refine:
                 dose:
