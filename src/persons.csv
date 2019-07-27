@@ -1,7 +1,6 @@
 doc_id,drug_name,dose_unit,dose
 41-2280,hydroxyzine,mg,25
 41-2280,hydroxyzine,micrograms,2
-41-2280,hydroxyzine,mgs,25
 41-2280,claritin,mg,5
 41-2280,protonix,mg,40
 41-2280,fluoxetine,mg,20
@@ -10,8 +9,7 @@ doc_id,drug_name,dose_unit,dose
 41-2280,zocor,mg,40
 41-2280,valsartan,mg,80
 41-2280,amlodipine,mg,5
-41-2280,plavix,mgs,75
-41-2280,aspirin,mg,81
+41-2280,plavix,mg,81
 41-2280,lasix,mg,20
 41-2280,levothyroxine,micrograms,75
 91-1439,fluoxetine,mg,20

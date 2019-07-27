@@ -24,7 +24,6 @@ drug_name:
                 token:
                 - 'mg'
                 - 'micrograms'
-                - 'mgs'
             refine:
                 dose:
                     window: 
