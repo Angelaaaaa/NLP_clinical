@@ -11,4 +11,17 @@ parser.parserFile(doc_id = "95-520",clinical_note_file_name = "/Users/yuanpan/Do
 
 
 
-
+#
+# import nltk
+# from nltk.tokenize import regexp
+# word_tokenizer = regexp.WhitespaceTokenizer()
+#
+# import re
+# re.search(r"\b12\b", "12 23 45 6y").start()
+#
+#
+# #
+# # for i in re.finditer('[0-9]+',"12 23 45 6y"):
+# #     print(i.start())
+#
+#

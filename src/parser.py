@@ -88,10 +88,10 @@ def printlevel(level, prefix, content):
     level = column_name.index(level)
     str = ""
     for i in range(0, level):
-        str = str + "--------------------"
+        str = str + "\t\t\t"
     print(str +  prefix + ": "+content)
 def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
-
+    level = searchlevel
     resultList = []
     counter = 0
     temp_point = 0
@@ -130,12 +130,11 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
 
                     else:
                         if (" " not in tokenlist):
-
                             for i in tokens[temp1:temp2]:
                                 counter += 1
                                 if i == tokenlist.lower():
                                     resultList.append((i, counter))
-                                    print("token: " + i)
+                                    # print("token: " + i)
                                     printlevel(searchlevel,"token", i)
                                     index = index_tracker[searchlevel]
                                     put_value_into_outputQ(outputQ, index, searchlevel, i)
@@ -179,10 +178,12 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                     index += 1
                                     index_tracker[searchlevel] = index
                                     printlevel(searchlevel,"token",str(i))
+                                    parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2, level)
+
+
 
                         else:
                             if (" " not in token):
-
                                 for i in tokens[temp1:temp2]:
                                     counter += 1
                                     if i == token.lower():
@@ -238,6 +239,14 @@ def parseRefine(cmd,resultList,tokens,outputQ,pointer,temp1,temp2,level):
                 put_value_into_outputQ(outputQ, index, k, v)
                 index += 1
                 index_tracker[k] = index
+            if k == level:
+                index = index_tracker[k]
+                index-=1
+                index-=1
+                put_value_into_outputQ(outputQ, index, k, v)
+                index+=1
+                pd.options.display.width = 0
+
 
     if ("refine" in cmd.keys()):
 
