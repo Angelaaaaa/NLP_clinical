@@ -14,7 +14,7 @@ drug_name:
         - Plavix
         - Aspirin
         - Lasix
-        - Levothyroxine
+        - child pugh score
     output:
         drug_found: "TRUE"
     refine:

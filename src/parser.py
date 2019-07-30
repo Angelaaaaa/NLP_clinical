@@ -159,7 +159,7 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                         resultList.append((tokenlist, counter))
                                         printlevel(searchlevel,"token" , tokenlist)
                                         index = index_tracker[searchlevel]
-                                        put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                        put_value_into_outputQ(outputQ, index, searchlevel, tokenlist)
                                         index += 1
                                         index_tracker[searchlevel] = index
                                         parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2,level)
@@ -213,7 +213,7 @@ def parseSearch(searchlevel,cmd,tokens,outputQ,pointer, level):
                                             resultList.append((token,counter))
                                             printlevel(searchlevel,"token", token)
                                             index = index_tracker[searchlevel]
-                                            put_value_into_outputQ(outputQ, index, searchlevel, i)
+                                            put_value_into_outputQ(outputQ, index, searchlevel, token)
                                             index += 1
                                             index_tracker[searchlevel] = index
                                             parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2,level)
