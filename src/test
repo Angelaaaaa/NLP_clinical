@@ -2340,3 +2340,280 @@ fluoxetine,91-1439,mg,20
 41-2280,child pugh score,TRUE,TRUE,micrograms,TRUE,75,TRUE
 91-1439,fluoxetine,TRUE,TRUE,mg,TRUE,20,TRUE
 91-1439,,,TRUE,,,,
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,hydroxyzine,TRUE,,mg,TRUE,25,TRUE
+41-2280,child pugh score,,a
+41-2280,child pugh score,,a
+41-2280,child pugh score,,a
+41-2280,child pugh score,,a
+41-2280,child pugh score,,a
+41-2280,child pugh score,,a
+41-2280,hydroxyzine,mg,25
+41-2280,hydroxyzine,mgs,25
+41-2280,hydroxyzine,m,25
+41-2280,claritin,mg,5
+41-2280,protonix,mg,40
+41-2280,fluoxetine,mg,20
+41-2280,ergocalciferol,mg,35
+41-2280,actonel,,
+41-2280,zantac,mg,150
+41-2280,zocor,mg,40
+41-2280,valsartan,mg,80
+41-2280,amlodipine,mg,5
+41-2280,plavix,mgs,75
+41-2280,aspirin,mg,81
+41-2280,lasix,mg,20
+91-1439,fluoxetine,mg,20
+41-2280,hydroxyzine,mg,25,
+41-2280,,mgs,25,
+41-2280,,m,25,
+41-2280,claritin,mg,5,
+41-2280,protonix,mg,40,
+41-2280,fluoxetine,mg,20,
+41-2280,ergocalciferol,mg,35,
+41-2280,actonel,,,
+41-2280,zantac,mg,150,
+41-2280,zocor,mg,40,
+41-2280,valsartan,mg,80,
+41-2280,amlodipine,mg,5,
+41-2280,plavix,mgs,75,
+41-2280,aspirin,mg,81,
+41-2280,lasix,mg,20,
+91-1439,fluoxetine,mg,20,
+41-2280,hydroxyzine,mg,25,
+41-2280,,mgs,25,
+41-2280,,m,25,
+41-2280,claritin,mg,5,
+41-2280,protonix,mg,40,
+41-2280,hydroxyzine,mg,25,"['.', 'current', 'medications', ':', '1', '.', 'a', 'number', 'of', 'topical', 'creams', 'for', 'her', 'rash', '.', '2', '.', 'hydroxyzine', '25', 'mg', 'mgs', 'm', '4', 'times', 'a', 'day', '.', '3', '.', 'claritin', '5', 'mg', 'a', 'day', '.', '4', '.', 'fluoxetine', '20', 'mg']"
+41-2280,hydroxyzine,mgs,25,"['current', 'medications', ':', '1', '.', 'a', 'number', 'of', 'topical', 'creams', 'for', 'her', 'rash', '.', '2', '.', 'hydroxyzine', '25', 'mg', 'mgs', 'm', '4', 'times', 'a', 'day', '.', '3', '.', 'claritin', '5', 'mg', 'a', 'day', '.', '4', '.', 'fluoxetine', '20', 'mg', 'a']"
+41-2280,hydroxyzine,m,25,"['medications', ':', '1', '.', 'a', 'number', 'of', 'topical', 'creams', 'for', 'her', 'rash', '.', '2', '.', 'hydroxyzine', '25', 'mg', 'mgs', 'm', '4', 'times', 'a', 'day', '.', '3', '.', 'claritin', '5', 'mg', 'a', 'day', '.', '4', '.', 'fluoxetine', '20', 'mg', 'a', 'day']"
+41-2280,claritin,mg,5,"['her', 'rash', '.', '2', '.', 'hydroxyzine', '25', 'mg', 'mgs', 'm', '4', 'times', 'a', 'day', '.', '3', '.', 'claritin', '5', 'mg', 'a', 'day', '.', '4', '.', 'fluoxetine', '20', 'mg', 'a', 'day', '.', '5', '.', 'ergocalciferol', '800', 'international', 'units', 'a', 'day', '.']"
+41-2280,protonix,mg,40,"['fluoxetine', '20', 'mg', 'a', 'day', '.', '5', '.', 'ergocalciferol', '800', 'international', 'units', 'a', 'day', '.', '6', '.', 'protonix', '40', 'mg', 'a', 'day', '.', '7', '.', 'iron', 'sulfate', '1.2', 'cc', 'every', 'day', '.', '8', '.', 'actonel', '35', 'mg', 'once', 'a', 'week']"
+41-2280,fluoxetine,mg,20,"['mgs', 'm', '4', 'times', 'a', 'day', '.', '3', '.', 'claritin', '5', 'mg', 'a', 'day', '.', '4', '.', 'fluoxetine', '20', 'mg', 'a', 'day', '.', '5', '.', 'ergocalciferol', '800', 'international', 'units', 'a', 'day', '.', '6', '.', 'protonix', '40', 'mg', 'a', 'day', '.']"
+41-2280,ergocalciferol,mg,35,"['protonix', '40', 'mg', 'a', 'day', '.', '7', '.', 'iron', 'sulfate', '1.2', 'cc', 'every', 'day', '.', '8', '.', 'actonel', '35', 'mg', 'once', 'a', 'week', '.', '9', '.', 'zantac', '150', 'mg', 'daily', '.', '10', '.', 'calcium', 'carbonate', '500', 'mg', '3', 'times', 'a']"
+41-2280,actonel,,,
+41-2280,zantac,mg,150,"['sulfate', '1.2', 'cc', 'every', 'day', '.', '8', '.', 'actonel', '35', 'mg', 'once', 'a', 'week', '.', '9', '.', 'zantac', '150', 'mg', 'daily', '.', '10', '.', 'calcium', 'carbonate', '500', 'mg', '3', 'times', 'a', 'day', '.', '11', '.', 'novolog', 'insulin', 'via', 'insulin', 'pump']"
+41-2280,zocor,mg,40,"['.', '11', '.', 'novolog', 'insulin', 'via', 'insulin', 'pump', 'about', '30', 'units', 'of', 'insulin', 'daily', '.', '12', '.', 'zocor', '40', 'mg', 'a', 'day', '.', '13', '.', 'valsartan', '80', 'mg', 'daily', '.', '14', '.', 'amlodipine', '5', 'mg', 'a', 'day', '.', '15', '.']"
+41-2280,valsartan,mg,80,"['about', '30', 'units', 'of', 'insulin', 'daily', '.', '12', '.', 'zocor', '40', 'mg', 'a', 'day', '.', '13', '.', 'valsartan', '80', 'mg', 'daily', '.', '14', '.', 'amlodipine', '5', 'mg', 'a', 'day', '.', '15', '.', 'plavix', '75', 'mgs', 'a', 'day', '.', '16', '.']"
+41-2280,amlodipine,mg,5,"['12', '.', 'zocor', '40', 'mg', 'a', 'day', '.', '13', '.', 'valsartan', '80', 'mg', 'daily', '.', '14', '.', 'amlodipine', '5', 'mg', 'a', 'day', '.', '15', '.', 'plavix', '75', 'mgs', 'a', 'day', '.', '16', '.', 'aspirin', '81', 'mg', 'a', 'day', '.', '17']"
+41-2280,plavix,mgs,75,"['13', '.', 'valsartan', '80', 'mg', 'daily', '.', '14', '.', 'amlodipine', '5', 'mg', 'a', 'day', '.', '15', '.', 'plavix', '75', 'mgs', 'a', 'day', '.', '16', '.', 'aspirin', '81', 'mg', 'a', 'day', '.', '17', '.', 'lasix', '20', 'mg', 'a', 'day', '.', '18.']"
+41-2280,aspirin,mg,81,"['.', 'amlodipine', '5', 'mg', 'a', 'day', '.', '15', '.', 'plavix', '75', 'mgs', 'a', 'day', '.', '16', '.', 'aspirin', '81', 'mg', 'a', 'day', '.', '17', '.', 'lasix', '20', 'mg', 'a', 'day', '.', '18.', 'child', 'pugh', 'score', '75', 'micrograms', 'a', 'day', '.']"
+41-2280,lasix,mg,20,"['.', 'plavix', '75', 'mgs', 'a', 'day', '.', '16', '.', 'aspirin', '81', 'mg', 'a', 'day', '.', '17', '.', 'lasix', '20', 'mg', 'a', 'day', '.', '18.', 'child', 'pugh', 'score', '75', 'micrograms', 'a', 'day', '.', 'child-pugh', 'a', 'review', 'of', 'systems', ':', 'really', 'not']"
+91-1439,fluoxetine,mg,20,"['present', 'time', '.', 'i', 'do', 'believe', 'that', 'his', 'depression', 'needs', 'to', 'be', 'treated', '.', 'i', 'gave', 'him', 'fluoxetine', '20', 'mg', 'one', 'tablet', 'daily', '.', 'i', 'discussed', 'the', 'side', 'effects', 'in', 'detail', '.', 'i', 'did', 'also', 'warn', 'him', 'that', 'all', 'antidepressant']"
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+41-2280,child,pugh,score,childpugea,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . childpugea review of systems : really not much change . her upper respiratory symptoms have
+41-2280,child,pugh,score,Child Pugh A,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh review of systems : really not much change . her upper respiratory symptoms
+41-2280,child,pugh,score,Child Pugh B,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh review of systems : really not much change . her upper respiratory symptoms
+41-2280,child,pugh,score,Child Pugh C,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh review of systems : really not much change . her upper respiratory symptoms
+41-2280,child,pugh,score,Child Pugh A,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh a review of systems : really not much change . her upper respiratory
+41-2280,child,pugh,score,Child Pugh B,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh a review of systems : really not much change . her upper respiratory
+41-2280,child,pugh,score,Child Pugh C,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh a review of systems : really not much change . her upper respiratory
+41-2280,child,pugh,score,Child Pugh A,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh a review of systems : really not much change . her upper respiratory
+41-2280,child,pugh,score,Child Pugh B,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh a review of systems : really not much change . her upper respiratory
+41-2280,child,pugh,score,Child Pugh C,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child pugh a review of systems : really not much change . her upper respiratory
+41-2280,child,pugh,score,child-pugh a,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not much change . her upper respiratory symptoms
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+41-2280,child pugh score,,Child-Pugh A,day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not much change . her upper
+41-2280,child pugh score,True,Child-Pugh A,day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not much change . her upper
+41-2280,child,pugh,score,child-pugh a,16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not much change . her upper respiratory symptoms
+41-2280,child pugh score,True,a,day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not much change . her upper
+41-2280,child pugh score,True,a,day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not much change . her upper
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+41-2280,morphology,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,medical,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,special,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,nephrol,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,sample,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,chronic,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,kidney,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,disease,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,followu,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,descrip,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,diabete,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,diabete,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,diabete,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,diabete,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,diabete,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,diabete,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,diabete,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,reveal,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,edema,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,otherwi,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,deferre,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,morphol,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,assessm,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,return,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,morphology,True,visit,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 566 assessment and plan : this is a return visit to the renal clinic for the patient with history as

@@ -1,0 +1,9 @@
+{
+"window_size": 10,
+"ignore_values": true,
+"ignore_words": false,
+"present_row_limit": 50,
+"select_numerical": false,
+"ignore_wordlist": ["am","is","are","of","and","the","at","a","in","with","to","was","were","to"],
+"path": "stats_output.csv"
+ }

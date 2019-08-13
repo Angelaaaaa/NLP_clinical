@@ -4,9 +4,9 @@ import json
 from DataPointConfig import DataPointConfig
 
 # test
-# directory = '/Users/yuanpan/Documents/NLP_project/input/mttest/'
+directory = '/Users/yuanpan/Documents/NLP_project/input/mttest/'
 # original
-directory = '/Users/yuanpan/Documents/NLP_project/input/mtsamples/'
+# directory = '/Users/yuanpan/Documents/NLP_project/input/mtsamples/'
 
 config_directory = '/Users/yuanpan/Documents/NLP_project/input/config/'
 

@@ -1,0 +1,17 @@
+search_name:
+  find:
+    token:
+      - 'child pugh score'
+  output:
+    token_found: “True”
+  refine:
+    child pugh score:
+      window:
+            tokens_preceeding: 0
+            tokens_following: 10
+      find:
+        token:
+            - 'Child-Pugh A'
+            - 'Child-Pugh B'
+            - 'Child-Pugh C'
+      action: ‘flush’

@@ -1,11 +1,11 @@
 drug_name:
-    find: 
+    find:
         token:
         - Hydroxyzine
         - Claritin
+        - Protonix
         - Fluoxetine
         - Ergocalciferol
-        - Protonix
         - Actonel
         - Zantac
         - Zocor
@@ -14,37 +14,25 @@ drug_name:
         - Plavix
         - Aspirin
         - Lasix
-        - child pugh score
-    output:
-        drug_found: "TRUE"
+        - Levothyroxine
     refine:
-        is_fluoxetine:
-            window:
-                tokens_preceeding: 1
-                tokens_following: 1
-            find:
-                token:
-                - Fluoxetine
-            output:
-                is_fluoxetine: "TRUE"
         dose_unit:
             window:
                 tokens_preceeding: 0
                 tokens_following: 5
             find:
                 token:
-                - mg
-                - microgram
-                - micrograms
-            output:
-                unit_found: "TRUE"
+                - 'mg'
+                - 'mgs'
+                - 'm'
+                - 'micrograms'
             refine:
                 dose:
                     window:
-                        tokens_preceeding: 2
+                        tokens_preceeding: 4
                         tokens_following: 0
                     find:
                         token: '[0-9]+'
-                    output:
-                        dose_found: "TRUE"
                     action: 'flush'
+
+

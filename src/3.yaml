@@ -1,0 +1,20 @@
+search_name:
+  find:
+    token:
+      - 'Morphology'
+      - 'SNOMED'
+      - 'ICD'
+      - '^[a-zA-Z0-9.\-\/]{5,7}^'
+  output:
+    token_found: "True"
+  refine:
+    morphology:
+      window:
+            tokens_preceeding: 10
+            tokens_following: 10
+      find:
+        token:
+            -  '[a-zA-Z0-9.\-\/]{5,7}'
+      action: ‘flush’
+
+

@@ -1,0 +1,19 @@
+search_name:
+  find:
+    token:
+      - 'tace'
+      - 'Transarterial chemoembolization'
+      - 'Transarterial'
+      - 'chemoembolization'
+  output:
+    token_found: "True"
+  refine:
+    tace:
+      window:
+            tokens_preceeding: 0
+            tokens_following: 10
+      find:
+        token:
+            - 'yes'
+            - 'no'
+      action: ‘flush’

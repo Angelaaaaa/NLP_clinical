@@ -1,0 +1,35 @@
+search_name:
+  find:
+    token:
+      - 'child'
+  refine:
+    search_child:
+      window:
+        tokens_preceeding: 0
+        tokens_following: 10
+      find:
+        token:
+          - 'pugh'
+      refine:
+        search_score:
+          window:
+            tokens_preceeding: 0
+            tokens_following: 10
+          find:
+            token:
+              - 'score'
+          refine:
+            child_pugh_score:
+              window:
+                tokens_preceeding: 0
+                tokens_following: 10
+              find:
+                token:
+                    - 'child-pugh A'
+                    - 'Child-Pugh B'
+                    - 'Child-Pugh C'
+                    - 'Child Pugh A'
+                    - 'Child Pugh B'
+                    - 'Child Pugh C'
+              action: ‘flush’
+
