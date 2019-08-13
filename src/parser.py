@@ -246,6 +246,7 @@ def parseSearch(searchlevel, cmd, tokens, outputQ, pointer, level):
                         res = re.findall(tokenlist, " ".join(tokens[temp1:temp2]))
                         if res != None:
                             for i in res:
+                                resultList.append((i, counter))
                                 index = index_tracker[searchlevel]
                                 put_value_into_outputQ(outputQ, index, searchlevel, i)
                                 index += 1
@@ -298,6 +299,7 @@ def parseSearch(searchlevel, cmd, tokens, outputQ, pointer, level):
                             res = re.findall(token, " ".join(tokens[temp1:temp2]))
                             if res != None:
                                 for i in res:
+                                    resultList.append((i, counter))
                                     index = index_tracker[searchlevel]
                                     put_value_into_outputQ(outputQ, index, searchlevel, i)
                                     index += 1
@@ -343,6 +345,7 @@ def parseSearch(searchlevel, cmd, tokens, outputQ, pointer, level):
                                             parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2, level)
     # if resultList == []:
     #     outputQ.put((searchlevel,'not found','not found',0))
+
     return resultList
 
 
@@ -375,13 +378,15 @@ def parseRefine(cmd, resultList, tokens, outputQ, pointer, temp1, temp2, level):
 
         for key in cmd["refine"].keys():
             # print(level)
-
             printlevel(key, "search", key, tokens)
             parseSearch(key, cmd["refine"][key], tokens, outputQ, pointer + resultList[-1][1], level)
 
     if "action" in cmd.keys():
         if "flush" in cmd["action"]:
             index = index_tracker['sentence']
+            if(pointer==0):
+                print(resultList)
+                pointer = sum([i[1] for i in resultList])
             put_value_into_outputQ(outputQ, index, 'sentence', " ".join(tokens[pointer - 20:pointer + 20]))
             flush(outputQ)
         if "clear" in cmd["action"]:

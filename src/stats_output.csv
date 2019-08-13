@@ -9,11 +9,30 @@ edema,1,6,6.0
 otherwise,1,3,3.0
 deferred,1,2,2.0
 .,1,1,1.0
-566,1,1,1.0
+5663/23,1,1,1.0
 assessment,1,2,2.0
 plan,1,4,4.0
 this,1,6,6.0
 return,1,9,9.0
+
+
+
+5663/23
+word,frequency,total_distance,average_distance
+,0,0,
+:,2,14,7.0
+reveal,1,9,9.0
+no,1,8,8.0
+edema,1,7,7.0
+otherwise,1,4,4.0
+deferred,1,3,3.0
+.,1,2,2.0
+morphology,1,1,1.0
+assessment,1,1,1.0
+plan,1,3,3.0
+this,1,5,5.0
+return,1,8,8.0
+visit,1,9,9.0
 
 
 
