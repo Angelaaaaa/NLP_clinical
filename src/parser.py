@@ -24,7 +24,7 @@ import pandas as pd
 import json
 from DataPointConfig import DataPointConfig
 
-
+exceptionCounter = 0
 # test
 # original
 # directory = '/Users/yuanpan/Documents/NLP_project/input/mtsamples/'
@@ -115,6 +115,8 @@ def find_column_name(input_dict, column_name):
 
 
 def init(csv_file_name, config_file_name):
+    global exceptionCounter
+    exceptionCounter = 0
     global stats_dict
     global stats_output_csv
     global csv_file
@@ -195,6 +197,7 @@ def printlevel(level, prefix, content, tokens):
 
 def write_stats_output_to_csv():
     fo = open(stats_output_csv, "w")
+
     fo.write('')
     fo.close()
 
@@ -202,9 +205,9 @@ def write_stats_output_to_csv():
         fo = open(stats_output_csv, "a")
         fo.write(token + '\n')
         fo.close()
-
         # 关闭文件
-        df.to_csv(stats_output_csv, mode='a', index=False)
+        df1 = df.sort_values('frequency', ascending=False).head(50)
+        df1.to_csv(stats_output_csv, mode='a', index=False)
         fo = open(stats_output_csv, "a")
         fo.write("\n\n\n")
         fo.close()
@@ -449,13 +452,28 @@ def readtokens(clinical_note_file_name):
     return tokens
 
 
+# # outputQ
+# def parserFile(doc_id, clinical_note_file_name):
+#     global exceptionCounter
+#     global docID
+#     docID = doc_id
+#     outputQ = pd.DataFrame(columns=index_tracker.keys())
+#     tokens = readtokens(clinical_note_file_name)
+#     parseQuery(input_dict, tokens, outputQ)
+
 # outputQ
 def parserFile(doc_id, clinical_note_file_name):
-    global docID
-    docID = doc_id
-    outputQ = pd.DataFrame(columns=index_tracker.keys())
-    tokens = readtokens(clinical_note_file_name)
-    parseQuery(input_dict, tokens, outputQ)
+    global exceptionCounter
+    try:
+        global docID
+        docID = doc_id
+        outputQ = pd.DataFrame(columns=index_tracker.keys())
+        tokens = readtokens(clinical_note_file_name)
+        parseQuery(input_dict, tokens, outputQ)
+    except:
+        print("")
+        exceptionCounter+=1
+
 
 
 def processDocument(docID, content):

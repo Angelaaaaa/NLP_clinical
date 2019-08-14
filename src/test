@@ -2663,3 +2663,693 @@ fluoxetine,91-1439,mg,20
 41-2280,5663/23,True,
 41-2280,morphology,True,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 5663/23 assessment and plan : this is a return visit to the renal clinic for the patient with history as
 41-2280,5663/23,True,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 5663/23 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+41-2280,child pugh score,True,Child-Pugh A,day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not much change . her upper
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+mtsamples-type-97-sample-1863.txt,protonix,,,
+mtsamples-type-97-sample-1863.txt,,mg,40,mg p.o . daily . 6 . lantus insulin 15 units subcutaneously every evening . 7 . protonix 40 mg p.o . daily . 8 . furosemide 40 mg p.o . daily . 9 . norvasc 5 mg p.o .
+mtsamples-type-97-sample-1863.txt,plavix,mg,75,married . lives with her husband . they are retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o
+mtsamples-type-97-sample-1863.txt,aspirin,mg,81,retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o . daily . 4 . colace 100 mg p.o
+mtsamples-type-98-sample-576.txt,aspirin,mg,20,""". she denied ill contacts or pets . allergies : ciprofloxacin and enteric coated aspirin medications : prednisone 20 mg po qd , enalapril 2.5 mg po qd , clonidine patch tts 3 1/week , prograf 5 mg po bid"""
+mtsamples-type-6-sample-1986.txt,aspirin,mg,325,from beta-blocker therapy . medications on admission : 1 . multivitamin p.o . daily . 2 . aspirin 325 mg once a day . 3 . lisinopril 40 mg once a day . 4 . felodipine 10 mg once a
+mtsamples-type-6-sample-1986.txt,aspirin,,,
+mtsamples-type-6-sample-1986.txt,lasix,mg,20,. daily presumably for gerd . 7 . miralax 17 g p.o . daily . 8 . lasix 20 mg p.o . daily . allergies : penicillin . it is listed that toprol has caused shortness of breath in her
+mtsamples-type-6-sample-2486.txt,lasix,mg,40,. 2 . simvastatin 40 mg nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff
+mtsamples-type-6-sample-2486.txt,protonix,,,
+mtsamples-type-6-sample-2486.txt,aspirin,mg,160,nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n
+mtsamples-type-6-sample-2486.txt,lasix,mg,20,. 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n . q.i.d . 9 . advair 500/50 puff
+mtsamples-type-97-sample-1268.txt,amlodipine,mg,10,""". q.12h. , fexofenadine 180 mg p.o . daily , flonase 50 mcg two sprays b.i.d. , amlodipine 10 mg p.o . daily , lorazepam 0.5 mg p.o . q.6h . p.r.n . anxiety and agitation . 3 . substance"""
+mtsamples-type-97-sample-1863.txt,protonix,,,
+mtsamples-type-97-sample-1863.txt,,mg,40,mg p.o . daily . 6 . lantus insulin 15 units subcutaneously every evening . 7 . protonix 40 mg p.o . daily . 8 . furosemide 40 mg p.o . daily . 9 . norvasc 5 mg p.o .
+mtsamples-type-97-sample-1863.txt,plavix,mg,75,married . lives with her husband . they are retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o
+mtsamples-type-97-sample-1863.txt,aspirin,mg,81,retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o . daily . 4 . colace 100 mg p.o
+mtsamples-type-98-sample-576.txt,aspirin,mg,20,""". she denied ill contacts or pets . allergies : ciprofloxacin and enteric coated aspirin medications : prednisone 20 mg po qd , enalapril 2.5 mg po qd , clonidine patch tts 3 1/week , prograf 5 mg po bid"""
+mtsamples-type-6-sample-1986.txt,aspirin,mg,325,from beta-blocker therapy . medications on admission : 1 . multivitamin p.o . daily . 2 . aspirin 325 mg once a day . 3 . lisinopril 40 mg once a day . 4 . felodipine 10 mg once a
+mtsamples-type-6-sample-1986.txt,aspirin,,,
+mtsamples-type-6-sample-1986.txt,lasix,mg,20,. daily presumably for gerd . 7 . miralax 17 g p.o . daily . 8 . lasix 20 mg p.o . daily . allergies : penicillin . it is listed that toprol has caused shortness of breath in her
+mtsamples-type-85-sample-1996.txt,zocor,mg,20,25 mg once a day . 2 . altace 2.5 mg once a day . 3 . zocor 20 mg once a day . 4 . flecainide 200 in the morning and 100 in the evening . 5 . coumadin
+mtsamples-type-6-sample-2486.txt,zocor,mg,40,. 2 . simvastatin 40 mg nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff
+mtsamples-type-6-sample-2486.txt,protonix,,,
+mtsamples-type-6-sample-2486.txt,aspirin,mg,160,nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n
+mtsamples-type-6-sample-2486.txt,lasix,mg,20,. 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n . q.i.d . 9 . advair 500/50 puff
+mtsamples-type-97-sample-1268.txt,amlodipine,mg,10,""". q.12h. , fexofenadine 180 mg p.o . daily , flonase 50 mcg two sprays b.i.d. , amlodipine 10 mg p.o . daily , lorazepam 0.5 mg p.o . q.6h . p.r.n . anxiety and agitation . 3 . substance"""
+mtsamples-type-98-sample-1492.txt,amlodipine,mg,75,"""using vicodin and percocet , amiodarone 200 mg a day , lexapro 20 mg a day , plavix 75 mg a day , fenofibrate 145 mg , lasix 20 mg iv twice a day , lantus 50 units at bedtime"""
+mtsamples-type-98-sample-1492.txt,plavix,,,
+mtsamples-type-98-sample-1492.txt,lasix,mg,20,""", lexapro 20 mg a day , plavix 75 mg a day , fenofibrate 145 mg , lasix 20 mg iv twice a day , lantus 50 units at bedtime and humalog 10 units a.c. and sliding scale insulin coverage"""
+mtsamples-type-98-sample-2762.txt,lasix,mg,40,"""bactrim . throughout her hospital course , the patient continued to receive coreg 12.5 mg daily and lasix 40 mg twice a day for her congestive heart failure , which remains stable . she also received lipitor for her high"""
+mtsamples-type-98-sample-2762.txt,lasix,,,
+mtsamples-type-98-sample-2762.txt,lasix,mg,40,mg p.o . at breakfast . 11 . neurontin 400 mg p.o . t.i.d . 12 . lasix 40 mg p.o . b.i.d . 13 . fentanyl 50 mcg patch transdermal q.72h . 14 . calcium and vitamin d combination
+mtsamples-type-96-sample-1224.txt,plavix,mg,75,"""mg every 8 hours as needed for anxiety , ventolin hfa 2 puffs q.6h . p.r.n. , plavix 75 mg p.o . daily , norvasc 10 mg p.o . daily , cymbalta 60 mg p.o . daily , and restoril"""
+mtsamples-type-97-sample-1679.txt,plavix,mg,81,"""patient has recently been started on plavix by his primary care doctor , was briefly on baby aspirin 81 mg per day since the tia-like event three weeks ago . he also takes proscar 5 mg q.d and synthroid 0.2"""
+mtsamples-type-97-sample-1679.txt,plavix,,,
+mtsamples-type-97-sample-1679.txt,plavix,,,
+mtsamples-type-97-sample-1679.txt,aspirin,,,
+mtsamples-type-97-sample-1692.txt,aspirin,mg,81,"""mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 , aspirin 81 mg , and laxative stimulant or stool softener . note that medical records say that he was supposed to be taking"""
+mtsamples-type-97-sample-1692.txt,levothyroxine,mg,0,"""had been taking percocet daily prior to his hospitalization . current medications : celebrex 200 mg , levothyroxine 0.025 mg , vytorin 10/40 mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 ,"""
+mtsamples-type-97-sample-1692.txt,levothyroxine,mg,025,"""had been taking percocet daily prior to his hospitalization . current medications : celebrex 200 mg , levothyroxine 0.025 mg , vytorin 10/40 mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 ,"""
+mtsamples-type-6-sample-1987.txt,levothyroxine,mg,20,mg p.o . every day . 9 . sertraline 100 mg p.o . nightly . 10 . zocor 20 mg p.o . nightly . allergies : to medications per chart are none . family history : unable to obtain as
+mtsamples-type-6-sample-1987.txt,zocor,,,
+mtsamples-type-6-sample-1987.txt,aspirin,mg,81,. medications : on admission : 1 . norvasc 10 mg once a day . 2 . aspirin 81 mg once a day . 3 . colace 200 mg two at bedtime . 4 . labetalol 100 mg p.o .
+mtsamples-type-6-sample-1987.txt,aspirin,mg,81,""". the patient is felt to be a significant fall risk and will at least continue her aspirin 81 mg once a day for secondary cva , thromboprophylaxis ( albeit understanding that it is inferior to coumadin ) . 6"""
+mtsamples-type-98-sample-2212.txt,claritin,mg,10,"""nightly , namenda 10 mg p.o . b.i.d. , benicar 40 mg p.o . daily , and claritin 10 mg daily p.r.n . family history : not available . personal history : not available . social history : not available"""
+mtsamples-type-6-sample-2097.txt,aspirin,mg,81,40 mg once daily . 6 . glipizide - 5 mg every morning . 7 . aspirin - 81 mg once daily . followup care : the patient is to follow up with dr. x in about 1 week 's
+mtsamples-type-91-sample-376.txt,aspirin,mg,50,"""today , vioxx 25 mg q.d. , maxzide 37/25 q.d. , protonix 40 mg q.d. , hydroxyzine pamoate 50 mg at h.s. , aspirin 81 mg q.d. , glucovance 1.25/250 b.i.d . decreased to one a day today , monopril"""
+mtsamples-type-91-sample-376.txt,hydroxyzine,,,
+mtsamples-type-91-sample-376.txt,protonix,mg,40,"""lipitor 80 mg q.d . discontinued today , vioxx 25 mg q.d. , maxzide 37/25 q.d. , protonix 40 mg q.d. , hydroxyzine pamoate 50 mg at h.s. , aspirin 81 mg q.d. , glucovance 1.25/250 b.i.d . decreased to"""
+mtsamples-type-91-sample-376.txt,aspirin,mg,81,""", maxzide 37/25 q.d. , protonix 40 mg q.d. , hydroxyzine pamoate 50 mg at h.s. , aspirin 81 mg q.d. , glucovance 1.25/250 b.i.d . decreased to one a day today , monopril 20 mg q.d. , estradiol one"""
+mtsamples-type-97-sample-1492.txt,plavix,mg,75,"""using vicodin and percocet , amiodarone 200 mg a day , lexapro 20 mg a day , plavix 75 mg a day , fenofibrate 145 mg , lasix 20 mg iv twice a day , lantus 50 units at bedtime"""
+mtsamples-type-97-sample-1492.txt,lasix,mg,20,""", lexapro 20 mg a day , plavix 75 mg a day , fenofibrate 145 mg , lasix 20 mg iv twice a day , lantus 50 units at bedtime and humalog 10 units a.c. and sliding scale insulin coverage"""
+mtsamples-type-97-sample-1451.txt,lasix,mg,81,"""vaginal cancer and hypertension . brother , colon ca . father , hypertension . current medications : aspirin 81 mg daily . she takes vitamins one a day . she is on zocor , desyrel , flonase , and xanax"""
+mtsamples-type-97-sample-1451.txt,zocor,,,
+mtsamples-type-97-sample-1451.txt,aspirin,,,
+mtsamples-type-6-sample-52.txt,lasix,mg,80,diovan 320 mg daily . 4 . lantus insulin 50 units in the morning . 5 . lasix 80 mg daily . 6 . novolin r p.r.n . 7 . toprol xl 100 mg daily . 8 . flovent 100
+mtsamples-type-6-sample-52.txt,lasix,,,
+mtsamples-type-97-sample-1690.txt,protonix,mg,40,"""p.o . q.h.s . p.r.n . and dilaudid 2 mg tablets p.o . q.3h . p.r.n. , protonix 40 mg per day , and megace 400 mg per day . allergies : he has no medication or food allergies ."""
+mtsamples-type-6-sample-1985.txt,protonix,mg,10,75 mg once a day . 9 . diovan 160 mg once a day . 10 . claritin 10 mg once a day for allergic rhinitis . 11 . norvasc 5 mg once a day . 12 . lipitor 5
+mtsamples-type-6-sample-1985.txt,claritin,,,
+mtsamples-type-6-sample-1985.txt,claritin,mg,75,she seems to be tolerating . 7 . aspirin 325 mg once a day . 8 . plavix 75 mg once a day . 9 . diovan 160 mg once a day . 10 . claritin 10 mg once a
+mtsamples-type-6-sample-1985.txt,valsartan,,,
+mtsamples-type-6-sample-1985.txt,plavix,,,
+mtsamples-type-6-sample-1985.txt,plavix,mg,325,"""i started although she had been bradycardic , but she seems to be tolerating . 7 . aspirin 325 mg once a day . 8 . plavix 75 mg once a day . 9 . diovan 160 mg once a"""
+mtsamples-type-6-sample-1985.txt,aspirin,,,
+mtsamples-type-87-sample-1989.txt,plavix,mg,40,"""apparently has a history of . 3 . nexium 40 mg once a day . 4 . zocor 40 mg once a day , and there is a fasting lipid profile pending at the time of this dictation . i"""
+mtsamples-type-87-sample-1989.txt,zocor,,,
+mtsamples-type-87-sample-1989.txt,plavix,mg,600,"""dictation . i see that his ldl was 136 on may 3 , 2002 . 5 . plavix 600 mg p.o . x1 which i am giving him tonight . other medical history is inclusive for obstructive sleep apnea for"""
+mtsamples-type-87-sample-1989.txt,aspirin,mg,325,"""but guarded . the patient is pain-free at this time . medications on transfer : 1 . aspirin 325 mg once a day . 2 . metoprolol 50 mg once a day , but we have had to hold it"""
+mtsamples-type-98-sample-2628.txt,aspirin,mg,325,zetia at 20 and 10 mg respectively . she states that she has been taking her aspirin at 325 mg q.a.m . she remains on zyrtec 10 mg q.a.m . her only allergy is listed to latex . objective :
+mtsamples-type-98-sample-2628.txt,aspirin,,,
+mtsamples-type-97-sample-2212.txt,claritin,mg,10,"""nightly , namenda 10 mg p.o . b.i.d. , benicar 40 mg p.o . daily , and claritin 10 mg daily p.r.n . family history : not available . personal history : not available . social history : not available"""
+mtsamples-type-98-sample-1136.txt,claritin,mg,81,do not think this would account for the gross hematuria . he will be started on an aspirin 81 mg p.o . daily . 2 . for the pain we will try him on lortab . he will get a
+mtsamples-type-98-sample-1136.txt,aspirin,,,
+mtsamples-type-6-sample-634.txt,claritin,mg,75,"""with drug-eluting stent placement to the ostium of the pda . recommendations : aspirin indefinitely , and plavix 75 mg p.o . daily for no less than six months . the patient will be dispositioned back to telemetry for further"""
+mtsamples-type-6-sample-634.txt,plavix,,,
+mtsamples-type-98-sample-2629.txt,claritin,mg,40,"""zocor - 80 mg daily . 6 . toprol-xl - 200 mg daily . 7 . protonix - 40 mg daily . 8 . chondroitin/glucosamine - no longer using . major findings : weight 240 , blood pressure by nurse"""
+mtsamples-type-98-sample-2629.txt,protonix,,,
+mtsamples-type-98-sample-2629.txt,zocor,mg,80,insulin - 65 units in the morning and 25 units in the evening . 5 . zocor - 80 mg daily . 6 . toprol-xl - 200 mg daily . 7 . protonix - 40 mg daily . 8 .
+mtsamples-type-98-sample-2629.txt,aspirin,mg,81,is his thinking . medications : 1 . bumex - 2 mg daily . 2 . aspirin - 81 mg daily . 3 . lisinopril - 40 mg daily . 4 . nph insulin - 65 units in the morning
+mtsamples-type-6-sample-2282.txt,aspirin,mg,81,. coumadin 5 mg a day . 2 . toprol-xl 50 mg a day . 3 . aspirin 81 mg a day . 4 . hydrochlorothiazide 25 mg a day . 5 . plendil 10 mg daily . 6 .
+mtsamples-type-6-sample-2282.txt,aspirin,,,
+mtsamples-type-6-sample-973.txt,aspirin,mg,225,procedure medications : 1 . visipaque 361 ml total dose . 2 . clopidogrel bisulphate ( plavix ) 225 mg po 3 . promethazine ( phenergan ) 12.5 mg total dose . 4 . abciximab ( reopro ) 10 mg
+mtsamples-type-6-sample-973.txt,plavix,,,
+mtsamples-type-6-sample-973.txt,plavix,mg,75,"""hypokinesis of the anterior wall of the left ventricle . recommendation : 1 . clopidogrel ( plavix ) 75 mg po daily for 1 year . 2 . aggressive risk factor modification of tobacco abuse , hyperlipidemia and hypertension ."""
+mtsamples-type-97-sample-1691.txt,plavix,mg,40,"""medications : percocet 5/325 mg 4-6 hours p.r.n. , neurontin 100 mg per day , insulin , protonix 40 mg per day , toprol-xl 50 mg q.d. , norvasc 10 mg q.d. , glipizide 10 mg q.d. , fluticasone 50"""
+mtsamples-type-97-sample-1691.txt,protonix,,,
+mtsamples-type-97-sample-1691.txt,zocor,mg,1,"""glipizide 10 mg q.d. , fluticasone 50 mcg nasal spray , lasix 20 mg b.i.d. , and zocor 1 mg q.d . allergies : no known drug allergies . physical examination : blood pressure 122/74 , heart rate 68 ,"""
+mtsamples-type-97-sample-1691.txt,aspirin,mg,162,diabetes mellitus . 4 . stroke . recommendations : 1 . the patient is to start taking aspirin 162 mg per day . 2 . followup with ophthalmology . 3 . increase neurontin to 300 mg per day x 1
+mtsamples-type-97-sample-1691.txt,lasix,mg,20,""", norvasc 10 mg q.d. , glipizide 10 mg q.d. , fluticasone 50 mcg nasal spray , lasix 20 mg b.i.d. , and zocor 1 mg q.d . allergies : no known drug allergies . physical examination : blood pressure"""
+mtsamples-type-97-sample-576.txt,aspirin,mg,20,""". she denied ill contacts or pets . allergies : ciprofloxacin and enteric coated aspirin medications : prednisone 20 mg po qd , enalapril 2.5 mg po qd , clonidine patch tts 3 1/week , prograf 5 mg po bid"""
+mtsamples-type-93-sample-2326.txt,protonix,mg,40,4 . aspirin 325 mg. 5 . combivent aerosol two puffs twice a day . 6 . protonix 40 mg q.d . 7 . fosamax 70 mg weekly . 8 . multivitamins including calcium and vitamin d. 9 . hydrocortisone
+mtsamples-type-93-sample-2326.txt,plavix,mg,75,medications 1 . lipitor 20 mg q.d . 2 . metoprolol 25 mg b.i.d . 3 . plavix 75 mg once a day . 4 . aspirin 325 mg. 5 . combivent aerosol two puffs twice a day . 6
+mtsamples-type-91-sample-405.txt,plavix,mg,40,""". medications : she is on hyzaar 50/12.5 one-half p.o . daily , coated aspirin daily , lovastatin 40 mg one-half tab p.o . daily , multivitamin daily , metformin 500 mg one tab p.o . b.i.d . ; however"""
+mtsamples-type-91-sample-405.txt,aspirin,,,
+mtsamples-type-98-sample-1250.txt,plavix,mg,40,""". 2 . coumadin 5 mg p.o. , was administered on 02/19/2007 and 02/22/2007 . 3 . protonix 40 mg intravenous ( iv ) daily . 4 . vicodin p.r.n . 5 . levaquin 750 mg iv on 02/23/2007 ."""
+mtsamples-type-98-sample-1250.txt,protonix,,,
+mtsamples-type-24-sample-221.txt,plavix,mg,150,"""this and if he remains symptomatic , then he will call our office and a prescription for zantac 150 mg per day will be provided . reviewed the potential need for upper endoscopy should his symptoms continue or become more"""
+mtsamples-type-24-sample-221.txt,zantac,,,
+mtsamples-type-49-sample-2790.txt,plavix,mg,40,""". colace 100 mg b.i.d. , lactulose will be used on a p.r.n . basis , and protonix 40 mg daily . 4 . deep vein thrombosis prophylaxis will be maintained by the patient , continue to engage in his"""
+mtsamples-type-49-sample-2790.txt,protonix,,,
+mtsamples-type-98-sample-1495.txt,lasix,mg,40,. 4 . theophylline 50 mg q.6 h. 5 . prozac 20 mg daily . 6 . lasix 40 mg daily . 7 . humulin regular high dose sliding scale insulin subcu . q.6 h. 8 . atrovent q.4 h.
+mtsamples-type-98-sample-2605.txt,lasix,mg,100,and oxygen requirements . i have encouraged the patient to increase her dose of lasix from 100 to 120 mg by mouth every morning as previously prescribed . i have also asked her to add lasix in additional late afternoon
+mtsamples-type-98-sample-2605.txt,lasix,,,
+mtsamples-type-98-sample-2605.txt,lasix,,,
+mtsamples-type-98-sample-2605.txt,lasix,mg,120,and oxygen requirements . i have encouraged the patient to increase her dose of lasix from 100 to 120 mg by mouth every morning as previously prescribed . i have also asked her to add lasix in additional late afternoon
+mtsamples-type-98-sample-2605.txt,lasix,mg,40,i have also asked her to add lasix in additional late afternoon to evening dose of lasix at 40 mg by mouth at that time . she was instructed to take between one and two k-tab with her evening dose
+mtsamples-type-98-sample-2605.txt,lasix,,,
+mtsamples-type-97-sample-2217.txt,lasix,mg,40,"""observation , start the patient on iv fluid , normal saline , 20 meq kcl , and protonix 40 mg , and we will also continue the patient 's namenda and aricept . i will hold the patient 's hydrocodone"""
+mtsamples-type-97-sample-2217.txt,protonix,,,
+mtsamples-type-41-sample-1658.txt,lasix,mg,20,daily . 3 . ziagen two daily . 4 . lasix 20 mg b.i.d . 5 . valsartan 20 mg b.i.d . 6 . ambien 10 mg q.h.s . social history : he lives here in abcd . he is
+mtsamples-type-41-sample-1658.txt,valsartan,,,
+mtsamples-type-41-sample-1658.txt,valsartan,mg,20,. hyperkalemia . i am going to instruct him in a low-potassium diet and decrease his valsartan to 20 mg daily . i will have him return in one week to recheck his potassium . if his potassium continues to
+mtsamples-type-41-sample-1658.txt,lasix,mg,20,kaletra daily . 2 . epivir one daily . 3 . ziagen two daily . 4 . lasix 20 mg b.i.d . 5 . valsartan 20 mg b.i.d . 6 . ambien 10 mg q.h.s . social history : he
+mtsamples-type-42-sample-1190.txt,lasix,mg,81,"""per day , uroxatral 10 mg per day , detrol la 4 mg per day , and aspirin 81 mg per day . physical exam : on examination today , this is a pleasant 76-year-old man who is guided back"""
+mtsamples-type-42-sample-1190.txt,aspirin,,,
+mtsamples-type-97-sample-1509.txt,lasix,mg,20,60 mg p.o . b.i.d . 11 . omeprazole 20 mg p.o . daily . 12 . zocor 20 mg p.o . at bedtime . allergies : no known allergies . history of present complaint : this 54-year-old patient had
+mtsamples-type-97-sample-1509.txt,zocor,,,
+mtsamples-type-98-sample-1133.txt,aspirin,mg,81,"""diabetes type ii , 2006 . 13 . painful bunions on feet bilaterally . current medicines : aspirin 81 mg p.o . daily , cymbalta 60 mg p.o . daily , diovan 80 mg p.o . daily , felodipine 5"""
+mtsamples-type-93-sample-1986.txt,aspirin,mg,325,from beta-blocker therapy . medications on admission : 1 . multivitamin p.o . daily . 2 . aspirin 325 mg once a day . 3 . lisinopril 40 mg once a day . 4 . felodipine 10 mg once a
+mtsamples-type-93-sample-1986.txt,lasix,mg,20,. daily presumably for gerd . 7 . miralax 17 g p.o . daily . 8 . lasix 20 mg p.o . daily . allergies : penicillin . it is listed that toprol has caused shortness of breath in her
+mtsamples-type-97-sample-1247.txt,lasix,mg,500,"""b.i.d. , lovastatin 10 mg p.o . at bedtime , citalopram 10 mg p.o . daily , aspirin 500 mg three times a day , which is currently stopped , vitamin d , premarin 0.3 mg one tablet p.o ."""
+mtsamples-type-97-sample-1247.txt,aspirin,,,
+mtsamples-type-98-sample-405.txt,lasix,mg,40,""". medications : she is on hyzaar 50/12.5 one-half p.o . daily , coated aspirin daily , lovastatin 40 mg one-half tab p.o . daily , multivitamin daily , metformin 500 mg one tab p.o . b.i.d . ; however"""
+mtsamples-type-98-sample-405.txt,aspirin,,,
+mtsamples-type-91-sample-2277.txt,lasix,mg,40,"""12.5 mg twice a day . 4 . cozaar 50 mg twice a day . 5 . lasix 40 mg a day . physical examination : vital signs : on exam , his blood pressure is 140/57 , pulse 58"""
+mtsamples-type-91-sample-2277.txt,lasix,,,
+mtsamples-type-72-sample-1204.txt,lasix,mg,81,"""of anticoagulation ( which she had discontinued just prior to her stroke ) . current medications : aspirin 81 mg daily , colace 100 mg b.i.d. , lipitor 80 mg daily , and albuterol mdi p.r.n . substance use :"""
+mtsamples-type-72-sample-1204.txt,aspirin,,,
+mtsamples-type-91-sample-370.txt,lasix,mg,325,"""1/2 pill daily , gemfibrozil 600 mg twice daily , crestor 80 mg 1/2 pill daily , aspirin 325 mg daily , vitamin e 400 units daily , and citrucel one daily . allergies : none known . family history"""
+mtsamples-type-91-sample-370.txt,aspirin,,,
+mtsamples-type-97-sample-1133.txt,lasix,mg,81,"""diabetes type ii , 2006 . 13 . painful bunions on feet bilaterally . current medicines : aspirin 81 mg p.o . daily , cymbalta 60 mg p.o . daily , diovan 80 mg p.o . daily , felodipine 5"""
+mtsamples-type-97-sample-1133.txt,aspirin,,,
+mtsamples-type-98-sample-1509.txt,zocor,mg,20,60 mg p.o . b.i.d . 11 . omeprazole 20 mg p.o . daily . 12 . zocor 20 mg p.o . at bedtime . allergies : no known allergies . history of present complaint : this 54-year-old patient had
+mtsamples-type-6-sample-343.txt,zocor,mg,20,. premenstrual dysphoric disorder . she may have some perimenopausal symptoms . we will start her on fluoxetine 20 mg one tablet p.o . q.d . 4 . hematuria . likely this is secondary to urinary tract infection but we
+mtsamples-type-6-sample-343.txt,fluoxetine,,,
+mtsamples-type-97-sample-2770.txt,protonix,mg,40,"""for prophylaxis . 7 . maalox p.r.n . 8 . mirapex 0.5 mg t.i.d . 9 . protonix 40 mg daily . 10 . tylenol p.r.n . 11 . zanaflex 4-mg tablet , one-half tablet daily and 6 mg at"""
+mtsamples-type-93-sample-1985.txt,protonix,mg,10,75 mg once a day . 9 . diovan 160 mg once a day . 10 . claritin 10 mg once a day for allergic rhinitis . 11 . norvasc 5 mg once a day . 12 . lipitor 5
+mtsamples-type-93-sample-1985.txt,claritin,,,
+mtsamples-type-93-sample-1985.txt,claritin,mg,75,she seems to be tolerating . 7 . aspirin 325 mg once a day . 8 . plavix 75 mg once a day . 9 . diovan 160 mg once a day . 10 . claritin 10 mg once a
+mtsamples-type-93-sample-1985.txt,valsartan,,,
+mtsamples-type-93-sample-1985.txt,plavix,,,
+mtsamples-type-93-sample-1985.txt,plavix,mg,325,"""i started although she had been bradycardic , but she seems to be tolerating . 7 . aspirin 325 mg once a day . 8 . plavix 75 mg once a day . 9 . diovan 160 mg once a"""
+mtsamples-type-93-sample-1985.txt,aspirin,,,
+mtsamples-type-97-sample-1250.txt,plavix,mg,40,""". 2 . coumadin 5 mg p.o. , was administered on 02/19/2007 and 02/22/2007 . 3 . protonix 40 mg intravenous ( iv ) daily . 4 . vicodin p.r.n . 5 . levaquin 750 mg iv on 02/23/2007 ."""
+mtsamples-type-97-sample-1250.txt,protonix,,,
+mtsamples-type-6-sample-1996.txt,plavix,mg,20,25 mg once a day . 2 . altace 2.5 mg once a day . 3 . zocor 20 mg once a day . 4 . flecainide 200 in the morning and 100 in the evening . 5 . coumadin
+mtsamples-type-6-sample-1996.txt,zocor,,,
+mtsamples-type-98-sample-2217.txt,protonix,mg,40,"""observation , start the patient on iv fluid , normal saline , 20 meq kcl , and protonix 40 mg , and we will also continue the patient 's namenda and aricept . i will hold the patient 's hydrocodone"""
+mtsamples-type-97-sample-1495.txt,lasix,mg,40,. 4 . theophylline 50 mg q.6 h. 5 . prozac 20 mg daily . 6 . lasix 40 mg daily . 7 . humulin regular high dose sliding scale insulin subcu . q.6 h. 8 . atrovent q.4 h.
+mtsamples-type-98-sample-930.txt,lasix,mg,81,"""past secondary to miscarriages . medications : on presentation included hydrochlorothiazide 12.5 mg p.o . daily , aspirin 81 mg p.o . daily , and propranolol 40 mg p.o . daily . the patient also takes multivitamin and lutein over-the-counter"""
+mtsamples-type-98-sample-930.txt,aspirin,,,
+mtsamples-type-98-sample-930.txt,aspirin,mg,81,"""daily x10 days , guaifenesin 10 cc p.o . q.6h . p.r.n . for cough , and aspirin 81 mg p.o . daily . diet : to follow a low-salt diet . activity : as tolerated . followup : to"""
+mtsamples-type-98-sample-924.txt,aspirin,mg,75,: advair 1 puff bid lisinopril 10 mg qd lopressor 50 mg bid aspirin 81 mg qd plavix 75 mg qd multivitamins feso4 1 tab qd colace 100 mg qd review of systems reveals : same as above physical exam
+mtsamples-type-98-sample-924.txt,plavix,,,
+mtsamples-type-98-sample-924.txt,aspirin,mg,81,drug allergies home medications : advair 1 puff bid lisinopril 10 mg qd lopressor 50 mg bid aspirin 81 mg qd plavix 75 mg qd multivitamins feso4 1 tab qd colace 100 mg qd review of systems reveals : same
+mtsamples-type-42-sample-1268.txt,aspirin,mg,10,""". q.12h. , fexofenadine 180 mg p.o . daily , flonase 50 mcg two sprays b.i.d. , amlodipine 10 mg p.o . daily , lorazepam 0.5 mg p.o . q.6h . p.r.n . anxiety and agitation . 3 . substance"""
+mtsamples-type-42-sample-1268.txt,amlodipine,,,
+mtsamples-type-78-sample-2605.txt,aspirin,mg,100,and oxygen requirements . i have encouraged the patient to increase her dose of lasix from 100 to 120 mg by mouth every morning as previously prescribed . i have also asked her to add lasix in additional late afternoon
+mtsamples-type-78-sample-2605.txt,lasix,,,
+mtsamples-type-78-sample-2605.txt,lasix,,,
+mtsamples-type-78-sample-2605.txt,aspirin,mg,120,and oxygen requirements . i have encouraged the patient to increase her dose of lasix from 100 to 120 mg by mouth every morning as previously prescribed . i have also asked her to add lasix in additional late afternoon
+mtsamples-type-78-sample-2605.txt,lasix,mg,40,i have also asked her to add lasix in additional late afternoon to evening dose of lasix at 40 mg by mouth at that time . she was instructed to take between one and two k-tab with her evening dose
+mtsamples-type-78-sample-2605.txt,lasix,,,
+mtsamples-type-91-sample-1685.txt,lasix,mg,0,""": dilantin 100 mg four times a day , phenobarbital 30 mg three times per day , levothyroxine 0.025 mg p.o . q. day , tylenol with codeine b.i.d. , prednisone 5 mg p.r.n. , citalopram 10 mg p.o ."""
+mtsamples-type-91-sample-1685.txt,levothyroxine,,,
+mtsamples-type-91-sample-1685.txt,lasix,mg,025,""": dilantin 100 mg four times a day , phenobarbital 30 mg three times per day , levothyroxine 0.025 mg p.o . q. day , tylenol with codeine b.i.d. , prednisone 5 mg p.r.n. , citalopram 10 mg p.o ."""
+mtsamples-type-98-sample-663.txt,plavix,mg,75,"""the emergency room record , medications are lotensin 20 mg daily , toprol 50 mg daily , plavix 75 mg daily and aspirin 81 mg daily . allergies : unknown . review of systems : unobtainable secondary to the patient"""
+mtsamples-type-98-sample-663.txt,plavix,mg,81,"""medications are lotensin 20 mg daily , toprol 50 mg daily , plavix 75 mg daily and aspirin 81 mg daily . allergies : unknown . review of systems : unobtainable secondary to the patient 's condition . physical examination"""
+mtsamples-type-98-sample-663.txt,plavix,,,
+mtsamples-type-98-sample-663.txt,aspirin,,,
+mtsamples-type-42-sample-1679.txt,plavix,mg,81,"""patient has recently been started on plavix by his primary care doctor , was briefly on baby aspirin 81 mg per day since the tia-like event three weeks ago . he also takes proscar 5 mg q.d and synthroid 0.2"""
+mtsamples-type-42-sample-1679.txt,plavix,,,
+mtsamples-type-42-sample-1679.txt,plavix,,,
+mtsamples-type-42-sample-1679.txt,aspirin,,,
+mtsamples-type-6-sample-2631.txt,plavix,mg,5,lisinopril - 20 mg daily . 3 . metformin - 850 mg daily . 4 . amlodipine - 5 mg daily . 5 . metoprolol - 150 mg twice daily . 6 . warfarin - 5 mg daily . 7
+mtsamples-type-6-sample-2631.txt,amlodipine,,,
+mtsamples-type-6-sample-2631.txt,amlodipine,mg,5,"""she is truly on 150 mg of metoprolol twice a day , one could switch her amlodipine from 5 mg daily to diltiazem 120 mg daily . if this does not work , in terms of controlling her heart rate"""
+mtsamples-type-6-sample-2631.txt,lasix,mg,80,"""ventricular function . procedures and immunizations : none today . plans : i have restarted her lasix at 80 mg daily and i have asked her to return in about 10 days to the heart failure clinic . there ,"""
+mtsamples-type-98-sample-662.txt,lasix,mg,40,""", glipizide 10 mg p.o . q day , lanoxin 0.125 mg p.o . q day , lasix 40 mg p.o . q day , lopressor 50 mg p.o . b.i.d. , insulin sliding scale , lunesta 1 mg p.o"""
+mtsamples-type-42-sample-1692.txt,lasix,mg,81,"""mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 , aspirin 81 mg , and laxative stimulant or stool softener . note that medical records say that he was supposed to be taking"""
+mtsamples-type-42-sample-1692.txt,aspirin,,,
+mtsamples-type-42-sample-1692.txt,levothyroxine,mg,0,"""had been taking percocet daily prior to his hospitalization . current medications : celebrex 200 mg , levothyroxine 0.025 mg , vytorin 10/40 mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 ,"""
+mtsamples-type-42-sample-1692.txt,levothyroxine,mg,025,"""had been taking percocet daily prior to his hospitalization . current medications : celebrex 200 mg , levothyroxine 0.025 mg , vytorin 10/40 mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 ,"""
+mtsamples-type-97-sample-92.txt,levothyroxine,mg,81,""", strokes , or head injuries . current medications : norvasc 10 mg p.o . daily , aspirin 81 mg p.o . daily , lipitor 20 mg p.o . daily , klonopin 0.5 mg p.o . b.i.d. , digoxin 0.125"""
+mtsamples-type-97-sample-92.txt,aspirin,,,
+mtsamples-type-97-sample-92.txt,lasix,mg,20,"""daily , lexapro 10 mg p.o . daily , tricor 145 mg p.o . each bedtime , lasix 20 mg p.o . daily , ismo 20 mg p.o . daily , lidocaine patch , zestril , prinivil 40 mg p.o"""
+mtsamples-type-98-sample-2675.txt,claritin,mg,10,"""surgilube , i was able to remove his wedding band without any difficulty . patient was given claritin 10 mg orally for what appears to be a simple local reaction to an insect sting . i did explain to him"""
+mtsamples-type-98-sample-2675.txt,claritin,mg,10,sting and he should not progress to such a reaction . i did urge him to use claritin 10 mg once daily until the redness and swelling has gone . i did explain that the swelling may worsen over the
+mtsamples-type-97-sample-2273.txt,claritin,mg,81,"""mg in the morning , 500 mg at noon , and 1000 mg in the evening ; aspirin 81 mg daily ; multivitamins ; vitamin e 400 units daily ; and vitamin c 500 mg daily . consider adding lycopene"""
+mtsamples-type-97-sample-2273.txt,aspirin,,,
+mtsamples-type-6-sample-2209.txt,claritin,mg,40,"""70/30 , 15 units b.i.d . 5 . metformin 500 mg p.o . daily . 6 . protonix 40 mg p.o . daily . discharge followup : followup to be arranged at abcd after cardiac cath ."""
+mtsamples-type-6-sample-2209.txt,protonix,,,
+mtsamples-type-6-sample-2209.txt,aspirin,mg,325,cardiac cath . discharged to abcd . discharge condition : stable . discharge medications : 1 . aspirin 325 mg p.o . daily . 2 . lovenox 40 mg p.o . daily . 3 . regular insulin sliding scale .
+mtsamples-type-97-sample-2675.txt,aspirin,mg,10,"""surgilube , i was able to remove his wedding band without any difficulty . patient was given claritin 10 mg orally for what appears to be a simple local reaction to an insect sting . i did explain to him"""
+mtsamples-type-97-sample-2675.txt,claritin,,,
+mtsamples-type-97-sample-2675.txt,claritin,mg,10,sting and he should not progress to such a reaction . i did urge him to use claritin 10 mg once daily until the redness and swelling has gone . i did explain that the swelling may worsen over the
+mtsamples-type-98-sample-2273.txt,claritin,mg,81,"""mg in the morning , 500 mg at noon , and 1000 mg in the evening ; aspirin 81 mg daily ; multivitamins ; vitamin e 400 units daily ; and vitamin c 500 mg daily . consider adding lycopene"""
+mtsamples-type-98-sample-2273.txt,aspirin,,,
+mtsamples-type-41-sample-2280.txt,claritin,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+mtsamples-type-41-sample-2280.txt,hydroxyzine,,,
+mtsamples-type-41-sample-2280.txt,claritin,mg,5,creams for her rash . 2 . hydroxyzine 25 mg 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+mtsamples-type-41-sample-2280.txt,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+mtsamples-type-41-sample-2280.txt,fluoxetine,mg,20,25 mg 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+mtsamples-type-41-sample-2280.txt,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+mtsamples-type-41-sample-2280.txt,actonel,,,
+mtsamples-type-41-sample-2280.txt,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+mtsamples-type-41-sample-2280.txt,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+mtsamples-type-41-sample-2280.txt,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 .
+mtsamples-type-41-sample-2280.txt,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 . aspirin 81 mg a day . 17
+mtsamples-type-41-sample-2280.txt,plavix,mg,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18
+mtsamples-type-41-sample-2280.txt,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18 . levothyroxine 75 micrograms a day . review
+mtsamples-type-41-sample-2280.txt,lasix,mg,20,. plavix 75 mg a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18 . levothyroxine 75 micrograms a day . review of systems : really not much change .
+mtsamples-type-41-sample-2280.txt,levothyroxine,micrograms,75,. aspirin 81 mg a day . 17 . lasix 20 mg a day . 18 . levothyroxine 75 micrograms a day . review of systems : really not much change . her upper respiratory symptoms have resolved . she
+mtsamples-type-3-sample-343.txt,fluoxetine,mg,20,. premenstrual dysphoric disorder . she may have some perimenopausal symptoms . we will start her on fluoxetine 20 mg one tablet p.o . q.d . 4 . hematuria . likely this is secondary to urinary tract infection but we
+mtsamples-type-96-sample-2770.txt,protonix,mg,40,"""for prophylaxis . 7 . maalox p.r.n . 8 . mirapex 0.5 mg t.i.d . 9 . protonix 40 mg daily . 10 . tylenol p.r.n . 11 . zanaflex 4-mg tablet , one-half tablet daily and 6 mg at"""
+mtsamples-type-6-sample-2586.txt,protonix,mg,81,"""5 mg a day , imdur 30 mg a day , lanoxin 0.125 mg a day , aspirin 81 mg a day , albuterol and atrovent nebulizers q.4 h. , potassium chloride 10 meq 2 tablets per day , lasix"""
+mtsamples-type-6-sample-2586.txt,aspirin,,,
+mtsamples-type-6-sample-2586.txt,lasix,mg,40,""", albuterol and atrovent nebulizers q.4 h. , potassium chloride 10 meq 2 tablets per day , lasix 40 mg a day , humibid l.a. 600 mg b.i.d . she was placed on oral levaquin after a load of 500"""
+mtsamples-type-91-sample-2628.txt,aspirin,mg,325,zetia at 20 and 10 mg respectively . she states that she has been taking her aspirin at 325 mg q.a.m . she remains on zyrtec 10 mg q.a.m . her only allergy is listed to latex . objective :
+mtsamples-type-97-sample-662.txt,lasix,mg,40,""", glipizide 10 mg p.o . q day , lanoxin 0.125 mg p.o . q day , lasix 40 mg p.o . q day , lopressor 50 mg p.o . b.i.d. , insulin sliding scale , lunesta 1 mg p.o"""
+mtsamples-type-97-sample-1988.txt,lasix,mg,40,""". daily . 12 . theo-24 200 mg p.o. , 2 in the morning . 13 . zocor 40 mg once a day . 14 . vitamin d 400 units twice daily . 15 . levoxyl 125 mcg once a"""
+mtsamples-type-97-sample-1988.txt,zocor,,,
+mtsamples-type-97-sample-1988.txt,aspirin,mg,81,"""are proarrhythmic and consider alternative bronchoactive therapy to the theophylline . 5 . long-term , consider , aspirin 81 mg once a day for secondary prophylaxis of an adverse cvs event , given known history of cad status post bypass"""
+mtsamples-type-91-sample-1686.txt,aspirin,mg,81,"""cough , hemoptysis , shortness of breath at rest , or dyspnea on exertion . medications : aspirin 81 mg p.o . q.d. , spiriva 10 mcg q.d. , and albuterol p.r.n . physical examination : bp : 117/78 ."""
+mtsamples-type-91-sample-1686.txt,aspirin,,,
+mtsamples-type-42-sample-1690.txt,protonix,mg,40,"""p.o . q.h.s . p.r.n . and dilaudid 2 mg tablets p.o . q.3h . p.r.n. , protonix 40 mg per day , and megace 400 mg per day . allergies : he has no medication or food allergies ."""
+mtsamples-type-96-sample-1872.txt,protonix,mg,81,""", nexium 40 mg q.d. , celebrex 200 mg q.d. , vitamin d3 2000 iu q.d. , aspirin 81 mg q.d. , selenium 200 mg q.d. , aricept 10 mg q.d. , skelaxin 800 mg q.d. , ropinirole 1 mg"""
+mtsamples-type-96-sample-1872.txt,aspirin,,,
+mtsamples-type-91-sample-1136.txt,protonix,mg,81,do not think this would account for the gross hematuria . he will be started on an aspirin 81 mg p.o . daily . 2 . for the pain we will try him on lortab . he will get a
+mtsamples-type-91-sample-1136.txt,aspirin,,,
+mtsamples-type-42-sample-1120.txt,aspirin,mg,81,"""twice a day , os-cal 500 mg once a day , multivitamin once a day , and aspirin 81 mg a day . major findings : on exam today , this is a pleasant 67-year-old woman who comes back from"""
+mtsamples-type-6-sample-2632.txt,aspirin,mg,81,and is negative aside from what is mentioned in the history of present illness . medications : aspirin 81 mg daily and chlordiazepoxide and clidinium - combination pill at 5 mg/2.5 mg 1 tablet daily for stress . allergies :
+mtsamples-type-6-sample-2632.txt,aspirin,,,
+mtsamples-type-42-sample-1691.txt,aspirin,mg,40,"""medications : percocet 5/325 mg 4-6 hours p.r.n. , neurontin 100 mg per day , insulin , protonix 40 mg per day , toprol-xl 50 mg q.d. , norvasc 10 mg q.d. , glipizide 10 mg q.d. , fluticasone 50"""
+mtsamples-type-42-sample-1691.txt,protonix,,,
+mtsamples-type-42-sample-1691.txt,zocor,mg,1,"""glipizide 10 mg q.d. , fluticasone 50 mcg nasal spray , lasix 20 mg b.i.d. , and zocor 1 mg q.d . allergies : no known drug allergies . physical examination : blood pressure 122/74 , heart rate 68 ,"""
+mtsamples-type-42-sample-1691.txt,aspirin,mg,162,diabetes mellitus . 4 . stroke . recommendations : 1 . the patient is to start taking aspirin 162 mg per day . 2 . followup with ophthalmology . 3 . increase neurontin to 300 mg per day x 1
+mtsamples-type-42-sample-1691.txt,lasix,mg,20,""", norvasc 10 mg q.d. , glipizide 10 mg q.d. , fluticasone 50 mcg nasal spray , lasix 20 mg b.i.d. , and zocor 1 mg q.d . allergies : no known drug allergies . physical examination : blood pressure"""
+mtsamples-type-97-sample-1989.txt,zocor,mg,40,"""apparently has a history of . 3 . nexium 40 mg once a day . 4 . zocor 40 mg once a day , and there is a fasting lipid profile pending at the time of this dictation . i"""
+mtsamples-type-97-sample-1989.txt,plavix,mg,600,"""dictation . i see that his ldl was 136 on may 3 , 2002 . 5 . plavix 600 mg p.o . x1 which i am giving him tonight . other medical history is inclusive for obstructive sleep apnea for"""
+mtsamples-type-97-sample-1989.txt,aspirin,mg,325,"""but guarded . the patient is pain-free at this time . medications on transfer : 1 . aspirin 325 mg once a day . 2 . metoprolol 50 mg once a day , but we have had to hold it"""
+mtsamples-type-91-sample-2629.txt,aspirin,mg,40,"""zocor - 80 mg daily . 6 . toprol-xl - 200 mg daily . 7 . protonix - 40 mg daily . 8 . chondroitin/glucosamine - no longer using . major findings : weight 240 , blood pressure by nurse"""
+mtsamples-type-91-sample-2629.txt,protonix,,,
+mtsamples-type-91-sample-2629.txt,zocor,mg,80,insulin - 65 units in the morning and 25 units in the evening . 5 . zocor - 80 mg daily . 6 . toprol-xl - 200 mg daily . 7 . protonix - 40 mg daily . 8 .
+mtsamples-type-91-sample-2629.txt,aspirin,mg,81,is his thinking . medications : 1 . bumex - 2 mg daily . 2 . aspirin - 81 mg daily . 3 . lisinopril - 40 mg daily . 4 . nph insulin - 65 units in the morning
+mtsamples-type-97-sample-663.txt,plavix,mg,75,"""the emergency room record , medications are lotensin 20 mg daily , toprol 50 mg daily , plavix 75 mg daily and aspirin 81 mg daily . allergies : unknown . review of systems : unobtainable secondary to the patient"""
+mtsamples-type-97-sample-663.txt,plavix,mg,81,"""medications are lotensin 20 mg daily , toprol 50 mg daily , plavix 75 mg daily and aspirin 81 mg daily . allergies : unknown . review of systems : unobtainable secondary to the patient 's condition . physical examination"""
+mtsamples-type-97-sample-663.txt,plavix,,,
+mtsamples-type-97-sample-663.txt,aspirin,,,
+mtsamples-type-96-sample-1250.txt,plavix,mg,40,""". 2 . coumadin 5 mg p.o. , was administered on 02/19/2007 and 02/22/2007 . 3 . protonix 40 mg intravenous ( iv ) daily . 4 . vicodin p.r.n . 5 . levaquin 750 mg iv on 02/23/2007 ."""
+mtsamples-type-96-sample-1250.txt,protonix,,,
+mtsamples-type-97-sample-924.txt,plavix,mg,75,: advair 1 puff bid lisinopril 10 mg qd lopressor 50 mg bid aspirin 81 mg qd plavix 75 mg qd multivitamins feso4 1 tab qd colace 100 mg qd review of systems reveals : same as above physical exam
+mtsamples-type-97-sample-924.txt,plavix,,,
+mtsamples-type-97-sample-924.txt,aspirin,mg,81,drug allergies home medications : advair 1 puff bid lisinopril 10 mg qd lopressor 50 mg bid aspirin 81 mg qd plavix 75 mg qd multivitamins feso4 1 tab qd colace 100 mg qd review of systems reveals : same
+mtsamples-type-97-sample-930.txt,aspirin,mg,81,"""past secondary to miscarriages . medications : on presentation included hydrochlorothiazide 12.5 mg p.o . daily , aspirin 81 mg p.o . daily , and propranolol 40 mg p.o . daily . the patient also takes multivitamin and lutein over-the-counter"""
+mtsamples-type-97-sample-930.txt,aspirin,mg,81,"""daily x10 days , guaifenesin 10 cc p.o . q.6h . p.r.n . for cough , and aspirin 81 mg p.o . daily . diet : to follow a low-salt diet . activity : as tolerated . followup : to"""
+mtsamples-type-24-sample-2791.txt,aspirin,mg,40,"""condition upon discharge : stable . medications : feosol 325 mg daily , multivitamins one daily , protonix 40 mg b.i.d. , kcl 20 meq daily , lasix 40 mg b.i.d. , atenolol 50 mg daily , synthroid 80 mcg"""
+mtsamples-type-24-sample-2791.txt,protonix,,,
+mtsamples-type-24-sample-2791.txt,lasix,mg,40,"""mg daily , multivitamins one daily , protonix 40 mg b.i.d. , kcl 20 meq daily , lasix 40 mg b.i.d. , atenolol 50 mg daily , synthroid 80 mcg daily , actos 30 mg daily , mevacor 40 mg"""
+mtsamples-type-72-sample-2792.txt,lasix,mg,80,""". discharge medications : tylenol 650 mg q.6h . p.r.n. , xanax 0.5 q.4h . p.r.n. , lasix 80 mg daily , isordil 10 mg t.i.d. , kcl 20 meq b.i.d. , lactulose 10 g daily , cozaar 50 mg"""
+mtsamples-type-72-sample-2792.txt,lasix,,,
+mtsamples-type-42-sample-2217.txt,protonix,mg,40,"""observation , start the patient on iv fluid , normal saline , 20 meq kcl , and protonix 40 mg , and we will also continue the patient 's namenda and aricept . i will hold the patient 's hydrocodone"""
+mtsamples-type-97-sample-1190.txt,protonix,mg,81,"""per day , uroxatral 10 mg per day , detrol la 4 mg per day , and aspirin 81 mg per day . physical exam : on examination today , this is a pleasant 76-year-old man who is guided back"""
+mtsamples-type-97-sample-1190.txt,aspirin,,,
+mtsamples-type-87-sample-52.txt,protonix,mg,80,diovan 320 mg daily . 4 . lantus insulin 50 units in the morning . 5 . lasix 80 mg daily . 6 . novolin r p.r.n . 7 . toprol xl 100 mg daily . 8 . flovent 100
+mtsamples-type-87-sample-52.txt,lasix,,,
+mtsamples-type-91-sample-2605.txt,lasix,mg,100,and oxygen requirements . i have encouraged the patient to increase her dose of lasix from 100 to 120 mg by mouth every morning as previously prescribed . i have also asked her to add lasix in additional late afternoon
+mtsamples-type-91-sample-2605.txt,lasix,,,
+mtsamples-type-91-sample-2605.txt,lasix,mg,120,and oxygen requirements . i have encouraged the patient to increase her dose of lasix from 100 to 120 mg by mouth every morning as previously prescribed . i have also asked her to add lasix in additional late afternoon
+mtsamples-type-91-sample-2605.txt,lasix,mg,40,i have also asked her to add lasix in additional late afternoon to evening dose of lasix at 40 mg by mouth at that time . she was instructed to take between one and two k-tab with her evening dose
+mtsamples-type-91-sample-2605.txt,lasix,,,
+mtsamples-type-97-sample-101.txt,lasix,mg,40,"""p.o . b.i.d . 7 . levothyroxine 25 mcg , 1 p.o . q.a.m . 8 . protonix 40 mg , 1 p.o . daily . allergies : no known drug allergies . family history : per chart ; her"""
+mtsamples-type-97-sample-101.txt,protonix,,,
+mtsamples-type-97-sample-2274.txt,lasix,mg,40,volume overload and was not unfortunately taking lasix as prescribed . i have advised him to take lasix 40 mg p.o . b.i.d . i also increased the dose of hydralazine from 75 mg t.i.d . to 100 mg t.i.d
+mtsamples-type-97-sample-2274.txt,lasix,,,
+mtsamples-type-97-sample-2274.txt,lasix,,,
+mtsamples-type-97-sample-2063.txt,lasix,mg,10,"""bedtime , crestor 10 mg daily , micardis 80 mg daily , imdur 30 mg daily , amlodipine 10 mg daily , coreg 12.5 mg b.i.d. , lasix 20 mg daily , ecotrin 325 mg daily , and calcitriol 0.5"""
+mtsamples-type-97-sample-2063.txt,amlodipine,,,
+mtsamples-type-97-sample-2063.txt,lasix,mg,20,"""daily , imdur 30 mg daily , amlodipine 10 mg daily , coreg 12.5 mg b.i.d. , lasix 20 mg daily , ecotrin 325 mg daily , and calcitriol 0.5 mcg daily . review of systems : the patient denies"""
+mtsamples-type-97-sample-94.txt,lasix,mg,81,p.r.n . 2 . acetaminophen 650 mg p.o . q.6h . p.r.n . fever . 3 . aspirin 81 mg p.o . daily . 4 . bisacodyl suppository 10 mg per rectum daily . 5 . erythropoietin injection 100 mcg
+mtsamples-type-97-sample-94.txt,aspirin,,,
+mtsamples-type-91-sample-1872.txt,lasix,mg,81,""", nexium 40 mg q.d. , celebrex 200 mg q.d. , vitamin d3 2000 iu q.d. , aspirin 81 mg q.d. , selenium 200 mg q.d. , aricept 10 mg q.d. , skelaxin 800 mg q.d. , ropinirole 1 mg"""
+mtsamples-type-91-sample-1872.txt,aspirin,,,
+mtsamples-type-93-sample-1271.txt,lasix,mg,40,20 mg once a day . 6 . pacerone 200 mg once a day . 7 . protonix 40 mg once a day . 8 . toprol 50 mg once a day . 9 . vitamin b once a day
+mtsamples-type-93-sample-1271.txt,protonix,,,
+mtsamples-type-93-sample-1271.txt,zocor,mg,81,tonsillectomy and adenoidectomy . 5 . cosmetic surgery to breast and abdomen . home medications 1 . aspirin 81 mg once a day . 2 . klor-con 10 meq once a day . 3 . lasix 40 mg once a
+mtsamples-type-93-sample-1271.txt,aspirin,,,
+mtsamples-type-93-sample-1271.txt,lasix,mg,40,81 mg once a day . 2 . klor-con 10 meq once a day . 3 . lasix 40 mg once a day . 4 . levothyroxine 125 mcg once a day . 5 . lisinopril 20 mg once a
+mtsamples-type-97-sample-1998.txt,lasix,mg,20,"""she is also on zyprexa , alcohol withdrawal medications , zosyn 3.375 grams every eight hours , lasix 20 mg daily , cardizem cd 120 mg daily , nexium 40 mg p.o . daily , solu-cortef 50 mg q.24h. ,"""
+mtsamples-type-97-sample-1998.txt,lasix,,,
+mtsamples-type-6-sample-1672.txt,plavix,mg,75,"""no problems with edema . medications : lipitor 40 mg q.d. , metoprolol 25 mg b.i.d. , plavix 75 mg q.d-discontinued , enalapril 10 mg b.i.d. , aspirin 325 mg-reduced to 81 mg , lorcet 10/650-given a 60 pill prescription"""
+mtsamples-type-6-sample-1672.txt,plavix,mg,81,"""25 mg b.i.d. , plavix 75 mg q.d-discontinued , enalapril 10 mg b.i.d. , aspirin 325 mg-reduced to 81 mg , lorcet 10/650-given a 60 pill prescription , and xanax 0.5 mg b.i.d-given a 60 pill prescription . review of"""
+mtsamples-type-6-sample-1672.txt,plavix,,,
+mtsamples-type-6-sample-1672.txt,aspirin,,,
+mtsamples-type-6-sample-1672.txt,aspirin,mg,81,6 . abdominal pain-asked to restart his omeprazole and i am also going to reduce his aspirin to 81 mg q.d . 7 . prevention-i do not think he needs to be on the plavix any more as he has
+mtsamples-type-6-sample-1672.txt,aspirin,mg,81,relatively stable for two years . plan : 1 . discontinue plavix . 2 . aspirin reduced to 81 mg a day . 3 . lorcet and xanax prescriptions given . 4 . refer over to scotland orthopedics . 5
+mtsamples-type-97-sample-1783.txt,aspirin,mg,81,. 8 . digoxin 125 mcg daily . 9 . fenofibrate 145 mg daily . 10 . aspirin 81 mg daily . 11 . raloxifene once daily . 12 . calcium carbonate and alendronate . 13 . metoprolol 25 mg
+mtsamples-type-97-sample-1783.txt,aspirin,,,
+mtsamples-type-98-sample-1568.txt,aspirin,mg,40,was not taking aspirin at home . 2 . tricor 48 mg one daily . 3 . zantac 40 mg one daily . 4 . lisinopril 20 mg one daily . 5 . mobic 75 mg one daily for arthritis
+mtsamples-type-98-sample-1568.txt,zantac,,,
+mtsamples-type-98-sample-1568.txt,zocor,mg,20,"""daily . 7 . macrodantin one two times a day for several more days . 8 . zocor 20 mg one daily , which is a new addition . 9 . effexor xr 37.5 mg one daily . diet :"""
+mtsamples-type-98-sample-1568.txt,aspirin,mg,81,"""of early myocardial disease in the men in their 40s . discharge medications : 1 . enteric-coated aspirin 81 mg one daily . this is new , as the patient was not taking aspirin at home . 2 . tricor"""
+mtsamples-type-100-sample-1451.txt,aspirin,mg,81,"""vaginal cancer and hypertension . brother , colon ca . father , hypertension . current medications : aspirin 81 mg daily . she takes vitamins one a day . she is on zocor , desyrel , flonase , and xanax"""
+mtsamples-type-100-sample-1451.txt,zocor,,,
+mtsamples-type-100-sample-1451.txt,aspirin,,,
+mtsamples-type-98-sample-2063.txt,aspirin,mg,10,"""bedtime , crestor 10 mg daily , micardis 80 mg daily , imdur 30 mg daily , amlodipine 10 mg daily , coreg 12.5 mg b.i.d. , lasix 20 mg daily , ecotrin 325 mg daily , and calcitriol 0.5"""
+mtsamples-type-98-sample-2063.txt,amlodipine,,,
+mtsamples-type-98-sample-2063.txt,lasix,mg,20,"""daily , imdur 30 mg daily , amlodipine 10 mg daily , coreg 12.5 mg b.i.d. , lasix 20 mg daily , ecotrin 325 mg daily , and calcitriol 0.5 mcg daily . review of systems : the patient denies"""
+mtsamples-type-6-sample-1670.txt,lasix,mg,81,"""q.d. , spironolactone 25 mg q.d. , crestor 10 mg q.h.s. , famotidine 20 mg , bayer aspirin 81 mg q.d. , vicodin p.r.n. , and nexium 40 mg-given samples of this today . review of systems : no palpitations"""
+mtsamples-type-6-sample-1670.txt,aspirin,,,
+mtsamples-type-97-sample-2061.txt,lasix,mg,10,. 7 . diovan 320 mg daily . 8 . lisinopril 40 mg daily . 9 . amlodipine 10 mg daily . 10 . lantus insulin 50 units q.p.m . 11 . kcl 20 meq daily . 12 . novolog
+mtsamples-type-97-sample-2061.txt,amlodipine,,,
+mtsamples-type-97-sample-2061.txt,levothyroxine,mg,0,12 . novolog sliding scale insulin coverage . 13 . warfarin 7.5 mg daily . 14 . levothyroxine 0.2 mg daily . 15 . folic acid 1 mg daily . allergies : none . physical examination : general : a
+mtsamples-type-97-sample-2061.txt,levothyroxine,mg,2,12 . novolog sliding scale insulin coverage . 13 . warfarin 7.5 mg daily . 14 . levothyroxine 0.2 mg daily . 15 . folic acid 1 mg daily . allergies : none . physical examination : general : a
+mtsamples-type-97-sample-97.txt,levothyroxine,mg,75,. colace 100 mg b.i.d . 12 . lipitor 20 mg p.o . q.h.s . 13 . plavix 75 mg p.o . daily . 14 . aricept 5 mg p.o . daily . 15 . pepcid 20 mg p.o .
+mtsamples-type-97-sample-97.txt,plavix,,,
+mtsamples-type-97-sample-97.txt,aspirin,mg,325,20 mg p.o . daily . 16 . norvasc 5 mg p.o . daily . 17 . aspirin 325 mg p.o . daily . social history : the patient is a retired paster and missionary to mexico . he is
+mtsamples-type-97-sample-1780.txt,aspirin,mg,81,"""past , stent-supported angioplasty to unknown vessel in the heart . medications at home : 1 . aspirin 81 mg daily . 2 . clopidogrel 75 mg daily . 3 . allopurinol 100 mg daily . 4 . levothyroxine 100"""
+mtsamples-type-97-sample-1780.txt,aspirin,,,
+mtsamples-type-87-sample-87.txt,aspirin,mg,81,3 . norvasc 10 mg a day . 4 . avodart one tablet q.d . 5 . aspirin 81 mg a day . 6 . vitamin c one a day . 7 . vitamin e one a day . physical
+mtsamples-type-87-sample-87.txt,aspirin,,,
+mtsamples-type-72-sample-101.txt,protonix,mg,40,"""p.o . b.i.d . 7 . levothyroxine 25 mcg , 1 p.o . q.a.m . 8 . protonix 40 mg , 1 p.o . daily . allergies : no known drug allergies . family history : per chart ; her"""
+mtsamples-type-98-sample-2274.txt,protonix,mg,40,volume overload and was not unfortunately taking lasix as prescribed . i have advised him to take lasix 40 mg p.o . b.i.d . i also increased the dose of hydralazine from 75 mg t.i.d . to 100 mg t.i.d
+mtsamples-type-98-sample-2274.txt,lasix,,,
+mtsamples-type-98-sample-2274.txt,lasix,,,
+mtsamples-type-6-sample-1250.txt,protonix,mg,40,""". 2 . coumadin 5 mg p.o. , was administered on 02/19/2007 and 02/22/2007 . 3 . protonix 40 mg intravenous ( iv ) daily . 4 . vicodin p.r.n . 5 . levaquin 750 mg iv on 02/23/2007 ."""
+mtsamples-type-6-sample-1250.txt,protonix,,,
+mtsamples-type-98-sample-1566.txt,protonix,mg,40,""". discharge plan : physical activity : with assistance . diet : no restriction . medications : lasix 40 mg daily , lisinopril 5 mg daily , digoxin 0.125 mg daily , augmentin 875 mg 1 tablet twice a day"""
+mtsamples-type-98-sample-1566.txt,lasix,,,
+mtsamples-type-66-sample-2027.txt,aspirin,mg,340,. discharge activities : ad-lib . discharge diet : po ad-lib . discharge medications : aspirin high dose 340 mg q.6h . for 1 day and then aspirin low dose 40 mg q.d . for 14 days and then prevacid
+mtsamples-type-66-sample-2027.txt,aspirin,,,
+mtsamples-type-66-sample-2027.txt,aspirin,mg,40,discharge medications : aspirin high dose 340 mg q.6h . for 1 day and then aspirin low dose 40 mg q.d . for 14 days and then prevacid also to prevent his gi from aspirin 15 mg p.o . once
+mtsamples-type-66-sample-2027.txt,aspirin,mg,15,dose 40 mg q.d . for 14 days and then prevacid also to prevent his gi from aspirin 15 mg p.o . once a day . he will be followed by his primary doctor in 2 to 3 days .
+mtsamples-type-85-sample-1917.txt,aspirin,mg,81,""". rca is dominant and normal . recommendations : medical management , diet , and exercise . aspirin 81 mg p.o . daily , p.r.n . nitroglycerin for chest pain . follow up in the clinic ."""
+mtsamples-type-85-sample-1917.txt,aspirin,,,
+mtsamples-type-98-sample-1228.txt,zocor,mg,40,. aldactone 25 mg a day . 7 . lasix 20 mg a day . 8 . zocor 40 mg every day . allergies 1 . darvocet . 2 . clonidine . physical examination general : the patient is an
+mtsamples-type-98-sample-1228.txt,lasix,mg,20,morning and 12.5 mg at night . 6 . aldactone 25 mg a day . 7 . lasix 20 mg a day . 8 . zocor 40 mg every day . allergies 1 . darvocet . 2 . clonidine .
+mtsamples-type-97-sample-1996.txt,lasix,mg,20,25 mg once a day . 2 . altace 2.5 mg once a day . 3 . zocor 20 mg once a day . 4 . flecainide 200 in the morning and 100 in the evening . 5 . coumadin
+mtsamples-type-97-sample-1996.txt,zocor,,,
+mtsamples-type-96-sample-2154.txt,lasix,mg,150,. 5 . pen-vk 500 mg daily . 6 . ibuprofen 600 mg daily . 7 . zantac 150 mg twice a day . 8 . temodar 100 mg daily . 9 . magic mouthwash daily . 10 . tylenol
+mtsamples-type-96-sample-2154.txt,zantac,,,
+mtsamples-type-3-sample-2027.txt,lasix,mg,340,. discharge activities : ad-lib . discharge diet : po ad-lib . discharge medications : aspirin high dose 340 mg q.6h . for 1 day and then aspirin low dose 40 mg q.d . for 14 days and then prevacid
+mtsamples-type-3-sample-2027.txt,aspirin,,,
+mtsamples-type-3-sample-2027.txt,aspirin,,,
+mtsamples-type-3-sample-2027.txt,aspirin,mg,40,discharge medications : aspirin high dose 340 mg q.6h . for 1 day and then aspirin low dose 40 mg q.d . for 14 days and then prevacid also to prevent his gi from aspirin 15 mg p.o . once
+mtsamples-type-3-sample-2027.txt,aspirin,mg,15,dose 40 mg q.d . for 14 days and then prevacid also to prevent his gi from aspirin 15 mg p.o . once a day . he will be followed by his primary doctor in 2 to 3 days .
+mtsamples-type-97-sample-1202.txt,aspirin,mg,20,""". q.d. , metoprolol 25 mg p.o . q.d. , flomax 0.4 mg p.o . q.d. , zocor 20 mg p.o . q.d. , detrol la 4 mg p.o . q.d. , lisinopril 10 mg p.o . q.d. , imodium"""
+mtsamples-type-97-sample-1202.txt,zocor,,,
+mtsamples-type-97-sample-1202.txt,plavix,mg,75,"""had no headaches and no pain at the shunt site or at the abdomen . medications : plavix 75 mg p.o . q.d. , metoprolol 25 mg p.o . q.d. , flomax 0.4 mg p.o . q.d. , zocor 20"""
+mtsamples-type-91-sample-1672.txt,plavix,mg,75,"""no problems with edema . medications : lipitor 40 mg q.d. , metoprolol 25 mg b.i.d. , plavix 75 mg q.d-discontinued , enalapril 10 mg b.i.d. , aspirin 325 mg-reduced to 81 mg , lorcet 10/650-given a 60 pill prescription"""
+mtsamples-type-91-sample-1672.txt,plavix,,,
+mtsamples-type-91-sample-1672.txt,plavix,mg,81,"""25 mg b.i.d. , plavix 75 mg q.d-discontinued , enalapril 10 mg b.i.d. , aspirin 325 mg-reduced to 81 mg , lorcet 10/650-given a 60 pill prescription , and xanax 0.5 mg b.i.d-given a 60 pill prescription . review of"""
+mtsamples-type-91-sample-1672.txt,plavix,,,
+mtsamples-type-91-sample-1672.txt,aspirin,,,
+mtsamples-type-91-sample-1672.txt,aspirin,mg,81,6 . abdominal pain-asked to restart his omeprazole and i am also going to reduce his aspirin to 81 mg q.d . 7 . prevention-i do not think he needs to be on the plavix any more as he has
+mtsamples-type-91-sample-1672.txt,aspirin,mg,81,relatively stable for two years . plan : 1 . discontinue plavix . 2 . aspirin reduced to 81 mg a day . 3 . lorcet and xanax prescriptions given . 4 . refer over to scotland orthopedics . 5
+mtsamples-type-72-sample-92.txt,aspirin,mg,81,""", strokes , or head injuries . current medications : norvasc 10 mg p.o . daily , aspirin 81 mg p.o . daily , lipitor 20 mg p.o . daily , klonopin 0.5 mg p.o . b.i.d. , digoxin 0.125"""
+mtsamples-type-72-sample-92.txt,aspirin,,,
+mtsamples-type-72-sample-92.txt,lasix,mg,20,"""daily , lexapro 10 mg p.o . daily , tricor 145 mg p.o . each bedtime , lasix 20 mg p.o . daily , ismo 20 mg p.o . daily , lidocaine patch , zestril , prinivil 40 mg p.o"""
+mtsamples-type-72-sample-1268.txt,lasix,mg,10,""". q.12h. , fexofenadine 180 mg p.o . daily , flonase 50 mcg two sprays b.i.d. , amlodipine 10 mg p.o . daily , lorazepam 0.5 mg p.o . q.6h . p.r.n . anxiety and agitation . 3 . substance"""
+mtsamples-type-72-sample-1268.txt,amlodipine,,,
+mtsamples-type-24-sample-2216.txt,lasix,mg,75,"""in about 3-5 days . discharged home with synthroid 0.5 mg 1 tablet p.o . daily , plavix 75 mg p.o . daily , folic acid 1 mg p.o . daily , diovan 80 mg p.o . daily , renagel"""
+mtsamples-type-24-sample-2216.txt,plavix,,,
+mtsamples-type-24-sample-2216.txt,lasix,mg,40,"""80 mg p.o . daily , renagel 2 tablets 800 mg p.o . twice a day , lasix 40 mg p.o . 2 tablets twice a day , lovastatin 20 mg p.o . daily , coreg 3.125 mg p.o ."""
+mtsamples-type-98-sample-1439.txt,lasix,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+mtsamples-type-98-sample-1439.txt,fluoxetine,,,
+mtsamples-type-91-sample-1670.txt,lasix,mg,81,"""q.d. , spironolactone 25 mg q.d. , crestor 10 mg q.h.s. , famotidine 20 mg , bayer aspirin 81 mg q.d. , vicodin p.r.n. , and nexium 40 mg-given samples of this today . review of systems : no palpitations"""
+mtsamples-type-91-sample-1670.txt,aspirin,,,
+mtsamples-type-98-sample-2326.txt,lasix,mg,40,4 . aspirin 325 mg. 5 . combivent aerosol two puffs twice a day . 6 . protonix 40 mg q.d . 7 . fosamax 70 mg weekly . 8 . multivitamins including calcium and vitamin d. 9 . hydrocortisone
+mtsamples-type-98-sample-2326.txt,protonix,,,
+mtsamples-type-98-sample-2326.txt,plavix,mg,75,medications 1 . lipitor 20 mg q.d . 2 . metoprolol 25 mg b.i.d . 3 . plavix 75 mg once a day . 4 . aspirin 325 mg. 5 . combivent aerosol two puffs twice a day . 6
+mtsamples-type-97-sample-1228.txt,plavix,mg,40,. aldactone 25 mg a day . 7 . lasix 20 mg a day . 8 . zocor 40 mg every day . allergies 1 . darvocet . 2 . clonidine . physical examination general : the patient is an
+mtsamples-type-97-sample-1228.txt,zocor,,,
+mtsamples-type-97-sample-1228.txt,lasix,mg,20,morning and 12.5 mg at night . 6 . aldactone 25 mg a day . 7 . lasix 20 mg a day . 8 . zocor 40 mg every day . allergies 1 . darvocet . 2 . clonidine .
+mtsamples-type-72-sample-1692.txt,lasix,mg,81,"""mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 , aspirin 81 mg , and laxative stimulant or stool softener . note that medical records say that he was supposed to be taking"""
+mtsamples-type-72-sample-1692.txt,aspirin,,,
+mtsamples-type-72-sample-1692.txt,levothyroxine,mg,0,"""had been taking percocet daily prior to his hospitalization . current medications : celebrex 200 mg , levothyroxine 0.025 mg , vytorin 10/40 mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 ,"""
+mtsamples-type-72-sample-1692.txt,levothyroxine,mg,025,"""had been taking percocet daily prior to his hospitalization . current medications : celebrex 200 mg , levothyroxine 0.025 mg , vytorin 10/40 mg , lisinopril 10 mg , coreg 10 mg , glucosamine with chondroitin , prostate 2.2 ,"""
+mtsamples-type-41-sample-2277.txt,levothyroxine,mg,40,"""12.5 mg twice a day . 4 . cozaar 50 mg twice a day . 5 . lasix 40 mg a day . physical examination : vital signs : on exam , his blood pressure is 140/57 , pulse 58"""
+mtsamples-type-41-sample-2277.txt,lasix,,,
+mtsamples-type-85-sample-2011.txt,levothyroxine,mg,80,the intensive care unit for titration of the primacor therapy . we will also increase his lasix to 80 mg iv q.d . we will increase his amiodarone to 400 mg daily . we will also continue with his coumadin
+mtsamples-type-85-sample-2011.txt,lasix,,,
+mtsamples-type-6-sample-2001.txt,aspirin,mg,81,: 1 . toprol-xl 25 mg daily . 2 . simvastatin 80 mg daily . 3 . aspirin 81 mg daily . 4 . synthroid 0.5 mg daily . 5 . warfarin 1.5 mg daily . physical examination : the
+mtsamples-type-6-sample-2011.txt,aspirin,mg,80,the intensive care unit for titration of the primacor therapy . we will also increase his lasix to 80 mg iv q.d . we will increase his amiodarone to 400 mg daily . we will also continue with his coumadin
+mtsamples-type-6-sample-2011.txt,lasix,,,
+mtsamples-type-98-sample-1986.txt,aspirin,mg,325,from beta-blocker therapy . medications on admission : 1 . multivitamin p.o . daily . 2 . aspirin 325 mg once a day . 3 . lisinopril 40 mg once a day . 4 . felodipine 10 mg once a
+mtsamples-type-98-sample-1986.txt,aspirin,,,
+mtsamples-type-98-sample-1986.txt,lasix,mg,20,. daily presumably for gerd . 7 . miralax 17 g p.o . daily . 8 . lasix 20 mg p.o . daily . allergies : penicillin . it is listed that toprol has caused shortness of breath in her
+mtsamples-type-97-sample-2282.txt,lasix,mg,81,. coumadin 5 mg a day . 2 . toprol-xl 50 mg a day . 3 . aspirin 81 mg a day . 4 . hydrochlorothiazide 25 mg a day . 5 . plendil 10 mg daily . 6 .
+mtsamples-type-97-sample-2282.txt,aspirin,,,
+mtsamples-type-6-sample-1685.txt,lasix,mg,0,""": dilantin 100 mg four times a day , phenobarbital 30 mg three times per day , levothyroxine 0.025 mg p.o . q. day , tylenol with codeine b.i.d. , prednisone 5 mg p.r.n. , citalopram 10 mg p.o ."""
+mtsamples-type-6-sample-1685.txt,levothyroxine,,,
+mtsamples-type-6-sample-1685.txt,lasix,mg,025,""": dilantin 100 mg four times a day , phenobarbital 30 mg three times per day , levothyroxine 0.025 mg p.o . q. day , tylenol with codeine b.i.d. , prednisone 5 mg p.r.n. , citalopram 10 mg p.o ."""
+mtsamples-type-98-sample-2486.txt,lasix,mg,40,. 2 . simvastatin 40 mg nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff
+mtsamples-type-98-sample-2486.txt,protonix,,,
+mtsamples-type-98-sample-2486.txt,aspirin,mg,160,nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n
+mtsamples-type-98-sample-2486.txt,lasix,mg,20,. 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n . q.i.d . 9 . advair 500/50 puff
+mtsamples-type-97-sample-1204.txt,aspirin,mg,81,"""of anticoagulation ( which she had discontinued just prior to her stroke ) . current medications : aspirin 81 mg daily , colace 100 mg b.i.d. , lipitor 80 mg daily , and albuterol mdi p.r.n . substance use :"""
+mtsamples-type-43-sample-1202.txt,aspirin,mg,20,""". q.d. , metoprolol 25 mg p.o . q.d. , flomax 0.4 mg p.o . q.d. , zocor 20 mg p.o . q.d. , detrol la 4 mg p.o . q.d. , lisinopril 10 mg p.o . q.d. , imodium"""
+mtsamples-type-43-sample-1202.txt,zocor,,,
+mtsamples-type-43-sample-1202.txt,plavix,mg,75,"""had no headaches and no pain at the shunt site or at the abdomen . medications : plavix 75 mg p.o . q.d. , metoprolol 25 mg p.o . q.d. , flomax 0.4 mg p.o . q.d. , zocor 20"""
+mtsamples-type-97-sample-1239.txt,plavix,mg,5,"""daily , glyburide 5 mg daily , atenolol 50 mg daily , furosemide 40 mg daily , amlodipine 5 mg daily , hydralazine 50 mg p.o . t.i.d. , in addition to tekturna 150 mg daily , zoloft 25 mg"""
+mtsamples-type-97-sample-1239.txt,amlodipine,,,
+mtsamples-type-97-sample-1239.txt,aspirin,mg,5,"""diovan 320 mg daily , combivent two puffs t.i.d. , folate , one adult aspirin daily , glyburide 5 mg daily , atenolol 50 mg daily , furosemide 40 mg daily , amlodipine 5 mg daily , hydralazine 50 mg"""
+mtsamples-type-6-sample-2616.txt,aspirin,mg,325,with mouthwash after each use . 9 . iron 325 mg p.o . b.i.d . 10 . aspirin 325 mg p.o . daily . 11 . lipitor 10 mg p.o . bedtime . 12 . digoxin 0.25 mg p.o .
+mtsamples-type-6-sample-2616.txt,aspirin,,,
+mtsamples-type-42-sample-1460.txt,aspirin,mg,325,"""recommendation to avoid coumadin secondary to his questionable significant liver disease , therefore he was placed on aspirin 325 mg once a day . in discussion with mr. a and review of his chart that i have available , it"""
+mtsamples-type-42-sample-1460.txt,aspirin,,,
+mtsamples-type-42-sample-1460.txt,aspirin,mg,325,"""250 mg p.o . four times a day , metoprolol 12.5 mg twice a day , and aspirin 325 mg a day . if you have any questions regarding his care , please feel free to call me to discuss"""
+mtsamples-type-42-sample-1460.txt,aspirin,,,
+mtsamples-type-97-sample-1985.txt,claritin,mg,10,75 mg once a day . 9 . diovan 160 mg once a day . 10 . claritin 10 mg once a day for allergic rhinitis . 11 . norvasc 5 mg once a day . 12 . lipitor 5
+mtsamples-type-97-sample-1985.txt,claritin,mg,75,she seems to be tolerating . 7 . aspirin 325 mg once a day . 8 . plavix 75 mg once a day . 9 . diovan 160 mg once a day . 10 . claritin 10 mg once a
+mtsamples-type-97-sample-1985.txt,valsartan,,,
+mtsamples-type-97-sample-1985.txt,plavix,,,
+mtsamples-type-97-sample-1985.txt,plavix,mg,325,"""i started although she had been bradycardic , but she seems to be tolerating . 7 . aspirin 325 mg once a day . 8 . plavix 75 mg once a day . 9 . diovan 160 mg once a"""
+mtsamples-type-97-sample-1985.txt,aspirin,,,
+mtsamples-type-72-sample-94.txt,plavix,mg,81,p.r.n . 2 . acetaminophen 650 mg p.o . q.6h . p.r.n . fever . 3 . aspirin 81 mg p.o . daily . 4 . bisacodyl suppository 10 mg per rectum daily . 5 . erythropoietin injection 100 mcg
+mtsamples-type-72-sample-94.txt,aspirin,,,
+mtsamples-type-24-sample-2762.txt,plavix,mg,40,"""bactrim . throughout her hospital course , the patient continued to receive coreg 12.5 mg daily and lasix 40 mg twice a day for her congestive heart failure , which remains stable . she also received lipitor for her high"""
+mtsamples-type-24-sample-2762.txt,lasix,,,
+mtsamples-type-24-sample-2762.txt,lasix,mg,40,mg p.o . at breakfast . 11 . neurontin 400 mg p.o . t.i.d . 12 . lasix 40 mg p.o . b.i.d . 13 . fentanyl 50 mcg patch transdermal q.72h . 14 . calcium and vitamin d combination
+mtsamples-type-6-sample-2762.txt,lasix,mg,40,"""bactrim . throughout her hospital course , the patient continued to receive coreg 12.5 mg daily and lasix 40 mg twice a day for her congestive heart failure , which remains stable . she also received lipitor for her high"""
+mtsamples-type-6-sample-2762.txt,lasix,,,
+mtsamples-type-6-sample-2762.txt,lasix,mg,40,mg p.o . at breakfast . 11 . neurontin 400 mg p.o . t.i.d . 12 . lasix 40 mg p.o . b.i.d . 13 . fentanyl 50 mcg patch transdermal q.72h . 14 . calcium and vitamin d combination
+mtsamples-type-42-sample-2792.txt,lasix,mg,80,""". discharge medications : tylenol 650 mg q.6h . p.r.n. , xanax 0.5 q.4h . p.r.n. , lasix 80 mg daily , isordil 10 mg t.i.d. , kcl 20 meq b.i.d. , lactulose 10 g daily , cozaar 50 mg"""
+mtsamples-type-42-sample-2792.txt,lasix,,,
+mtsamples-type-98-sample-1239.txt,amlodipine,mg,5,"""daily , glyburide 5 mg daily , atenolol 50 mg daily , furosemide 40 mg daily , amlodipine 5 mg daily , hydralazine 50 mg p.o . t.i.d. , in addition to tekturna 150 mg daily , zoloft 25 mg"""
+mtsamples-type-98-sample-1239.txt,aspirin,mg,5,"""diovan 320 mg daily , combivent two puffs t.i.d. , folate , one adult aspirin daily , glyburide 5 mg daily , atenolol 50 mg daily , furosemide 40 mg daily , amlodipine 5 mg daily , hydralazine 50 mg"""
+mtsamples-type-6-sample-1686.txt,aspirin,mg,81,"""cough , hemoptysis , shortness of breath at rest , or dyspnea on exertion . medications : aspirin 81 mg p.o . q.d. , spiriva 10 mcg q.d. , and albuterol p.r.n . physical examination : bp : 117/78 ."""
+mtsamples-type-6-sample-1686.txt,aspirin,,,
+mtsamples-type-97-sample-1987.txt,zocor,mg,20,mg p.o . every day . 9 . sertraline 100 mg p.o . nightly . 10 . zocor 20 mg p.o . nightly . allergies : to medications per chart are none . family history : unable to obtain as
+mtsamples-type-97-sample-1987.txt,aspirin,mg,81,. medications : on admission : 1 . norvasc 10 mg once a day . 2 . aspirin 81 mg once a day . 3 . colace 200 mg two at bedtime . 4 . labetalol 100 mg p.o .
+mtsamples-type-97-sample-1987.txt,aspirin,mg,81,""". the patient is felt to be a significant fall risk and will at least continue her aspirin 81 mg once a day for secondary cva , thromboprophylaxis ( albeit understanding that it is inferior to coumadin ) . 6"""
+mtsamples-type-98-sample-647.txt,aspirin,mg,20,"""with our treatment for this patient . the patient was on aspirin 325 mg and also on zocor 20 mg once a day . we also ordered fasting blood lipids , which showed cholesterol of 165 , triglycerides 180 ,"""
+mtsamples-type-98-sample-647.txt,zocor,,,
+mtsamples-type-98-sample-647.txt,zocor,mg,20,. urine culture and sensitivity were negative . 4 . hypercholesterolemia : the patient was put on zocor 20 mg p.o . daily . the goal ldl for this patient will be less than 70 . his ldl currently is
+mtsamples-type-98-sample-647.txt,zocor,mg,20,"""b.i.d . 3 . docusate sodium 100 mg , one cap p.o . b.i.d . 4 . zocor 20 mg , one tablet p.o . at bedtime . 5 . prevacid 30 mg p.o . once a day . follow"""
+mtsamples-type-98-sample-647.txt,aspirin,mg,325,"""obtained from dr. s. she agrees with our treatment for this patient . the patient was on aspirin 325 mg and also on zocor 20 mg once a day . we also ordered fasting blood lipids , which showed cholesterol"""
+mtsamples-type-98-sample-647.txt,aspirin,,,
+mtsamples-type-6-sample-2628.txt,aspirin,mg,325,zetia at 20 and 10 mg respectively . she states that she has been taking her aspirin at 325 mg q.a.m . she remains on zyrtec 10 mg q.a.m . her only allergy is listed to latex . objective :
+mtsamples-type-42-sample-1674.txt,aspirin,mg,81,"""medications : he takes actoplus , albuterol , androgel , astelin , diovan , dolgic plus , aspirin 81 mg , fish oil , lipitor , lorazepam , multivitamins , nasacort , pulmicort , ranitidine , singulair , viagra ,"""
+mtsamples-type-42-sample-1674.txt,aspirin,,,
+mtsamples-type-97-sample-1986.txt,aspirin,mg,325,from beta-blocker therapy . medications on admission : 1 . multivitamin p.o . daily . 2 . aspirin 325 mg once a day . 3 . lisinopril 40 mg once a day . 4 . felodipine 10 mg once a
+mtsamples-type-97-sample-1986.txt,aspirin,,,
+mtsamples-type-97-sample-1986.txt,lasix,mg,20,. daily presumably for gerd . 7 . miralax 17 g p.o . daily . 8 . lasix 20 mg p.o . daily . allergies : penicillin . it is listed that toprol has caused shortness of breath in her
+mtsamples-type-6-sample-1863.txt,lasix,mg,40,mg p.o . daily . 6 . lantus insulin 15 units subcutaneously every evening . 7 . protonix 40 mg p.o . daily . 8 . furosemide 40 mg p.o . daily . 9 . norvasc 5 mg p.o .
+mtsamples-type-6-sample-1863.txt,protonix,,,
+mtsamples-type-6-sample-1863.txt,plavix,mg,75,married . lives with her husband . they are retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o
+mtsamples-type-6-sample-1863.txt,aspirin,mg,81,retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o . daily . 4 . colace 100 mg p.o
+mtsamples-type-72-sample-97.txt,aspirin,mg,75,. colace 100 mg b.i.d . 12 . lipitor 20 mg p.o . q.h.s . 13 . plavix 75 mg p.o . daily . 14 . aricept 5 mg p.o . daily . 15 . pepcid 20 mg p.o .
+mtsamples-type-72-sample-97.txt,plavix,,,
+mtsamples-type-72-sample-97.txt,aspirin,mg,325,20 mg p.o . daily . 16 . norvasc 5 mg p.o . daily . 17 . aspirin 325 mg p.o . daily . social history : the patient is a retired paster and missionary to mexico . he is
+mtsamples-type-6-sample-1917.txt,aspirin,mg,81,""". rca is dominant and normal . recommendations : medical management , diet , and exercise . aspirin 81 mg p.o . daily , p.r.n . nitroglycerin for chest pain . follow up in the clinic ."""
+mtsamples-type-6-sample-1917.txt,aspirin,,,
+mtsamples-type-85-sample-973.txt,aspirin,mg,225,procedure medications : 1 . visipaque 361 ml total dose . 2 . clopidogrel bisulphate ( plavix ) 225 mg po 3 . promethazine ( phenergan ) 12.5 mg total dose . 4 . abciximab ( reopro ) 10 mg
+mtsamples-type-85-sample-973.txt,plavix,,,
+mtsamples-type-85-sample-973.txt,plavix,mg,75,"""hypokinesis of the anterior wall of the left ventricle . recommendation : 1 . clopidogrel ( plavix ) 75 mg po daily for 1 year . 2 . aggressive risk factor modification of tobacco abuse , hyperlipidemia and hypertension ."""
+mtsamples-type-6-sample-1780.txt,plavix,mg,81,"""past , stent-supported angioplasty to unknown vessel in the heart . medications at home : 1 . aspirin 81 mg daily . 2 . clopidogrel 75 mg daily . 3 . allopurinol 100 mg daily . 4 . levothyroxine 100"""
+mtsamples-type-6-sample-1780.txt,aspirin,,,
+mtsamples-type-42-sample-1202.txt,plavix,mg,20,""". q.d. , metoprolol 25 mg p.o . q.d. , flomax 0.4 mg p.o . q.d. , zocor 20 mg p.o . q.d. , detrol la 4 mg p.o . q.d. , lisinopril 10 mg p.o . q.d. , imodium"""
+mtsamples-type-42-sample-1202.txt,zocor,,,
+mtsamples-type-42-sample-1202.txt,plavix,mg,75,"""had no headaches and no pain at the shunt site or at the abdomen . medications : plavix 75 mg p.o . q.d. , metoprolol 25 mg p.o . q.d. , flomax 0.4 mg p.o . q.d. , zocor 20"""
+mtsamples-type-86-sample-1460.txt,plavix,mg,325,"""recommendation to avoid coumadin secondary to his questionable significant liver disease , therefore he was placed on aspirin 325 mg once a day . in discussion with mr. a and review of his chart that i have available , it"""
+mtsamples-type-86-sample-1460.txt,aspirin,,,
+mtsamples-type-86-sample-1460.txt,aspirin,mg,325,"""250 mg p.o . four times a day , metoprolol 12.5 mg twice a day , and aspirin 325 mg a day . if you have any questions regarding his care , please feel free to call me to discuss"""
+mtsamples-type-86-sample-1460.txt,aspirin,,,
+mtsamples-type-49-sample-2760.txt,aspirin,mg,80,"""therapy , and social work consults . discharge medications : resume home medications , but increase lasix to 80 mg every morning , lovenox 30 mg subcu daily x2 weeks , vicodin 5/500 mg one to two every four to"""
+mtsamples-type-49-sample-2760.txt,lasix,,,
+mtsamples-type-49-sample-2760.txt,lasix,,,
+mtsamples-type-97-sample-1077.txt,lasix,mg,40,""", coumadin 5 mg. on the medical records , it shows she is also on ibuprofen , lasix 40 mg b.i.d. , lipitor 20 mg nightly , reglan t.i.d . 5 mg , nystatin powder . she is on oxygen"""
+mtsamples-type-97-sample-1063.txt,aspirin,mg,81,"""she takes the following medications for her diabetes , insulin 70 units/6 units times four years , aspirin 81 mg a day , actos 15 mg , crestor 10 mg and cellcept 500 mg two times a day . allergies"""
+mtsamples-type-85-sample-634.txt,aspirin,mg,75,"""with drug-eluting stent placement to the ostium of the pda . recommendations : aspirin indefinitely , and plavix 75 mg p.o . daily for no less than six months . the patient will be dispositioned back to telemetry for further"""
+mtsamples-type-85-sample-634.txt,plavix,,,
+mtsamples-type-97-sample-1658.txt,aspirin,mg,20,daily . 3 . ziagen two daily . 4 . lasix 20 mg b.i.d . 5 . valsartan 20 mg b.i.d . 6 . ambien 10 mg q.h.s . social history : he lives here in abcd . he is
+mtsamples-type-97-sample-1658.txt,valsartan,,,
+mtsamples-type-97-sample-1658.txt,valsartan,mg,20,. hyperkalemia . i am going to instruct him in a low-potassium diet and decrease his valsartan to 20 mg daily . i will have him return in one week to recheck his potassium . if his potassium continues to
+mtsamples-type-97-sample-1658.txt,lasix,mg,20,kaletra daily . 2 . epivir one daily . 3 . ziagen two daily . 4 . lasix 20 mg b.i.d . 5 . valsartan 20 mg b.i.d . 6 . ambien 10 mg q.h.s . social history : he
+mtsamples-type-91-sample-2278.txt,lasix,mg,40,1 mg four times a day . 4 . prozac 20 mg a day . 5 . lasix 40 mg a day . 6 . potassium 10 meq a day . 7 . mirapex two tablets every night . 8
+mtsamples-type-91-sample-2278.txt,lasix,,,
+mtsamples-type-91-sample-2287.txt,lasix,micrograms,125,has been stable . she is not reporting proximal muscle weakness . current medications : 1 . levothyroxine 125 micrograms p.o . once daily . 2 . cpap . 3 . glucotrol . 4 . avandamet . 5 . synthroid
+mtsamples-type-91-sample-2287.txt,levothyroxine,,,
+mtsamples-type-6-sample-2061.txt,amlodipine,mg,10,. 7 . diovan 320 mg daily . 8 . lisinopril 40 mg daily . 9 . amlodipine 10 mg daily . 10 . lantus insulin 50 units q.p.m . 11 . kcl 20 meq daily . 12 . novolog
+mtsamples-type-6-sample-2061.txt,levothyroxine,mg,0,12 . novolog sliding scale insulin coverage . 13 . warfarin 7.5 mg daily . 14 . levothyroxine 0.2 mg daily . 15 . folic acid 1 mg daily . allergies : none . physical examination : general : a
+mtsamples-type-6-sample-2061.txt,levothyroxine,mg,2,12 . novolog sliding scale insulin coverage . 13 . warfarin 7.5 mg daily . 14 . levothyroxine 0.2 mg daily . 15 . folic acid 1 mg daily . allergies : none . physical examination : general : a
+mtsamples-type-91-sample-1942.txt,levothyroxine,mg,81,"""other days of the week , flomax q.d. , vitamin d q.d , saw palmetto q.d. , aspirin 81 mg q.d. , and vitamin c q.d . allergies : no known drug allergies . review of systems : as per"""
+mtsamples-type-91-sample-1942.txt,aspirin,,,
+mtsamples-type-91-sample-1940.txt,levothyroxine,mg,150,"""days , dicyclomine 10 mg q.d. , coreg 6.25 mg b.i.d. , vasotec 2.5 mg b.i.d. , zantac 150 mg q.d. , claritin d q.d. , centrum q.d. , calcium q.d. , omega-3 b.i.d. , metamucil q.d. , and lasix"""
+mtsamples-type-91-sample-1940.txt,claritin,,,
+mtsamples-type-91-sample-1940.txt,zantac,,,
+mtsamples-type-91-sample-1940.txt,lasix,mg,40,"""claritin d q.d. , centrum q.d. , calcium q.d. , omega-3 b.i.d. , metamucil q.d. , and lasix 40 mg t.i.d . allergies : no known drug allergies . review of systems : as per the hpi , otherwise negative"""
+mtsamples-type-91-sample-380.txt,lasix,mg,81,"""e three to four tablets daily , calcium with d 1500 mg daily , multivitamin daily , aspirin 81 mg daily , monopril 40 mg daily , celexa p.r.n . allergies : bactrim , which causes nausea and vomiting ,"""
+mtsamples-type-91-sample-380.txt,aspirin,,,
+mtsamples-type-6-sample-1998.txt,lasix,mg,20,"""she is also on zyprexa , alcohol withdrawal medications , zosyn 3.375 grams every eight hours , lasix 20 mg daily , cardizem cd 120 mg daily , nexium 40 mg p.o . daily , solu-cortef 50 mg q.24h. ,"""
+mtsamples-type-6-sample-1998.txt,lasix,,,
+mtsamples-type-6-sample-1783.txt,lasix,mg,81,. 8 . digoxin 125 mcg daily . 9 . fenofibrate 145 mg daily . 10 . aspirin 81 mg daily . 11 . raloxifene once daily . 12 . calcium carbonate and alendronate . 13 . metoprolol 25 mg
+mtsamples-type-6-sample-1783.txt,aspirin,,,
+mtsamples-type-49-sample-2788.txt,lasix,mg,40,"""200 mg daily , for one month , colace 100 mg b.i.d . for one month , protonix 40 mg b.i.d . for one month , synthroid 137 mcg daily , diprosone cream 0.05 % cream b.i.d . to the"""
+mtsamples-type-49-sample-2788.txt,protonix,,,
+mtsamples-type-91-sample-1439.txt,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+mtsamples-type-34-sample-472.txt,fluoxetine,mg,80,"""mg a day , coumadin 2.5 mg a day , digoxin 0.125 mg every other day , lasix 80 mg twice daily , inspra twice daily , and he is on a transdermal nitro patch 12 hours on and 12"""
+mtsamples-type-34-sample-472.txt,lasix,,,
+mtsamples-type-6-sample-370.txt,fluoxetine,mg,325,"""1/2 pill daily , gemfibrozil 600 mg twice daily , crestor 80 mg 1/2 pill daily , aspirin 325 mg daily , vitamin e 400 units daily , and citrucel one daily . allergies : none known . family history"""
+mtsamples-type-6-sample-370.txt,aspirin,,,
+mtsamples-type-97-sample-1504.txt,fluoxetine,mg,81,"""daily , femara 2.5 mg p.o . daily , fosamax 70 mg p.o . every week , aspirin 81 mg p.o . daily , and vitamin . allergies : morphine . history of present complaint : this 84-year-old patient with"""
+mtsamples-type-97-sample-1504.txt,aspirin,,,
+mtsamples-type-34-sample-473.txt,fluoxetine,mg,20,"""& quot ; plan. & quot ; medications : medications include toprol 12.5 mg twice daily , lasix 20 mg daily , ranitidine 75 mg daily , potassium 20 meq daily , benadryl 25-50 mg at the hour of sleep"""
+mtsamples-type-34-sample-473.txt,lasix,,,
+mtsamples-type-49-sample-2789.txt,fluoxetine,mg,40,"""mg q.h.s . 5 . osteoarthritis , celebrex 200 mg b.i.d . 6 . gi prophylaxis , protonix 40 mg b.i.d . dulcolax suppository and lactulose will be used as a p.r.n . basis and colace 100 mg b.i.d ."""
+mtsamples-type-49-sample-2789.txt,protonix,,,
+mtsamples-type-21-sample-2287.txt,fluoxetine,micrograms,125,has been stable . she is not reporting proximal muscle weakness . current medications : 1 . levothyroxine 125 micrograms p.o . once daily . 2 . cpap . 3 . glucotrol . 4 . avandamet . 5 . synthroid
+mtsamples-type-21-sample-2287.txt,levothyroxine,,,
+mtsamples-type-6-sample-1621.txt,protonix,mg,40,days . 2 . levaquin 750 mg p.o . daily for 5 more days . 3 . protonix 40 mg p.o . daily . 4 . the patient can continue other current home medications at home . followup appointments :
+mtsamples-type-6-sample-2274.txt,lasix,mg,40,volume overload and was not unfortunately taking lasix as prescribed . i have advised him to take lasix 40 mg p.o . b.i.d . i also increased the dose of hydralazine from 75 mg t.i.d . to 100 mg t.i.d
+mtsamples-type-6-sample-2274.txt,lasix,,,
+mtsamples-type-98-sample-1077.txt,lasix,mg,40,""", coumadin 5 mg. on the medical records , it shows she is also on ibuprofen , lasix 40 mg b.i.d. , lipitor 20 mg nightly , reglan t.i.d . 5 mg , nystatin powder . she is on oxygen"""
+mtsamples-type-98-sample-1077.txt,lasix,,,
+mtsamples-type-91-sample-2284.txt,aspirin,mg,325,. trazodone 100 mg at bedtime . 10 . prempro 0.625 mg per day . 11 . aspirin 325 mg once a day . 12 . lipitor 10 mg per day . 13 . pepcid 20 mg twice a day
+mtsamples-type-91-sample-2280.txt,aspirin,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+mtsamples-type-91-sample-2280.txt,hydroxyzine,,,
+mtsamples-type-91-sample-2280.txt,claritin,mg,5,creams for her rash . 2 . hydroxyzine 25 mg 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+mtsamples-type-91-sample-2280.txt,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+mtsamples-type-91-sample-2280.txt,fluoxetine,mg,20,25 mg 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+mtsamples-type-91-sample-2280.txt,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+mtsamples-type-91-sample-2280.txt,actonel,,,
+mtsamples-type-91-sample-2280.txt,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+mtsamples-type-91-sample-2280.txt,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+mtsamples-type-91-sample-2280.txt,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 .
+mtsamples-type-91-sample-2280.txt,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 . aspirin 81 mg a day . 17
+mtsamples-type-91-sample-2280.txt,plavix,mg,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18
+mtsamples-type-91-sample-2280.txt,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mg a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18 . levothyroxine 75 micrograms a day . review
+mtsamples-type-91-sample-2280.txt,lasix,mg,20,. plavix 75 mg a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18 . levothyroxine 75 micrograms a day . review of systems : really not much change .
+mtsamples-type-91-sample-2280.txt,levothyroxine,micrograms,75,. aspirin 81 mg a day . 17 . lasix 20 mg a day . 18 . levothyroxine 75 micrograms a day . review of systems : really not much change . her upper respiratory symptoms have resolved . she
+mtsamples-type-97-sample-221.txt,levothyroxine,mg,150,"""this and if he remains symptomatic , then he will call our office and a prescription for zantac 150 mg per day will be provided . reviewed the potential need for upper endoscopy should his symptoms continue or become more"""
+mtsamples-type-97-sample-221.txt,zantac,,,
+mtsamples-type-97-sample-2154.txt,levothyroxine,mg,150,. 5 . pen-vk 500 mg daily . 6 . ibuprofen 600 mg daily . 7 . zantac 150 mg twice a day . 8 . temodar 100 mg daily . 9 . magic mouthwash daily . 10 . tylenol
+mtsamples-type-97-sample-2154.txt,zantac,,,
+mtsamples-type-97-sample-2632.txt,aspirin,mg,81,and is negative aside from what is mentioned in the history of present illness . medications : aspirin 81 mg daily and chlordiazepoxide and clidinium - combination pill at 5 mg/2.5 mg 1 tablet daily for stress . allergies :
+mtsamples-type-6-sample-1989.txt,aspirin,mg,40,"""apparently has a history of . 3 . nexium 40 mg once a day . 4 . zocor 40 mg once a day , and there is a fasting lipid profile pending at the time of this dictation . i"""
+mtsamples-type-6-sample-1989.txt,zocor,,,
+mtsamples-type-6-sample-1989.txt,plavix,mg,600,"""dictation . i see that his ldl was 136 on may 3 , 2002 . 5 . plavix 600 mg p.o . x1 which i am giving him tonight . other medical history is inclusive for obstructive sleep apnea for"""
+mtsamples-type-6-sample-1989.txt,aspirin,mg,325,"""but guarded . the patient is pain-free at this time . medications on transfer : 1 . aspirin 325 mg once a day . 2 . metoprolol 50 mg once a day , but we have had to hold it"""
+mtsamples-type-42-sample-1204.txt,aspirin,mg,81,"""of anticoagulation ( which she had discontinued just prior to her stroke ) . current medications : aspirin 81 mg daily , colace 100 mg b.i.d. , lipitor 80 mg daily , and albuterol mdi p.r.n . substance use :"""
+mtsamples-type-98-sample-343.txt,fluoxetine,mg,20,. premenstrual dysphoric disorder . she may have some perimenopausal symptoms . we will start her on fluoxetine 20 mg one tablet p.o . q.d . 4 . hematuria . likely this is secondary to urinary tract infection but we
+mtsamples-type-77-sample-2284.txt,aspirin,mg,325,. trazodone 100 mg at bedtime . 10 . prempro 0.625 mg per day . 11 . aspirin 325 mg once a day . 12 . lipitor 10 mg per day . 13 . pepcid 20 mg twice a day
+mtsamples-type-41-sample-1123.txt,zocor,mg,80,"""b.i.d. , metoprolol 6.25 mg daily , lasix 80 mg b.i.d. , flomax 0.4 mg daily , zocor 80 mg daily , and tylenol p.r.n . past medical history : 1 . stage iii ckd with baseline creatinine in the"""
+mtsamples-type-41-sample-1123.txt,plavix,mg,75,"""none . medications : starlix 120 mg b.i.d. , compazine b.i.d. , aspirin 81 mg daily , plavix 75 mg daily , glipizide 15 mg b.i.d. , multivitamin daily , potassium 10 meq daily , cozaar 25 mg daily ,"""
+mtsamples-type-41-sample-1123.txt,aspirin,mg,81,"""massive epistaxis . allergies : none . medications : starlix 120 mg b.i.d. , compazine b.i.d. , aspirin 81 mg daily , plavix 75 mg daily , glipizide 15 mg b.i.d. , multivitamin daily , potassium 10 meq daily ,"""
+mtsamples-type-41-sample-1123.txt,lasix,mg,80,"""vitamin c 250 mg daily , ferrous sulphate 325 mg b.i.d. , metoprolol 6.25 mg daily , lasix 80 mg b.i.d. , flomax 0.4 mg daily , zocor 80 mg daily , and tylenol p.r.n . past medical history :"""
+mtsamples-type-98-sample-380.txt,aspirin,mg,81,"""e three to four tablets daily , calcium with d 1500 mg daily , multivitamin daily , aspirin 81 mg daily , monopril 40 mg daily , celexa p.r.n . allergies : bactrim , which causes nausea and vomiting ,"""
+mtsamples-type-6-sample-1180.txt,protonix,mg,40,"""to garden court skilled nursing facility . discharge medications/instructions : he is going to be going with protonix 40 mg daily , metoclopramide 10 mg every 6 hours , zyvox 600 mg daily for 5 days , diflucan 150 mg"""
+mtsamples-type-93-sample-1568.txt,zantac,mg,40,was not taking aspirin at home . 2 . tricor 48 mg one daily . 3 . zantac 40 mg one daily . 4 . lisinopril 20 mg one daily . 5 . mobic 75 mg one daily for arthritis
+mtsamples-type-93-sample-1568.txt,zocor,mg,20,"""daily . 7 . macrodantin one two times a day for several more days . 8 . zocor 20 mg one daily , which is a new addition . 9 . effexor xr 37.5 mg one daily . diet :"""
+mtsamples-type-93-sample-1568.txt,aspirin,mg,81,"""of early myocardial disease in the men in their 40s . discharge medications : 1 . enteric-coated aspirin 81 mg one daily . this is new , as the patient was not taking aspirin at home . 2 . tricor"""
+mtsamples-type-91-sample-2486.txt,aspirin,mg,40,. 2 . simvastatin 40 mg nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff
+mtsamples-type-91-sample-2486.txt,protonix,,,
+mtsamples-type-91-sample-2486.txt,aspirin,mg,160,nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n
+mtsamples-type-91-sample-2486.txt,lasix,mg,20,. 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n . q.i.d . 9 . advair 500/50 puff
+mtsamples-type-41-sample-1122.txt,lasix,mg,150,"""10 mg b.i.d. , xanax 0.25 mg b.i.d. , aspirin 325 mg daily , tylenol p.r.n. , zantac 150 mg b.i.d. , crestor 5 mg daily , tricor 145 mg daily , digitek 0.125 mg daily , celexa 20 mg"""
+mtsamples-type-41-sample-1122.txt,zantac,,,
+mtsamples-type-41-sample-1122.txt,plavix,mg,75,""", zetia 10 mg daily , ? triglide 50 mg daily , prevacid 30 mg daily , plavix 75 mg daily , potassium 10 meq daily , lasix 60 mg daily , folate 1 mg b.i.d. , niaspan 500 mg"""
+mtsamples-type-41-sample-1122.txt,aspirin,mg,325,"""daily , enalapril 10 mg b.i.d. , glyburide 10 mg b.i.d. , xanax 0.25 mg b.i.d. , aspirin 325 mg daily , tylenol p.r.n. , zantac 150 mg b.i.d. , crestor 5 mg daily , tricor 145 mg daily ,"""
+mtsamples-type-41-sample-1122.txt,lasix,mg,60,"""daily , prevacid 30 mg daily , plavix 75 mg daily , potassium 10 meq daily , lasix 60 mg daily , folate 1 mg b.i.d. , niaspan 500 mg daily , atenolol 50 mg daily , enalapril 10 mg"""
+mtsamples-type-41-sample-1122.txt,lasix,mg,20,25 mg daily . 4 . decrease enalapril to 10 mg daily . 5 . decrease lasix to 20 mg daily . 6 . stop crestor . 7 . check renal ultrasound . 8 . see him back in two
+mtsamples-type-6-sample-1988.txt,lasix,mg,40,""". daily . 12 . theo-24 200 mg p.o. , 2 in the morning . 13 . zocor 40 mg once a day . 14 . vitamin d 400 units twice daily . 15 . levoxyl 125 mcg once a"""
+mtsamples-type-6-sample-1988.txt,zocor,,,
+mtsamples-type-6-sample-1988.txt,aspirin,mg,81,"""are proarrhythmic and consider alternative bronchoactive therapy to the theophylline . 5 . long-term , consider , aspirin 81 mg once a day for secondary prophylaxis of an adverse cvs event , given known history of cad status post bypass"""
+mtsamples-type-96-sample-1940.txt,aspirin,mg,150,"""days , dicyclomine 10 mg q.d. , coreg 6.25 mg b.i.d. , vasotec 2.5 mg b.i.d. , zantac 150 mg q.d. , claritin d q.d. , centrum q.d. , calcium q.d. , omega-3 b.i.d. , metamucil q.d. , and lasix"""
+mtsamples-type-96-sample-1940.txt,claritin,,,
+mtsamples-type-96-sample-1940.txt,zantac,,,
+mtsamples-type-96-sample-1940.txt,lasix,mg,40,"""claritin d q.d. , centrum q.d. , calcium q.d. , omega-3 b.i.d. , metamucil q.d. , and lasix 40 mg t.i.d . allergies : no known drug allergies . review of systems : as per the hpi , otherwise negative"""
+mtsamples-type-96-sample-1942.txt,lasix,mg,81,"""other days of the week , flomax q.d. , vitamin d q.d , saw palmetto q.d. , aspirin 81 mg q.d. , and vitamin c q.d . allergies : no known drug allergies . review of systems : as per"""
+mtsamples-type-96-sample-1942.txt,aspirin,,,
+mtsamples-type-96-sample-2278.txt,lasix,mg,40,1 mg four times a day . 4 . prozac 20 mg a day . 5 . lasix 40 mg a day . 6 . potassium 10 meq a day . 7 . mirapex two tablets every night . 8
+mtsamples-type-96-sample-2278.txt,lasix,,,
+mtsamples-type-97-sample-2631.txt,lasix,mg,5,lisinopril - 20 mg daily . 3 . metformin - 850 mg daily . 4 . amlodipine - 5 mg daily . 5 . metoprolol - 150 mg twice daily . 6 . warfarin - 5 mg daily . 7
+mtsamples-type-97-sample-2631.txt,amlodipine,,,
+mtsamples-type-97-sample-2631.txt,amlodipine,mg,5,"""she is truly on 150 mg of metoprolol twice a day , one could switch her amlodipine from 5 mg daily to diltiazem 120 mg daily . if this does not work , in terms of controlling her heart rate"""
+mtsamples-type-97-sample-2631.txt,lasix,mg,80,"""ventricular function . procedures and immunizations : none today . plans : i have restarted her lasix at 80 mg daily and i have asked her to return in about 10 days to the heart failure clinic . there ,"""
+mtsamples-type-97-sample-1674.txt,lasix,mg,81,"""medications : he takes actoplus , albuterol , androgel , astelin , diovan , dolgic plus , aspirin 81 mg , fish oil , lipitor , lorazepam , multivitamins , nasacort , pulmicort , ranitidine , singulair , viagra ,"""
+mtsamples-type-97-sample-1674.txt,aspirin,,,
+mtsamples-type-87-sample-2097.txt,lasix,mg,81,40 mg once daily . 6 . glipizide - 5 mg every morning . 7 . aspirin - 81 mg once daily . followup care : the patient is to follow up with dr. x in about 1 week 's
+mtsamples-type-87-sample-2097.txt,aspirin,,,
+mtsamples-type-97-sample-1271.txt,lasix,mg,40,20 mg once a day . 6 . pacerone 200 mg once a day . 7 . protonix 40 mg once a day . 8 . toprol 50 mg once a day . 9 . vitamin b once a day
+mtsamples-type-97-sample-1271.txt,protonix,,,
+mtsamples-type-97-sample-1271.txt,zocor,mg,81,tonsillectomy and adenoidectomy . 5 . cosmetic surgery to breast and abdomen . home medications 1 . aspirin 81 mg once a day . 2 . klor-con 10 meq once a day . 3 . lasix 40 mg once a
+mtsamples-type-97-sample-1271.txt,aspirin,,,
+mtsamples-type-97-sample-1271.txt,lasix,mg,40,81 mg once a day . 2 . klor-con 10 meq once a day . 3 . lasix 40 mg once a day . 4 . levothyroxine 125 mcg once a day . 5 . lisinopril 20 mg once a
+mtsamples-type-98-sample-2626.txt,lasix,mg,81,"""femoral component of the prosthesis , which is within normal limits . discharge medications : 1 . aspirin 81 mg orally once daily . 2 . calcium with vitamin d two tablets orally once daily . 3 . nexium 40"""
+mtsamples-type-98-sample-2626.txt,aspirin,,,
+mtsamples-type-98-sample-2626.txt,aspirin,mg,81,"""resolved . problem # 6 : chronic atrial fibrillation , the patient has been restarted back on aspirin 81 mg at the time of discharge . aspirin should be continued with nexium 40 mg once daily in order to prevent"""
+mtsamples-type-41-sample-1121.txt,aspirin,mg,81,"""sulfate mondays , wednesdays and fridays , metoprolol 50 mg b.i.d. , vitamin c daily , baby aspirin 81 mg daily , bactrim single strength daily , cozaar 50 mg daily , welchol 625 mg daily , and pravachol 10"""
+mtsamples-type-41-sample-1121.txt,aspirin,,,
+mtsamples-type-41-sample-1121.txt,aspirin,,,
+mtsamples-type-41-sample-87.txt,aspirin,mg,81,3 . norvasc 10 mg a day . 4 . avodart one tablet q.d . 5 . aspirin 81 mg a day . 6 . vitamin c one a day . 7 . vitamin e one a day . physical
+mtsamples-type-41-sample-87.txt,aspirin,,,
+mtsamples-type-98-sample-1071.txt,aspirin,mg,10,. daily . 5 . carafate 1 gram p.o . 4 times a day . 6 . claritin 10 mg p.o . daily . 7 . lasix 20 mg p.o . daily . 8 . k-dur 20 meq p.o .
+mtsamples-type-98-sample-1071.txt,claritin,,,
+mtsamples-type-98-sample-1071.txt,lasix,mg,20,. 4 times a day . 6 . claritin 10 mg p.o . daily . 7 . lasix 20 mg p.o . daily . 8 . k-dur 20 meq p.o . daily . 9 . prilosec 40 mg p.o .
+mtsamples-type-98-sample-1071.txt,lasix,,,
+mtsamples-type-97-sample-1863.txt,protonix,,,
+mtsamples-type-97-sample-1863.txt,,mg,40,mg p.o . daily . 6 . lantus insulin 15 units subcutaneously every evening . 7 . protonix 40 mg p.o . daily . 8 . furosemide 40 mg p.o . daily . 9 . norvasc 5 mg p.o .
+mtsamples-type-97-sample-1863.txt,plavix,mg,75,married . lives with her husband . they are retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o
+mtsamples-type-97-sample-1863.txt,aspirin,mg,81,retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o . daily . 4 . colace 100 mg p.o
+mtsamples-type-98-sample-576.txt,aspirin,mg,20,""". she denied ill contacts or pets . allergies : ciprofloxacin and enteric coated aspirin medications : prednisone 20 mg po qd , enalapril 2.5 mg po qd , clonidine patch tts 3 1/week , prograf 5 mg po bid"""
+mtsamples-type-6-sample-1986.txt,aspirin,mg,325,from beta-blocker therapy . medications on admission : 1 . multivitamin p.o . daily . 2 . aspirin 325 mg once a day . 3 . lisinopril 40 mg once a day . 4 . felodipine 10 mg once a
+mtsamples-type-6-sample-1986.txt,aspirin,,,
+mtsamples-type-6-sample-1986.txt,lasix,mg,20,. daily presumably for gerd . 7 . miralax 17 g p.o . daily . 8 . lasix 20 mg p.o . daily . allergies : penicillin . it is listed that toprol has caused shortness of breath in her
+mtsamples-type-85-sample-1996.txt,zocor,mg,20,25 mg once a day . 2 . altace 2.5 mg once a day . 3 . zocor 20 mg once a day . 4 . flecainide 200 in the morning and 100 in the evening . 5 . coumadin
+mtsamples-type-6-sample-2486.txt,zocor,mg,40,. 2 . simvastatin 40 mg nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff
+mtsamples-type-6-sample-2486.txt,protonix,,,
+mtsamples-type-6-sample-2486.txt,aspirin,mg,160,nightly . 3 . lisinopril 5 mg b.i.d . 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n
+mtsamples-type-6-sample-2486.txt,lasix,mg,20,. 4 . protonix 40 mg a.m. 5 . aspirin 160 mg a day . 6 . lasix 20 mg b.i.d . 7 . spiriva puff daily . 8 . albuterol p.r.n . q.i.d . 9 . advair 500/50 puff
+mtsamples-type-97-sample-1268.txt,amlodipine,mg,10,""". q.12h. , fexofenadine 180 mg p.o . daily , flonase 50 mcg two sprays b.i.d. , amlodipine 10 mg p.o . daily , lorazepam 0.5 mg p.o . q.6h . p.r.n . anxiety and agitation . 3 . substance"""
+mtsamples-type-98-sample-2762.txt,amlodipine,mg,40,"""bactrim . throughout her hospital course , the patient continued to receive coreg 12.5 mg daily and lasix 40 mg twice a day for her congestive heart failure , which remains stable . she also received lipitor for her high"""
+mtsamples-type-98-sample-2762.txt,lasix,,,
+mtsamples-type-97-sample-1863.txt,protonix,,,
+mtsamples-type-97-sample-1863.txt,,mg,40,mg p.o . daily . 6 . lantus insulin 15 units subcutaneously every evening . 7 . protonix 40 mg p.o . daily . 8 . furosemide 40 mg p.o . daily . 9 . norvasc 5 mg p.o .
+mtsamples-type-97-sample-1863.txt,plavix,mg,75,married . lives with her husband . they are retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o
+mtsamples-type-97-sample-1863.txt,aspirin,mg,81,retired from abc . medications : 1 . plavix 75 mg p.o . daily . 2 . aspirin 81 mg p.o . daily . 3 . isosorbide mononitrate 60 mg p.o . daily . 4 . colace 100 mg p.o
+mtsamples-type-98-sample-576.txt,aspirin,mg,20,""". she denied ill contacts or pets . allergies : ciprofloxacin and enteric coated aspirin medications : prednisone 20 mg po qd , enalapril 2.5 mg po qd , clonidine patch tts 3 1/week , prograf 5 mg po bid"""
+mtsamples-type-6-sample-1986.txt,aspirin,mg,325,from beta-blocker therapy . medications on admission : 1 . multivitamin p.o . daily . 2 . aspirin 325 mg once a day . 3 . lisinopril 40 mg once a day . 4 . felodipine 10 mg once a
+mtsamples-type-6-sample-1986.txt,aspirin,,,
+mtsamples-type-6-sample-1986.txt,lasix,mg,20,. daily presumably for gerd . 7 . miralax 17 g p.o . daily . 8 . lasix 20 mg p.o . daily . allergies : penicillin . it is listed that toprol has caused shortness of breath in her
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,actonel,,,
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant

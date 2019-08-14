@@ -1,3 +1,16 @@
-doc_id,search_name,token_found,sentence
-41-2280,morphology,True,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 5663/23 assessment and plan : this is a return visit to the renal clinic for the patient with history as
-41-2280,5663/23,True,. cardiovascular : demonstrated regular rate and rhythm . extremities : reveal no edema and is otherwise deferred . morphology 5663/23 assessment and plan : this is a return visit to the renal clinic for the patient with history as
+doc_id,drug_name,dose_unit,dose,sentence
+41-2280,hydroxyzine,mg,25,. current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg
+41-2280,hydroxyzine,mgs,25,current medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a
+41-2280,hydroxyzine,m,25,medications : 1 . a number of topical creams for her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day
+41-2280,claritin,mg,5,her rash . 2 . hydroxyzine 25 mg mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day .
+41-2280,protonix,mg,40,fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week
+41-2280,fluoxetine,mg,20,mgs m 4 times a day . 3 . claritin 5 mg a day . 4 . fluoxetine 20 mg a day . 5 . ergocalciferol 800 international units a day . 6 . protonix 40 mg a day .
+41-2280,ergocalciferol,mg,35,protonix 40 mg a day . 7 . iron sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a
+41-2280,zantac,mg,150,sulfate 1.2 cc every day . 8 . actonel 35 mg once a week . 9 . zantac 150 mg daily . 10 . calcium carbonate 500 mg 3 times a day . 11 . novolog insulin via insulin pump
+41-2280,zocor,mg,40,. 11 . novolog insulin via insulin pump about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 .
+41-2280,valsartan,mg,80,about 30 units of insulin daily . 12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 .
+41-2280,amlodipine,mg,5,12 . zocor 40 mg a day . 13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17
+41-2280,plavix,mgs,75,13 . valsartan 80 mg daily . 14 . amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18.
+41-2280,aspirin,mg,81,. amlodipine 5 mg a day . 15 . plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day .
+41-2280,lasix,mg,20,. plavix 75 mgs a day . 16 . aspirin 81 mg a day . 17 . lasix 20 mg a day . 18. child pugh score 75 micrograms a day . child-pugh a review of systems : really not
+91-1439,fluoxetine,mg,20,present time . i do believe that his depression needs to be treated . i gave him fluoxetine 20 mg one tablet daily . i discussed the side effects in detail . i did also warn him that all antidepressant
